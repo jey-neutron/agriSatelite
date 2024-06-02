@@ -50,7 +50,7 @@ try:
                 kec_gdf.loc[kec_gdf['nmkab'] == get_nmkab(selectbox_kab)].nmkec
             ) )
         kec_choices.insert(0, "-")
-        des_path = f"D:\\OneDrive\\~Jimmy\\~STIS\\PY\\Work_py\\Project HackBI\\map_source\\geo_desa_{selectbox_kab}.geojson"
+        des_path = str(this_path) + f"/map_source/geo_desa_{selectbox_kab}.geojson"
         # PILIH kec
         judulkec = " di KAB. "+get_nmkab(selectbox_kab) if selectbox_kab != '-' else ""
         selectbox_kec = st.selectbox("Pilih Kecamatan"+judulkec, kec_choices)
