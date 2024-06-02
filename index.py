@@ -13,7 +13,7 @@ try:
 
     # load file path
     this_path = Path().resolve()
-    kec_path = str(this_path) + r"\\map_source\\geo_kec.geojson"
+    kec_path = str(this_path) + r"/map_source/geo_kec.geojson"
     # load in geopandas
     kec_gdf = gpd.read_file(kec_path, driver='GeoJSON')
     kec_gdf = kec_gdf.to_crs("WGS84")
