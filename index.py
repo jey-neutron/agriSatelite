@@ -63,7 +63,7 @@ try:
 
         # PILIH date
         from os import walk
-        csv_path = str(this_path) + r"\\data"
+        csv_path = str(this_path) + r"/data"
         csv_list = [[],[]]
         for (dirpath, dirnames, filenames) in walk(csv_path, topdown=False):
             for filename in filenames:
@@ -112,7 +112,7 @@ try:
         des_gdf['nmkab'] = get_nmkab(selectbox_kab)
         
         # filter display map and date
-        des_df = pd.read_csv(csv_path+f"\\{selectbox_bln}_{selectbox_thn}.csv", dtype={'iddesa': object})
+        des_df = pd.read_csv(csv_path+f"/{selectbox_bln}_{selectbox_thn}.csv", dtype={'iddesa': object})
         #des_dfmap = des_df.iloc[:,[0,opt_displaymap.index(choose_displaymap)+1]]
         #st.write("Column choosen: ", des_df.columns)
         des_df = des_gdf.merge(des_df, how='inner', on='iddesa')
