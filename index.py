@@ -8,6 +8,8 @@ import datetime
 
 try:
     # MAIN VIEW ============================
+    st.set_page_config(page_title="Agrimap Bali", layout="wide", page_icon="🗺️")
+    
     st.title("Dashboard Baca Paragrafku")
     st.write("Sementara yang bisa hanyalah BADUNG -> KUTA SELATAN. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis arcu, mollis sit amet orci nec, tincidunt eleifend tortor. In vehicula est eget enim eleifend, ac aliquam sem gravida. Suspendisse arcu lectus, ornare viverra mi eu, egestas placerat lectus. Suspendisse pharetra sit amet magna et placerat. In sit amet nisi tellus.")
 
