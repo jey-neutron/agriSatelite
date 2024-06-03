@@ -9,28 +9,43 @@ import datetime
 try:
     # MAIN VIEW ============================
     st.set_page_config(page_title="Agrimap Bali", layout="wide", page_icon="🗺️")
-    
-    st.title("Dashboard Baca Paragrafku")
-    st.write("Sementara yang bisa hanyalah BADUNG -> KUTA SELATAN. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis arcu, mollis sit amet orci nec, tincidunt eleifend tortor. In vehicula est eget enim eleifend, ac aliquam sem gravida. Suspendisse arcu lectus, ornare viverra mi eu, egestas placerat lectus. Suspendisse pharetra sit amet magna et placerat. In sit amet nisi tellus.")
+    st.markdown("""
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        """, 
+        unsafe_allow_html=True
+    )
+
+    col = st.columns([1,2])
+    with col[0]:
+        st.title("Dashboard Agrimap Bali")
+    with col[1]:
+        st.write("Dashboard ini bertujuan untuk memetakan luas tanam atau panen padi berdasarkan hasil machine learning dan citra satelit.")
+        st.write("Hasil pemetaan ini diharapkan dapat membantu untuk memetakan potensi pasar, misalnya membantu untuk memaksimalkan kuota KUR di wilayah yang sektor pertaniannya unggul.")
 
     # load file path
     this_path = Path().resolve()
     kec_path = str(this_path) + r"/map_source/geo_kec.geojson"
+    
     # load in geopandas
-    kec_gdf = gpd.read_file(kec_path, driver='GeoJSON')
-    kec_gdf = kec_gdf.to_crs("WGS84")
+    @st.cache_data
+    def read_gpd(path):
+        return gpd.read_file(path, driver='GeoJSON')
+    
+    #kec_gdf = gpd.read_file(kec_path, driver='GeoJSON')
+    kec_gdf = read_gpd(kec_path)
+    #kec_gdf = kec_gdf.to_crs("WGS84")
     kec_gdf['nmdesa'] = '-'
 
     kdkab = {'-':'-',
-            '01': ["JEMBRANA",-8.3606,114.6257], 
-            '02': ["TABANAN",-8.5376,115.1247], 
+            #'01': ["JEMBRANA",-8.3606,114.6257], 
+            #'02': ["TABANAN",-8.5376,115.1247], 
             '03': ["BADUNG",-8.5819,115.1771],
-            '04': ["GIANYAR",-8.5367,115.3314],
-            '05': ["KLUNGKUNG",-8.5388,115.4024],
-            '06': ["BANGLI",-8.4543,115.3549],
-            '07': ["KARANGASEM",-8.4463,115.6127],
-            '08': ["BULELENG",-8.2239,114.9517],
-            '71': ["DENPASAR",-8.6705,115.2126]
+            #'04': ["GIANYAR",-8.5367,115.3314],
+            #'05': ["KLUNGKUNG",-8.5388,115.4024],
+            #'06': ["BANGLI",-8.4543,115.3549],
+            #'07': ["KARANGASEM",-8.4463,115.6127],
+            #'08': ["BULELENG",-8.2239,114.9517],
+            #'71': ["DENPASAR",-8.6705,115.2126]
         }
     def get_nmkab(kode):
         return kdkab[kode][0]
@@ -48,9 +63,9 @@ try:
         # PILIH kab
         selectbox_kab = st.selectbox("Pilih Kabupaten", options=list(kdkab.keys()), format_func=get_nmkab)
         # set pilihan kec based on pilihan kab
-        kec_choices = list( set(
-                kec_gdf.loc[kec_gdf['nmkab'] == get_nmkab(selectbox_kab)].nmkec
-            ) )
+        kec_choices = ["KUTA SELATAN"]#list( set(
+                #kec_gdf.loc[kec_gdf['nmkab'] == get_nmkab(selectbox_kab)].nmkec
+            #) )
         kec_choices.insert(0, "-")
         des_path = str(this_path) + f"/map_source/geo_desa_{selectbox_kab}.geojson"
         # PILIH kec
@@ -109,7 +124,8 @@ try:
         titiktengah = kec_gdf[kec_gdf['nmkec'] == selectbox_kec ].geometry.centroid.iloc[0]
         
         # read desa di kec terpilih
-        des_gdf = gpd.read_file(des_path, driver='GeoJSON')
+        #des_gdf = gpd.read_file(des_path, driver='GeoJSON')
+        des_gdf = read_gpd(des_path)
         des_gdf = des_gdf.loc[des_gdf['nmkec'] == selectbox_kec ]
         des_gdf['nmkab'] = get_nmkab(selectbox_kab)
         
@@ -161,6 +177,7 @@ try:
         )
 
     # show in web
+    st.write(" ")
     st.plotly_chart(figmap)
 
     # SEE DF DETAILS
@@ -168,6 +185,42 @@ try:
     #st.write(kec_gdf.head())
     #st.write("df kec col:", kec_gdf.columns)
     if selectbox_kec != '-':
+        st.markdown(
+            """
+            <style>
+                .fixedButton{
+                    position: fixed;
+                    bottom: 0px;
+                    right: 0px; 
+                    padding: 20px;
+                }
+                .roundedFixedBtn{
+                    height: 60px;
+                    line-height: 60px;  
+                    width: 60px;  
+                    font-size: 2em;
+                    font-weight: bold;
+                    border-radius: 50%;
+                    background-color: grey;
+                    color: white;
+                    text-align: center;
+                    cursor: pointer;
+                }
+            </style>
+            <hr>
+            <div class="fixedButton" onclick="bottomFunction()" title="Scroll down">
+                <div class="roundedFixedBtn"><i class="fa fa-arrow-circle-down"></i></div>
+            </div>
+            <script>
+                function bottomFunction() {
+                    document.getElementById('bottom').scrollIntoView({behavior: "smooth"});
+                }
+            </script>
+            """
+            , 
+            unsafe_allow_html=True
+        )        
+
         col3, col4 = st.columns([3,1])
         with col3: 
             #st.write("df des col:", des_df.columns)
@@ -185,9 +238,10 @@ try:
             st.subheader("Rekomendasi / Data pendukung")
             st.caption("KEC. "+str(selectbox_kec))
             st.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis arcu, mollis sit amet orci nec, tincidunt eleifend tortor. In vehicula est eget enim eleifend, ac aliquam sem gravida. Suspendisse arcu lectus, ornare viverra mi eu, egestas placerat lectus.")
+
     #getrowindex = st.number_input('Enter an index of row to show')
     #st.write(kec_gdf.iloc[int(getrowindex)])
-
+    st.markdown("<div id='bottom'>  </div>", unsafe_allow_html=True)
 
 
 except Exception as e:
