@@ -8,6 +8,7 @@ import datetime
 
 try:
     # MAIN VIEW ============================
+    # header html
     st.set_page_config(page_title="Agrimap Bali", layout="wide", page_icon="🗺️")
     st.markdown("""
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,7 +27,7 @@ try:
     this_path = Path().resolve()
     kec_path = str(this_path) + r"/map_source/geo_kec.geojson"
     
-    # load in geopandas
+    # load in geopandas using function to improv performance
     @st.cache_data
     def read_gpd(path):
         return gpd.read_file(path, driver='GeoJSON')
@@ -34,32 +35,29 @@ try:
     #kec_gdf = gpd.read_file(kec_path, driver='GeoJSON')
     kec_gdf = read_gpd(kec_path)
     #kec_gdf = kec_gdf.to_crs("WGS84")
-    kec_gdf['nmdesa'] = '-'
 
+    # kab and its centroid
     kdkab = {'-':'-',
-            #'01': ["JEMBRANA",-8.3606,114.6257], 
-            #'02': ["TABANAN",-8.5376,115.1247], 
+            '01': ["JEMBRANA",-8.3606,114.6257], 
+            '02': ["TABANAN",-8.5376,115.1247], 
             '03': ["BADUNG",-8.5819,115.1771],
-            #'04': ["GIANYAR",-8.5367,115.3314],
-            #'05': ["KLUNGKUNG",-8.5388,115.4024],
-            #'06': ["BANGLI",-8.4543,115.3549],
-            #'07': ["KARANGASEM",-8.4463,115.6127],
-            #'08': ["BULELENG",-8.2239,114.9517],
-            #'71': ["DENPASAR",-8.6705,115.2126]
+            '04': ["GIANYAR",-8.5367,115.3314],
+            '05': ["KLUNGKUNG",-8.5388,115.4024],
+            '06': ["BANGLI",-8.4543,115.3549],
+            '07': ["KARANGASEM",-8.4463,115.6127],
+            '08': ["BULELENG",-8.2239,114.9517],
+            '71': ["DENPASAR",-8.6705,115.2126]
         }
-    def get_nmkab(kode):
+    def get_nmkab(kode): #from dict above
         return kdkab[kode][0]
-    def get_latlonkab(kode):
+    def get_latlonkab(kode): #return lat,lon
         return kdkab[kode][1], kdkab[kode][2]
     
-    #kab_choices = list(set(kec_gdf["nmkab"]))
-    #price = df[df['Price'] == Mousemat]
-    #kab_choices.insert(0, "-")
-    kec_choices = list("-")
     
     # SIDEBAR VIEW ============================
     with st.sidebar: #.form(key="my_form"):
         st.header("Filter Data")
+        
         # PILIH kab
         selectbox_kab = st.selectbox("Pilih Kabupaten", options=list(kdkab.keys()), format_func=get_nmkab)
         # set pilihan kec based on pilihan kab
@@ -68,6 +66,7 @@ try:
             #) )
         kec_choices.insert(0, "-")
         des_path = str(this_path) + f"/map_source/geo_desa_{selectbox_kab}.geojson"
+        
         # PILIH kec
         judulkec = " di KAB. "+get_nmkab(selectbox_kab) if selectbox_kab != '-' else ""
         selectbox_kec = st.selectbox("Pilih Kecamatan"+judulkec, kec_choices)
@@ -76,9 +75,9 @@ try:
         #st.write('<style>div.row-widget.stRadio > div{flex-direction:row;justify-content: center;} </style>', unsafe_allow_html=True)
         #t.write('<style>div.st-bf{flex-direction:column;} div.st-ag{font-weight:bold;padding-left:2px;}</style>', unsafe_allow_html=True)
         opt_displaymap = ["Vegetatif 1","Vegetatif 2","Generatif","Persiapan Lahan"]
-        choose_displaymap=st.radio("Display map: ",opt_displaymap, index=2)
+        choose_displaymap=st.radio("Display map: ",opt_displaymap, index=2) #pilihan defaultnya Generatif
 
-        # PILIH date
+        # PILIH date file source
         from os import walk
         csv_path = str(this_path) + r"/data"
         csv_list = [[],[]]
@@ -89,18 +88,18 @@ try:
             break
         
         kdbln = {
-            '01':'Januari',
-            '02':'Februari',
-            '03':'Maret',
-            '04':'April',
-            '05':'Mei',
-            '06':'Juni',
-            '07':'Juli',
-            '08':'Agustus',
+            #'01':'Januari',
+            #'02':'Februari',
+            #'03':'Maret',
+            #'04':'April',
+            #'05':'Mei',
+            #'06':'Juni',
+            #'07':'Juli',
+            #'08':'Agustus',
             '09':'September',
-            '10':'Oktober',
-            '11':'November',
-            '12':'Desember'
+            #'10':'Oktober',
+            #'11':'November',
+            #'12':'Desember'
         }
         def get_namabln(kode):
             return kdbln[kode]
@@ -108,7 +107,9 @@ try:
         col1, col2 = st.columns(2)
         with col1:
             datenow = datetime.datetime.now()
-            selectbox_bln = st.selectbox("Bulan:", options=list(kdbln.keys()), format_func=get_namabln, index=datenow.date().month-1)
+            selectbox_bln = st.selectbox("Bulan:", options=list(kdbln.keys()), format_func=get_namabln, 
+                                         #index=datenow.date().month-1) #dummy only
+                                         index=0)
         with col2:
             selectbox_thn = st.selectbox("Tahun:", set(csv_list[1]), index=len(set(csv_list[1]))-1 )
 
@@ -145,7 +146,7 @@ try:
         kec_gdf = des_df
 
     # MAIN VIEW MAPPING ============================
-    hover_data = [kec_gdf.nmkec, kec_gdf.nmdesa, kec_gdf.generatif, kec_gdf.vegetatif1, kec_gdf.vegetatif2, kec_gdf.persiapan] if selectbox_kab != '-' else [kec_gdf.nmkec, kec_gdf.nmdesa]
+    hover_data = [kec_gdf.nmkec, kec_gdf.nmdesa, kec_gdf.generatif, kec_gdf.vegetatif1, kec_gdf.vegetatif2, kec_gdf.persiapan] if selectbox_kab != '-' else [kec_gdf.nmkec]
     figmap = px.choropleth_mapbox(
                         kec_gdf,
                         geojson=kec_gdf.geometry,
@@ -183,10 +184,8 @@ try:
     st.plotly_chart(figmap)
 
     # SEE DF DETAILS
-    #st.dataframe(kec_gdf.head())
-    #st.write(kec_gdf.head())
-    #st.write("df kec col:", kec_gdf.columns)
     if selectbox_kab !="-":
+        # gtw gapenting
         st.markdown(
             """
             <style>
@@ -218,9 +217,7 @@ try:
                     document.getElementById('bottom').scrollIntoView({behavior: "smooth"});
                 }
             </script>
-            """
-            , 
-            unsafe_allow_html=True
+            """, unsafe_allow_html=True
         )        
 
         col3, col4 = st.columns([3,1])
