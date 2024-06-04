@@ -1,0 +1,718 @@
+"","kd_wilayah","r101","r102","r103","r104","r105","rasio_tani","sektor_utama","jumlah_bank","jumlah_koperasi","keberadaan_toko_sarana_pertanian","keberadaan_fasilitas_kredit","cluster"
+"1",5101021007,"[51] BALI","[01] JEMBRANA","[021] JEMBRANA","[007] LOLOAN TIMUR","1. Perkotaan",0.07,"Lainnya",3,1,"Tidak ada","Ada",1
+"2",5101021001,"[51] BALI","[01] JEMBRANA","[021] JEMBRANA","[001] PERANCAK","2. Perdesaan",0.43,"Lainnya",1,1,"Tidak ada","Ada",1
+"3",5101021004,"[51] BALI","[01] JEMBRANA","[021] JEMBRANA","[004] BUDENG","1. Perkotaan",0.38,"Lainnya",1,1,"Ada","Ada",2
+"4",5101021002,"[51] BALI","[01] JEMBRANA","[021] JEMBRANA","[002] AIR KUNING","1. Perkotaan",0.51,"Lainnya",1,1,"Tidak ada","Ada",2
+"5",5101021003,"[51] BALI","[01] JEMBRANA","[021] JEMBRANA","[003] YEH KUNING","1. Perkotaan",0.53,"Pertanian Tanaman Pangan",1,2,"Ada","Ada",2
+"6",5101021008,"[51] BALI","[01] JEMBRANA","[021] JEMBRANA","[008] PENDEM","1. Perkotaan",0.33,"Lainnya",7,5,"Ada","Ada",1
+"7",5101021010,"[51] BALI","[01] JEMBRANA","[021] JEMBRANA","[010] DANGIN TUKADAYA","1. Perkotaan",0.32,"Pertanian Tanaman Pangan",1,3,"Ada","Ada",2
+"8",5101021005,"[51] BALI","[01] JEMBRANA","[021] JEMBRANA","[005] SANGKARAGUNG","2. Perdesaan",0.4,"Pertanian Tanaman Pangan",1,1,"Ada","Ada",2
+"9",5101021009,"[51] BALI","[01] JEMBRANA","[021] JEMBRANA","[009] BATUAGUNG","1. Perkotaan",0.46,"Lainnya",1,3,"Tidak ada","Ada",1
+"10",5101021006,"[51] BALI","[01] JEMBRANA","[021] JEMBRANA","[006] DAUHWARU","1. Perkotaan",0.25,"Lainnya",7,4,"Ada","Ada",1
+"11",5101020018,"[51] BALI","[01] JEMBRANA","[020] NEGARA","[018] BERANGBANG","1. Perkotaan",0.57,"Lainnya",1,2,"Ada","Ada",2
+"12",5101020004,"[51] BALI","[01] JEMBRANA","[020] NEGARA","[004] PENGAMBENGAN","1. Perkotaan",0.27,"Lainnya",1,2,"Ada","Ada",1
+"13",5101020016,"[51] BALI","[01] JEMBRANA","[020] NEGARA","[016] BANYUBIRU","1. Perkotaan",0.3,"Lainnya",2,3,"Ada","Ada",1
+"14",5101020017,"[51] BALI","[01] JEMBRANA","[020] NEGARA","[017] KALIAKAH","1. Perkotaan",0.49,"Pertanian Tanaman Pangan",2,2,"Ada","Ada",2
+"15",5101020001,"[51] BALI","[01] JEMBRANA","[020] NEGARA","[001] CUPEL","1. Perkotaan",0.39,"Lainnya",0,1,"Tidak ada","Ada",1
+"16",5101020003,"[51] BALI","[01] JEMBRANA","[020] NEGARA","[003] TEGAL BADENG TIMUR","2. Perdesaan",0.24,"Pertanian Tanaman Pangan",2,1,"Ada","Ada",2
+"17",5101020002,"[51] BALI","[01] JEMBRANA","[020] NEGARA","[002] TEGAL BADENG BARAT","1. Perkotaan",0.39,"Pertanian Tanaman Pangan",1,1,"Ada","Ada",2
+"18",5101020014,"[51] BALI","[01] JEMBRANA","[020] NEGARA","[014] BANJAR TENGAH","1. Perkotaan",0.02,"Lainnya",2,6,"Tidak ada","Ada",1
+"19",5101020012,"[51] BALI","[01] JEMBRANA","[020] NEGARA","[012] LOLOAN BARAT","1. Perkotaan",0.03,"Lainnya",0,0,"Tidak ada","Ada",1
+"20",5101020013,"[51] BALI","[01] JEMBRANA","[020] NEGARA","[013] LELATENG","1. Perkotaan",0.17,"Lainnya",2,0,"Ada","Ada",1
+"21",5101020019,"[51] BALI","[01] JEMBRANA","[020] NEGARA","[019] BALER BALE AGUNG","1. Perkotaan",0.2,"Lainnya",2,17,"Ada","Ada",1
+"22",5101020015,"[51] BALI","[01] JEMBRANA","[020] NEGARA","[015] BALUK","2. Perdesaan",0.44,"Lainnya",1,4,"Ada","Ada",2
+"23",5101010006,"[51] BALI","[01] JEMBRANA","[010] MELAYA","[006] MANISTUTU","1. Perkotaan",0.71,"Pertanian Tanaman Pangan",1,1,"Tidak ada","Ada",2
+"24",5101010004,"[51] BALI","[01] JEMBRANA","[010] MELAYA","[004] TUWED","1. Perkotaan",0.51,"Lainnya",1,2,"Ada","Ada",2
+"25",5101010010,"[51] BALI","[01] JEMBRANA","[010] MELAYA","[010] BLIMBINGSARI","2. Perdesaan",0.68,"Lainnya",0,1,"Tidak ada","Ada",2
+"26",5101010009,"[51] BALI","[01] JEMBRANA","[010] MELAYA","[009] EKASARI","2. Perdesaan",0.62,"Pertanian Tanaman Pangan",3,5,"Ada","Ada",2
+"27",5101010001,"[51] BALI","[01] JEMBRANA","[010] MELAYA","[001] GILIMANUK","1. Perkotaan",0.2,"Lainnya",4,1,"Tidak ada","Ada",1
+"28",5101010005,"[51] BALI","[01] JEMBRANA","[010] MELAYA","[005] TUKADAYA","1. Perkotaan",0.7,"Pertanian Tanaman Pangan",2,3,"Ada","Ada",2
+"29",5101010003,"[51] BALI","[01] JEMBRANA","[010] MELAYA","[003] CANDIKUSUMA","1. Perkotaan",0.49,"Lainnya",1,1,"Tidak ada","Ada",2
+"30",5101010007,"[51] BALI","[01] JEMBRANA","[010] MELAYA","[007] WARNASARI","2. Perdesaan",0.69,"Pertanian Tanaman Pangan",1,0,"Tidak ada","Ada",2
+"31",5101010008,"[51] BALI","[01] JEMBRANA","[010] MELAYA","[008] NUSA SARI","2. Perdesaan",0.75,"Lainnya",1,1,"Tidak ada","Ada",2
+"32",5101010002,"[51] BALI","[01] JEMBRANA","[010] MELAYA","[002] MELAYA","1. Perkotaan",0.44,"Lainnya",4,2,"Ada","Ada",2
+"33",5101030010,"[51] BALI","[01] JEMBRANA","[030] MENDOYO","[010] YEH EMBANG KANGIN","2. Perdesaan",0.55,"Lainnya",2,4,"Ada","Ada",2
+"34",5101030004,"[51] BALI","[01] JEMBRANA","[030] MENDOYO","[004] PERGUNG","1. Perkotaan",0.46,"Lainnya",1,1,"Tidak ada","Ada",2
+"35",5101030011,"[51] BALI","[01] JEMBRANA","[030] MENDOYO","[011] YEH SUMBUL","2. Perdesaan",0.53,"Lainnya",1,5,"Ada","Ada",2
+"36",5101030002,"[51] BALI","[01] JEMBRANA","[030] MENDOYO","[002] MENDOYO DANGIN TUKAD","1. Perkotaan",0.38,"Pertanian Tanaman Pangan",1,2,"Ada","Ada",2
+"37",5101030006,"[51] BALI","[01] JEMBRANA","[030] MENDOYO","[006] TEGAL CANGKRING","1. Perkotaan",0.4,"Lainnya",3,6,"Ada","Ada",1
+"38",5101030003,"[51] BALI","[01] JEMBRANA","[030] MENDOYO","[003] POHSANTEN","2. Perdesaan",0.48,"Lainnya",3,6,"Tidak ada","Ada",1
+"39",5101030007,"[51] BALI","[01] JEMBRANA","[030] MENDOYO","[007] PENYARINGAN","1. Perkotaan",0.52,"Pertanian Tanaman Pangan",3,4,"Ada","Ada",2
+"40",5101030008,"[51] BALI","[01] JEMBRANA","[030] MENDOYO","[008] YEH EMBANG KAUH","2. Perdesaan",0.65,"Lainnya",4,2,"Tidak ada","Ada",2
+"41",5101030005,"[51] BALI","[01] JEMBRANA","[030] MENDOYO","[005] DELOD BERAWAH","1. Perkotaan",0.51,"Pertanian Tanaman Pangan",1,1,"Ada","Ada",2
+"42",5101030009,"[51] BALI","[01] JEMBRANA","[030] MENDOYO","[009] YEH EMBANG","2. Perdesaan",0.54,"Lainnya",4,1,"Ada","Ada",2
+"43",5101030001,"[51] BALI","[01] JEMBRANA","[030] MENDOYO","[001] MENDOYO DAUH TUKAD","1. Perkotaan",0.4,"Lainnya",1,2,"Tidak ada","Ada",1
+"44",5101040008,"[51] BALI","[01] JEMBRANA","[040] PEKUTATAN","[008] MANGGISSARI","2. Perdesaan",0.72,"Lainnya",2,3,"Ada","Ada",2
+"45",5101040004,"[51] BALI","[01] JEMBRANA","[040] PEKUTATAN","[004] PANGYANGAN","2. Perdesaan",0.65,"Pertanian Tanaman Pangan",1,2,"Ada","Ada",2
+"46",5101040001,"[51] BALI","[01] JEMBRANA","[040] PEKUTATAN","[001] MEDEWI","2. Perdesaan",0.62,"Lainnya",1,8,"Ada","Ada",2
+"47",5101040006,"[51] BALI","[01] JEMBRANA","[040] PEKUTATAN","[006] PENGERAGOAN","2. Perdesaan",0.91,"Lainnya",5,5,"Ada","Ada",2
+"48",5101040007,"[51] BALI","[01] JEMBRANA","[040] PEKUTATAN","[007] ASAHDUREN","2. Perdesaan",0.84,"Lainnya",1,2,"Ada","Ada",2
+"49",5101040002,"[51] BALI","[01] JEMBRANA","[040] PEKUTATAN","[002] PULUKAN","2. Perdesaan",0.42,"Lainnya",1,2,"Ada","Ada",2
+"50",5101040005,"[51] BALI","[01] JEMBRANA","[040] PEKUTATAN","[005] GUMBRIH","2. Perdesaan",0.82,"Lainnya",2,5,"Ada","Ada",2
+"51",5101040003,"[51] BALI","[01] JEMBRANA","[040] PEKUTATAN","[003] PEKUTATAN","1. Perkotaan",0.43,"Lainnya",4,4,"Ada","Ada",1
+"52",5102010004,"[51] BALI","[02] TABANAN","[010] SELEMADEG","[004] BAJERA","1. Perkotaan",0.03,"Lainnya",8,5,"Ada","Ada",1
+"53",5102010002,"[51] BALI","[02] TABANAN","[010] SELEMADEG","[002] ANTAP","2. Perdesaan",0.93,"Pertanian Tanaman Pangan",4,1,"Ada","Ada",2
+"54",5102010024,"[51] BALI","[02] TABANAN","[010] SELEMADEG","[024] WANAGIRI KAUH","2. Perdesaan",0.65,"Pertanian Tanaman Pangan",2,0,"Tidak ada","Ada",2
+"55",5102010006,"[51] BALI","[02] TABANAN","[010] SELEMADEG","[006] SERAMPINGAN","2. Perdesaan",0.89,"Pertanian Tanaman Pangan",3,0,"Tidak ada","Ada",2
+"56",5102010015,"[51] BALI","[02] TABANAN","[010] SELEMADEG","[015] PUPUAN SAWAH","2. Perdesaan",0.6,"Pertanian Tanaman Pangan",3,0,"Tidak ada","Ada",2
+"57",5102010005,"[51] BALI","[02] TABANAN","[010] SELEMADEG","[005] BEREMBENG","2. Perdesaan",0.38,"Pertanian Tanaman Pangan",5,5,"Ada","Ada",2
+"58",5102010026,"[51] BALI","[02] TABANAN","[010] SELEMADEG","[026] BAJERA UTARA","2. Perdesaan",0.73,"Pertanian Tanaman Pangan",3,0,"Tidak ada","Ada",2
+"59",5102010018,"[51] BALI","[02] TABANAN","[010] SELEMADEG","[018] WANAGIRI","2. Perdesaan",0.68,"Lainnya",0,1,"Ada","Ada",2
+"60",5102010025,"[51] BALI","[02] TABANAN","[010] SELEMADEG","[025] MANIKYANG","2. Perdesaan",0.98,"Pertanian Tanaman Pangan",1,0,"Tidak ada","Ada",2
+"61",5102010014,"[51] BALI","[02] TABANAN","[010] SELEMADEG","[014] SELEMADEG","2. Perdesaan",0.94,"Pertanian Tanaman Pangan",4,2,"Tidak ada","Ada",2
+"62",5102060011,"[51] BALI","[02] TABANAN","[060] BATURITI","[011] ANTAPAN","2. Perdesaan",0.9,"Lainnya",2,2,"Ada","Tidak ada",2
+"63",5102060005,"[51] BALI","[02] TABANAN","[060] BATURITI","[005] MEKARSARI","2. Perdesaan",0.9,"Pertanian Tanaman Pangan",3,3,"Ada","Ada",2
+"64",5102060008,"[51] BALI","[02] TABANAN","[060] BATURITI","[008] BANGLI","2. Perdesaan",0.9,"Lainnya",3,0,"Ada","Ada",2
+"65",5102060003,"[51] BALI","[02] TABANAN","[060] BATURITI","[003] PEREAN KANGIN","2. Perdesaan",1,"Pertanian Tanaman Pangan",3,0,"Tidak ada","Ada",2
+"66",5102060007,"[51] BALI","[02] TABANAN","[060] BATURITI","[007] ANGSERI","2. Perdesaan",0.9,"Pertanian Tanaman Pangan",2,1,"Ada","Ada",2
+"67",5102060012,"[51] BALI","[02] TABANAN","[060] BATURITI","[012] CANDIKUNING","2. Perdesaan",0.89,"Lainnya",4,1,"Ada","Ada",2
+"68",5102060001,"[51] BALI","[02] TABANAN","[060] BATURITI","[001] PEREAN","2. Perdesaan",0.7,"Pertanian Tanaman Pangan",3,0,"Ada","Ada",2
+"69",5102060010,"[51] BALI","[02] TABANAN","[060] BATURITI","[010] BATUNYA","2. Perdesaan",0.98,"Lainnya",2,2,"Ada","Ada",2
+"70",5102060006,"[51] BALI","[02] TABANAN","[060] BATURITI","[006] APUAN","1. Perkotaan",0.9,"Lainnya",3,2,"Ada","Ada",2
+"71",5102060009,"[51] BALI","[02] TABANAN","[060] BATURITI","[009] BATURITI","2. Perdesaan",0.49,"Lainnya",9,4,"Ada","Ada",1
+"72",5102060004,"[51] BALI","[02] TABANAN","[060] BATURITI","[004] LUWUS","2. Perdesaan",0.8,"Pertanian Tanaman Pangan",4,1,"Ada","Ada",2
+"73",5102060002,"[51] BALI","[02] TABANAN","[060] BATURITI","[002] PEREAN TENGAH","2. Perdesaan",0.75,"Lainnya",5,2,"Ada","Ada",2
+"74",5102012001,"[51] BALI","[02] TABANAN","[012] SELEMADEG BARAT","[001] LALANG LINGGAH","2. Perdesaan",0.96,"Lainnya",5,6,"Ada","Ada",2
+"75",5102012009,"[51] BALI","[02] TABANAN","[012] SELEMADEG BARAT","[009] MUNDEH KAUH","2. Perdesaan",0.8,"Lainnya",1,2,"Tidak ada","Ada",2
+"76",5102012002,"[51] BALI","[02] TABANAN","[012] SELEMADEG BARAT","[002] ANTOSARI","2. Perdesaan",0.76,"Pertanian Tanaman Pangan",3,1,"Ada","Ada",2
+"77",5102012005,"[51] BALI","[02] TABANAN","[012] SELEMADEG BARAT","[005] LUMBUNG KAUH","2. Perdesaan",0.98,"Lainnya",3,0,"Tidak ada","Ada",2
+"78",5102012003,"[51] BALI","[02] TABANAN","[012] SELEMADEG BARAT","[003] TIYING GADING","2. Perdesaan",0.49,"Pertanian Tanaman Pangan",2,2,"Ada","Ada",2
+"79",5102012011,"[51] BALI","[02] TABANAN","[012] SELEMADEG BARAT","[011] BENGKEL SARI","2. Perdesaan",0.91,"Pertanian Tanaman Pangan",3,0,"Tidak ada","Ada",2
+"80",5102012006,"[51] BALI","[02] TABANAN","[012] SELEMADEG BARAT","[006] MUNDEH","2. Perdesaan",0.95,"Lainnya",5,0,"Tidak ada","Ada",2
+"81",5102012010,"[51] BALI","[02] TABANAN","[012] SELEMADEG BARAT","[010] SELABIH","2. Perdesaan",0.51,"Lainnya",1,1,"Tidak ada","Ada",2
+"82",5102012004,"[51] BALI","[02] TABANAN","[012] SELEMADEG BARAT","[004] LUMBUNG","2. Perdesaan",0.78,"Lainnya",3,2,"Tidak ada","Ada",2
+"83",5102012008,"[51] BALI","[02] TABANAN","[012] SELEMADEG BARAT","[008] ANGKAH","2. Perdesaan",0.72,"Lainnya",3,0,"Tidak ada","Ada",2
+"84",5102012007,"[51] BALI","[02] TABANAN","[012] SELEMADEG BARAT","[007] MUNDEH KANGIN","2. Perdesaan",0.89,"Lainnya",3,3,"Ada","Ada",2
+"85",5102020002,"[51] BALI","[02] TABANAN","[020] KERAMBITAN","[002] KELATING","2. Perdesaan",1,"Pertanian Tanaman Pangan",1,3,"Ada","Ada",2
+"86",5102020005,"[51] BALI","[02] TABANAN","[020] KERAMBITAN","[005] TISTA","1. Perkotaan",0.24,"Lainnya",1,0,"Tidak ada","Ada",1
+"87",5102020004,"[51] BALI","[02] TABANAN","[020] KERAMBITAN","[004] BELUMBANG","2. Perdesaan",0.96,"Pertanian Tanaman Pangan",1,2,"Ada","Ada",2
+"88",5102020009,"[51] BALI","[02] TABANAN","[020] KERAMBITAN","[009] BATURITI","1. Perkotaan",0.71,"Pertanian Tanaman Pangan",1,2,"Tidak ada","Ada",2
+"89",5102020008,"[51] BALI","[02] TABANAN","[020] KERAMBITAN","[008] KUKUH","1. Perkotaan",0.42,"Lainnya",1,2,"Tidak ada","Ada",1
+"90",5102020013,"[51] BALI","[02] TABANAN","[020] KERAMBITAN","[013] BATUAJI","2. Perdesaan",0.65,"Pertanian Tanaman Pangan",3,0,"Tidak ada","Ada",2
+"91",5102020012,"[51] BALI","[02] TABANAN","[020] KERAMBITAN","[012] SAMSAM","1. Perkotaan",0.07,"Lainnya",3,2,"Ada","Ada",1
+"92",5102020003,"[51] BALI","[02] TABANAN","[020] KERAMBITAN","[003] PENARUKAN","1. Perkotaan",0.64,"Pertanian Tanaman Pangan",1,2,"Ada","Ada",2
+"93",5102020010,"[51] BALI","[02] TABANAN","[020] KERAMBITAN","[010] MELILING","1. Perkotaan",0.27,"Pertanian Tanaman Pangan",1,4,"Ada","Ada",2
+"94",5102020007,"[51] BALI","[02] TABANAN","[020] KERAMBITAN","[007] PANGKUNG KARUNG","1. Perkotaan",0.89,"Pertanian Tanaman Pangan",3,3,"Ada","Ada",2
+"95",5102020014,"[51] BALI","[02] TABANAN","[020] KERAMBITAN","[014] KESIUT","2. Perdesaan",0.89,"Pertanian Tanaman Pangan",2,0,"Ada","Ada",2
+"96",5102020006,"[51] BALI","[02] TABANAN","[020] KERAMBITAN","[006] KERAMBITAN","1. Perkotaan",0.08,"Lainnya",3,3,"Ada","Ada",1
+"97",5102020011,"[51] BALI","[02] TABANAN","[020] KERAMBITAN","[011] SEMBUNG GEDE","1. Perkotaan",0.23,"Lainnya",8,2,"Ada","Ada",1
+"98",5102020015,"[51] BALI","[02] TABANAN","[020] KERAMBITAN","[015] TIMPAG","2. Perdesaan",0.31,"Pertanian Tanaman Pangan",3,6,"Ada","Ada",2
+"99",5102020001,"[51] BALI","[02] TABANAN","[020] KERAMBITAN","[001] TIBUBIYU","2. Perdesaan",0.59,"Pertanian Tanaman Pangan",1,2,"Ada","Ada",2
+"100",5102050001,"[51] BALI","[02] TABANAN","[050] MARGA","[001] TEGALJADI","2. Perdesaan",0.49,"Pertanian Tanaman Pangan",3,1,"Tidak ada","Ada",2
+"101",5102050003,"[51] BALI","[02] TABANAN","[050] MARGA","[003] BERINGKIT BELAYU","1. Perkotaan",0.46,"Pertanian Tanaman Pangan",0,4,"Ada","Ada",2
+"102",5102050002,"[51] BALI","[02] TABANAN","[050] MARGA","[002] KUKUH","1. Perkotaan",0.2,"Lainnya",1,4,"Ada","Ada",1
+"103",5102050008,"[51] BALI","[02] TABANAN","[050] MARGA","[008] SELANBAWAK","2. Perdesaan",0.75,"Pertanian Tanaman Pangan",1,1,"Ada","Ada",2
+"104",5102050011,"[51] BALI","[02] TABANAN","[050] MARGA","[011] TUA","2. Perdesaan",0.76,"Pertanian Tanaman Pangan",2,3,"Ada","Ada",2
+"105",5102050015,"[51] BALI","[02] TABANAN","[050] MARGA","[015] GELUNTUNG","2. Perdesaan",0.66,"Pertanian Tanaman Pangan",1,0,"Ada","Ada",2
+"106",5102050006,"[51] BALI","[02] TABANAN","[050] MARGA","[006] KUWUM","2. Perdesaan",0.22,"Pertanian Tanaman Pangan",1,2,"Ada","Ada",2
+"107",5102050013,"[51] BALI","[02] TABANAN","[050] MARGA","[013] DAUH PURI","1. Perkotaan",0.5,"Pertanian Tanaman Pangan",2,1,"Ada","Ada",2
+"108",5102050009,"[51] BALI","[02] TABANAN","[050] MARGA","[009] MARGA","2. Perdesaan",0.2,"Pertanian Tanaman Pangan",4,4,"Ada","Ada",2
+"109",5102050016,"[51] BALI","[02] TABANAN","[050] MARGA","[016] BARU","2. Perdesaan",0.69,"Pertanian Tanaman Pangan",2,4,"Ada","Ada",2
+"110",5102050005,"[51] BALI","[02] TABANAN","[050] MARGA","[005] BATANNYUH","1. Perkotaan",0.24,"Pertanian Tanaman Pangan",1,2,"Ada","Ada",2
+"111",5102050004,"[51] BALI","[02] TABANAN","[050] MARGA","[004] PEKEN BELAYU","1. Perkotaan",0.13,"Lainnya",3,5,"Ada","Ada",1
+"112",5102050010,"[51] BALI","[02] TABANAN","[050] MARGA","[010] PETIGA","2. Perdesaan",0.7,"Pertanian Tanaman Pangan",0,2,"Tidak ada","Ada",2
+"113",5102050014,"[51] BALI","[02] TABANAN","[050] MARGA","[014] DAJAN PURI","1. Perkotaan",0.38,"Pertanian Tanaman Pangan",2,2,"Ada","Ada",2
+"114",5102050007,"[51] BALI","[02] TABANAN","[050] MARGA","[007] CAUBELAYU","2. Perdesaan",0.8,"Lainnya",2,3,"Ada","Ada",2
+"115",5102050012,"[51] BALI","[02] TABANAN","[050] MARGA","[012] PAYANGAN","2. Perdesaan",0.64,"Pertanian Tanaman Pangan",3,3,"Ada","Ada",2
+"116",5102030007,"[51] BALI","[02] TABANAN","[030] TABANAN","[007] SUBAMIA","2. Perdesaan",0.43,"Pertanian Tanaman Pangan",1,0,"Ada","Ada",2
+"117",5102030011,"[51] BALI","[02] TABANAN","[030] TABANAN","[011] WANASARI","2. Perdesaan",0.4,"Pertanian Tanaman Pangan",1,3,"Ada","Ada",2
+"118",5102030006,"[51] BALI","[02] TABANAN","[030] TABANAN","[006] DAJAN PEKEN","1. Perkotaan",0.02,"Lainnya",1,5,"Tidak ada","Ada",1
+"119",5102030005,"[51] BALI","[02] TABANAN","[030] TABANAN","[005] DELOD PEKEN","1. Perkotaan",0,"Lainnya",12,4,"Ada","Ada",1
+"120",5102030003,"[51] BALI","[02] TABANAN","[030] TABANAN","[003] GUBUG","1. Perkotaan",0.34,"Lainnya",0,8,"Ada","Ada",1
+"121",5102030001,"[51] BALI","[02] TABANAN","[030] TABANAN","[001] SUDIMARA","1. Perkotaan",0.54,"Pertanian Tanaman Pangan",1,2,"Ada","Ada",2
+"122",5102030008,"[51] BALI","[02] TABANAN","[030] TABANAN","[008] DENBANTAS","1. Perkotaan",0.3,"Lainnya",2,3,"Tidak ada","Ada",1
+"123",5102030002,"[51] BALI","[02] TABANAN","[030] TABANAN","[002] BONGAN","1. Perkotaan",0.14,"Lainnya",2,4,"Ada","Ada",1
+"124",5102030010,"[51] BALI","[02] TABANAN","[030] TABANAN","[010] TUNJUK","2. Perdesaan",0.75,"Pertanian Tanaman Pangan",1,3,"Tidak ada","Ada",2
+"125",5102030012,"[51] BALI","[02] TABANAN","[030] TABANAN","[012] SESANDAN","2. Perdesaan",0.25,"Pertanian Tanaman Pangan",3,0,"Ada","Ada",2
+"126",5102030004,"[51] BALI","[02] TABANAN","[030] TABANAN","[004] DAUH PEKEN","1. Perkotaan",0,"Lainnya",5,11,"Tidak ada","Ada",1
+"127",5102030009,"[51] BALI","[02] TABANAN","[030] TABANAN","[009] BUAHAN","2. Perdesaan",0.65,"Pertanian Tanaman Pangan",1,2,"Ada","Ada",2
+"128",5102040001,"[51] BALI","[02] TABANAN","[040] KEDIRI","[001] PANGKUNG TIBAH","2. Perdesaan",0.6,"Pertanian Tanaman Pangan",0,0,"Ada","Ada",2
+"129",5102040011,"[51] BALI","[02] TABANAN","[040] KEDIRI","[011] PANDAK BANDUNG","1. Perkotaan",0.42,"Lainnya",2,2,"Tidak ada","Ada",1
+"130",5102040003,"[51] BALI","[02] TABANAN","[040] KEDIRI","[003] BERABAN","1. Perkotaan",0.45,"Pertanian Tanaman Pangan",3,4,"Ada","Ada",2
+"131",5102040012,"[51] BALI","[02] TABANAN","[040] KEDIRI","[012] NYAMBU","2. Perdesaan",0.14,"Lainnya",1,4,"Tidak ada","Ada",1
+"132",5102040004,"[51] BALI","[02] TABANAN","[040] KEDIRI","[004] BUWIT","2. Perdesaan",0.77,"Pertanian Tanaman Pangan",1,2,"Tidak ada","Ada",2
+"133",5102040005,"[51] BALI","[02] TABANAN","[040] KEDIRI","[005] CEPAKA","2. Perdesaan",0.1,"Lainnya",1,3,"Ada","Ada",1
+"134",5102040007,"[51] BALI","[02] TABANAN","[040] KEDIRI","[007] PANDAK GEDE","1. Perkotaan",0.1,"Lainnya",2,5,"Tidak ada","Ada",1
+"135",5102040009,"[51] BALI","[02] TABANAN","[040] KEDIRI","[009] PEJATEN","1. Perkotaan",0,"Lainnya",2,8,"Tidak ada","Ada",1
+"136",5102040002,"[51] BALI","[02] TABANAN","[040] KEDIRI","[002] BELALANG","1. Perkotaan",0.45,"Lainnya",1,5,"Tidak ada","Ada",1
+"137",5102040010,"[51] BALI","[02] TABANAN","[040] KEDIRI","[010] NYITDAH","1. Perkotaan",0.14,"Lainnya",1,4,"Ada","Ada",1
+"138",5102040006,"[51] BALI","[02] TABANAN","[040] KEDIRI","[006] KABA-KABA","1. Perkotaan",0.21,"Lainnya",1,4,"Tidak ada","Ada",1
+"139",5102040008,"[51] BALI","[02] TABANAN","[040] KEDIRI","[008] BENGKEL","2. Perdesaan",0.6,"Pertanian Tanaman Pangan",0,2,"Ada","Ada",2
+"140",5102040015,"[51] BALI","[02] TABANAN","[040] KEDIRI","[015] BANJAR ANYAR","1. Perkotaan",0.46,"Lainnya",22,10,"Tidak ada","Ada",1
+"141",5102040014,"[51] BALI","[02] TABANAN","[040] KEDIRI","[014] ABIAN TUWUNG","1. Perkotaan",0.07,"Lainnya",6,5,"Tidak ada","Ada",1
+"142",5102040013,"[51] BALI","[02] TABANAN","[040] KEDIRI","[013] KEDIRI","1. Perkotaan",0.19,"Lainnya",2,7,"Tidak ada","Ada",1
+"143",5102070012,"[51] BALI","[02] TABANAN","[070] PENEBEL","[012] BABAHAN","2. Perdesaan",0.53,"Pertanian Tanaman Pangan",4,3,"Ada","Ada",2
+"144",5102070015,"[51] BALI","[02] TABANAN","[070] PENEBEL","[015] WONGAYA GEDE","2. Perdesaan",0.62,"Pertanian Tanaman Pangan",6,1,"Ada","Ada",2
+"145",5102070002,"[51] BALI","[02] TABANAN","[070] PENEBEL","[002] JEGU","1. Perkotaan",0.74,"Pertanian Tanaman Pangan",2,3,"Ada","Ada",2
+"146",5102070001,"[51] BALI","[02] TABANAN","[070] PENEBEL","[001] REJASA","2. Perdesaan",0.64,"Pertanian Tanaman Pangan",3,1,"Ada","Ada",2
+"147",5102070008,"[51] BALI","[02] TABANAN","[070] PENEBEL","[008] TENGKUDAK","2. Perdesaan",0.91,"Pertanian Tanaman Pangan",4,1,"Ada","Ada",2
+"148",5102070004,"[51] BALI","[02] TABANAN","[070] PENEBEL","[004] BURUAN","2. Perdesaan",0.56,"Pertanian Tanaman Pangan",2,2,"Ada","Ada",2
+"149",5102070014,"[51] BALI","[02] TABANAN","[070] PENEBEL","[014] JATILUWIH","2. Perdesaan",0.61,"Pertanian Tanaman Pangan",2,2,"Tidak ada","Ada",2
+"150",5102070013,"[51] BALI","[02] TABANAN","[070] PENEBEL","[013] SENGANAN","1. Perkotaan",0.82,"Pertanian Tanaman Pangan",6,2,"Ada","Ada",2
+"151",5102070006,"[51] BALI","[02] TABANAN","[070] PENEBEL","[006] PITRA","1. Perkotaan",0.43,"Pertanian Tanaman Pangan",4,2,"Ada","Ada",2
+"152",5102070005,"[51] BALI","[02] TABANAN","[070] PENEBEL","[005] TAJEN","2. Perdesaan",0.28,"Pertanian Tanaman Pangan",2,0,"Tidak ada","Ada",2
+"153",5102070017,"[51] BALI","[02] TABANAN","[070] PENEBEL","[017] TEGALINGGAH","2. Perdesaan",0.71,"Pertanian Tanaman Pangan",1,3,"Ada","Ada",2
+"154",5102070003,"[51] BALI","[02] TABANAN","[070] PENEBEL","[003] RIANG GEDE","2. Perdesaan",0.76,"Pertanian Tanaman Pangan",1,1,"Ada","Ada",2
+"155",5102070009,"[51] BALI","[02] TABANAN","[070] PENEBEL","[009] MENGESTE","2. Perdesaan",0.89,"Pertanian Tanaman Pangan",3,4,"Ada","Ada",2
+"156",5102070010,"[51] BALI","[02] TABANAN","[070] PENEBEL","[010] PENEBEL","1. Perkotaan",0.24,"Pertanian Tanaman Pangan",9,3,"Ada","Ada",2
+"157",5102070016,"[51] BALI","[02] TABANAN","[070] PENEBEL","[016] PESAGI","2. Perdesaan",0.86,"Pertanian Tanaman Pangan",4,0,"Tidak ada","Ada",2
+"158",5102070011,"[51] BALI","[02] TABANAN","[070] PENEBEL","[011] BIAUNG","2. Perdesaan",0.49,"Pertanian Tanaman Pangan",4,1,"Ada","Ada",2
+"159",5102070007,"[51] BALI","[02] TABANAN","[070] PENEBEL","[007] PENATAHAN","2. Perdesaan",0.74,"Pertanian Tanaman Pangan",3,0,"Ada","Ada",2
+"160",5102070018,"[51] BALI","[02] TABANAN","[070] PENEBEL","[018] SANGKETAN","2. Perdesaan",0.86,"Pertanian Tanaman Pangan",6,0,"Ada","Ada",2
+"161",5102080006,"[51] BALI","[02] TABANAN","[080] PUPUAN","[006] PUJUNGAN","2. Perdesaan",0.8,"Lainnya",1,2,"Tidak ada","Ada",2
+"162",5102080008,"[51] BALI","[02] TABANAN","[080] PUPUAN","[008] MUNDUK TEMU","2. Perdesaan",0.81,"Lainnya",3,1,"Ada","Ada",2
+"163",5102080002,"[51] BALI","[02] TABANAN","[080] PUPUAN","[002] KEBON PADANGAN","2. Perdesaan",0.8,"Lainnya",3,4,"Ada","Ada",2
+"164",5102080007,"[51] BALI","[02] TABANAN","[080] PUPUAN","[007] PAJAHAN","2. Perdesaan",0.91,"Lainnya",1,0,"Tidak ada","Ada",2
+"165",5102080009,"[51] BALI","[02] TABANAN","[080] PUPUAN","[009] PUPUAN","1. Perkotaan",0.74,"Lainnya",5,3,"Ada","Ada",2
+"166",5102080010,"[51] BALI","[02] TABANAN","[080] PUPUAN","[010] BANTIRAN","2. Perdesaan",0.85,"Lainnya",1,2,"Ada","Ada",2
+"167",5102080012,"[51] BALI","[02] TABANAN","[080] PUPUAN","[012] JELIJIH PUNGGANG","2. Perdesaan",0.96,"Lainnya",2,0,"Ada","Ada",2
+"168",5102080011,"[51] BALI","[02] TABANAN","[080] PUPUAN","[011] PADANGAN","1. Perkotaan",0.93,"Lainnya",1,1,"Tidak ada","Ada",2
+"169",5102080013,"[51] BALI","[02] TABANAN","[080] PUPUAN","[013] KARYA SARI","2. Perdesaan",1,"Pertanian Tanaman Pangan",1,0,"Tidak ada","Ada",2
+"170",5102080001,"[51] BALI","[02] TABANAN","[080] PUPUAN","[001] BELATUNGAN","2. Perdesaan",0.96,"Lainnya",3,1,"Ada","Ada",2
+"171",5102080014,"[51] BALI","[02] TABANAN","[080] PUPUAN","[014] SAI","2. Perdesaan",0.89,"Lainnya",0,0,"Tidak ada","Ada",2
+"172",5102080004,"[51] BALI","[02] TABANAN","[080] PUPUAN","[004] SANDA","2. Perdesaan",0.97,"Lainnya",1,0,"Ada","Ada",2
+"173",5102080005,"[51] BALI","[02] TABANAN","[080] PUPUAN","[005] BATUNGSEL","2. Perdesaan",0.98,"Pertanian Tanaman Pangan",2,0,"Ada","Ada",2
+"174",5102080003,"[51] BALI","[02] TABANAN","[080] PUPUAN","[003] BELIMBING","2. Perdesaan",0.9,"Lainnya",3,0,"Ada","Ada",2
+"175",5102011004,"[51] BALI","[02] TABANAN","[011] SELEMADEG TIMUR","[004] MAMBANG","2. Perdesaan",0.51,"Pertanian Tanaman Pangan",2,2,"Ada","Ada",2
+"176",5102011009,"[51] BALI","[02] TABANAN","[011] SELEMADEG TIMUR","[009] DALANG","2. Perdesaan",0.48,"Pertanian Tanaman Pangan",1,0,"Ada","Ada",2
+"177",5102011005,"[51] BALI","[02] TABANAN","[011] SELEMADEG TIMUR","[005] BANTAS","1. Perkotaan",0.23,"Lainnya",3,7,"Tidak ada","Ada",1
+"178",5102011003,"[51] BALI","[02] TABANAN","[011] SELEMADEG TIMUR","[003] TANGGUNTITI","2. Perdesaan",0.42,"Pertanian Tanaman Pangan",1,0,"Ada","Ada",2
+"179",5102011001,"[51] BALI","[02] TABANAN","[011] SELEMADEG TIMUR","[001] TEGAL MENGKEB","2. Perdesaan",0.49,"Pertanian Tanaman Pangan",5,1,"Ada","Ada",2
+"180",5102011010,"[51] BALI","[02] TABANAN","[011] SELEMADEG TIMUR","[010] GADUNG SARI","2. Perdesaan",0.47,"Pertanian Tanaman Pangan",3,0,"Tidak ada","Ada",2
+"181",5102011006,"[51] BALI","[02] TABANAN","[011] SELEMADEG TIMUR","[006] MEGATI","2. Perdesaan",0.33,"Pertanian Tanaman Pangan",5,3,"Ada","Ada",2
+"182",5102011008,"[51] BALI","[02] TABANAN","[011] SELEMADEG TIMUR","[008] GUNUNG SALAK","2. Perdesaan",0.49,"Pertanian Tanaman Pangan",1,0,"Ada","Ada",2
+"183",5102011002,"[51] BALI","[02] TABANAN","[011] SELEMADEG TIMUR","[002] BERABAN","2. Perdesaan",0.29,"Pertanian Tanaman Pangan",0,1,"Ada","Ada",2
+"184",5102011007,"[51] BALI","[02] TABANAN","[011] SELEMADEG TIMUR","[007] GADUNGAN","2. Perdesaan",0.78,"Pertanian Tanaman Pangan",3,3,"Ada","Ada",2
+"185",5103010006,"[51] BALI","[03] BADUNG","[010] KUTA SELATAN","[006] JIMBARAN","1. Perkotaan",0.05,"Lainnya",10,27,"Tidak ada","Ada",1
+"186",5103010003,"[51] BALI","[03] BADUNG","[010] KUTA SELATAN","[003] KUTUH","1. Perkotaan",0.28,"Lainnya",1,6,"Tidak ada","Ada",1
+"187",5103010001,"[51] BALI","[03] BADUNG","[010] KUTA SELATAN","[001] PECATU","1. Perkotaan",0.41,"Lainnya",1,8,"Tidak ada","Ada",1
+"188",5103010002,"[51] BALI","[03] BADUNG","[010] KUTA SELATAN","[002] UNGASAN","1. Perkotaan",0.16,"Lainnya",2,16,"Tidak ada","Ada",1
+"189",5103010004,"[51] BALI","[03] BADUNG","[010] KUTA SELATAN","[004] BENOA","1. Perkotaan",0.01,"Lainnya",19,40,"Tidak ada","Ada",1
+"190",5103010005,"[51] BALI","[03] BADUNG","[010] KUTA SELATAN","[005] TANJUNG BENOA","1. Perkotaan",0.15,"Lainnya",2,6,"Tidak ada","Ada",1
+"191",5103050005,"[51] BALI","[03] BADUNG","[050] ABIANSEMAL","[005] SEDANG","1. Perkotaan",0.27,"Pertanian Tanaman Pangan",1,5,"Ada","Ada",2
+"192",5103050014,"[51] BALI","[03] BADUNG","[050] ABIANSEMAL","[014] BONGKASA","1. Perkotaan",0.11,"Lainnya",2,8,"Ada","Ada",1
+"193",5103050006,"[51] BALI","[03] BADUNG","[050] ABIANSEMAL","[006] SIBANG KAJA","1. Perkotaan",0.2,"Lainnya",4,9,"Ada","Ada",1
+"194",5103050018,"[51] BALI","[03] BADUNG","[050] ABIANSEMAL","[018] BONGKASA PERTIWI","1. Perkotaan",0.15,"Lainnya",1,6,"Ada","Ada",1
+"195",5103050017,"[51] BALI","[03] BADUNG","[050] ABIANSEMAL","[017] SANGEH","1. Perkotaan",0.19,"Lainnya",3,10,"Tidak ada","Ada",1
+"196",5103050009,"[51] BALI","[03] BADUNG","[050] ABIANSEMAL","[009] ABIANSEMAL","1. Perkotaan",0.15,"Pertanian Tanaman Pangan",3,18,"Ada","Ada",1
+"197",5103050016,"[51] BALI","[03] BADUNG","[050] ABIANSEMAL","[016] SELAT","2. Perdesaan",0.17,"Lainnya",1,2,"Ada","Ada",1
+"198",5103050004,"[51] BALI","[03] BADUNG","[050] ABIANSEMAL","[004] ANGANTAKA","1. Perkotaan",0.8,"Pertanian Tanaman Pangan",2,4,"Ada","Ada",2
+"199",5103050007,"[51] BALI","[03] BADUNG","[050] ABIANSEMAL","[007] MEKAR BHUANA","1. Perkotaan",0.17,"Pertanian Tanaman Pangan",6,10,"Ada","Ada",1
+"200",5103050002,"[51] BALI","[03] BADUNG","[050] ABIANSEMAL","[002] SIBANG GEDE","1. Perkotaan",0.25,"Pertanian Tanaman Pangan",1,3,"Ada","Ada",2
+"201",5103050015,"[51] BALI","[03] BADUNG","[050] ABIANSEMAL","[015] TAMAN","1. Perkotaan",0.26,"Pertanian Tanaman Pangan",3,8,"Ada","Ada",2
+"202",5103050012,"[51] BALI","[03] BADUNG","[050] ABIANSEMAL","[012] BLAHKIUH","1. Perkotaan",0.16,"Lainnya",6,10,"Ada","Ada",1
+"203",5103050008,"[51] BALI","[03] BADUNG","[050] ABIANSEMAL","[008] MAMBAL","1. Perkotaan",0.13,"Lainnya",8,14,"Ada","Ada",1
+"204",5103050013,"[51] BALI","[03] BADUNG","[050] ABIANSEMAL","[013] PUNGGUL","1. Perkotaan",0.7,"Pertanian Tanaman Pangan",1,5,"Ada","Ada",2
+"205",5103050010,"[51] BALI","[03] BADUNG","[050] ABIANSEMAL","[010] DAUH YEH CANI","1. Perkotaan",0.06,"Pertanian Tanaman Pangan",0,8,"Tidak ada","Ada",1
+"206",5103050001,"[51] BALI","[03] BADUNG","[050] ABIANSEMAL","[001] DARMASABA","1. Perkotaan",0.15,"Lainnya",5,17,"Ada","Ada",1
+"207",5103050011,"[51] BALI","[03] BADUNG","[050] ABIANSEMAL","[011] AYUNAN","2. Perdesaan",0.29,"Pertanian Tanaman Pangan",2,6,"Tidak ada","Ada",2
+"208",5103050003,"[51] BALI","[03] BADUNG","[050] ABIANSEMAL","[003] JAGAPATI","1. Perkotaan",0.14,"Pertanian Tanaman Pangan",1,7,"Ada","Ada",2
+"209",5103030001,"[51] BALI","[03] BADUNG","[030] KUTA UTARA","[001] KEROBOKAN KELOD","1. Perkotaan",0.06,"Lainnya",16,15,"Tidak ada","Ada",1
+"210",5103030005,"[51] BALI","[03] BADUNG","[030] KUTA UTARA","[005] CANGGU","1. Perkotaan",0.19,"Lainnya",2,14,"Tidak ada","Ada",1
+"211",5103030004,"[51] BALI","[03] BADUNG","[030] KUTA UTARA","[004] TIBUBENENG","1. Perkotaan",0.06,"Lainnya",10,26,"Ada","Ada",1
+"212",5103030002,"[51] BALI","[03] BADUNG","[030] KUTA UTARA","[002] KEROBOKAN","1. Perkotaan",0.08,"Lainnya",15,11,"Ada","Ada",1
+"213",5103030006,"[51] BALI","[03] BADUNG","[030] KUTA UTARA","[006] DALUNG","1. Perkotaan",0.04,"Lainnya",17,33,"Tidak ada","Ada",1
+"214",5103030003,"[51] BALI","[03] BADUNG","[030] KUTA UTARA","[003] KEROBOKAN KAJA","1. Perkotaan",0.03,"Lainnya",15,30,"Tidak ada","Ada",1
+"215",5103040017,"[51] BALI","[03] BADUNG","[040] MENGWI","[017] WERDI BHUWANA","1. Perkotaan",0.12,"Lainnya",2,2,"Ada","Ada",1
+"216",5103040012,"[51] BALI","[03] BADUNG","[040] MENGWI","[012] MENGWITANI","1. Perkotaan",0.13,"Lainnya",14,12,"Ada","Ada",1
+"217",5103040010,"[51] BALI","[03] BADUNG","[040] MENGWI","[010] KAPAL","1. Perkotaan",0.21,"Lainnya",8,21,"Ada","Ada",1
+"218",5103040009,"[51] BALI","[03] BADUNG","[040] MENGWI","[009] LUKLUK","1. Perkotaan",0.18,"Lainnya",5,21,"Tidak ada","Ada",1
+"219",5103040011,"[51] BALI","[03] BADUNG","[040] MENGWI","[011] KEKERAN","1. Perkotaan",0.04,"Lainnya",1,2,"Ada","Ada",1
+"220",5103040005,"[51] BALI","[03] BADUNG","[040] MENGWI","[005] BUDUK","1. Perkotaan",0.07,"Lainnya",2,6,"Ada","Ada",1
+"221",5103040018,"[51] BALI","[03] BADUNG","[040] MENGWI","[018] SOBANGAN","2. Perdesaan",0.45,"Pertanian Tanaman Pangan",2,6,"Ada","Ada",2
+"222",5103040019,"[51] BALI","[03] BADUNG","[040] MENGWI","[019] SEMBUNG","1. Perkotaan",0.35,"Lainnya",5,8,"Ada","Ada",1
+"223",5103040008,"[51] BALI","[03] BADUNG","[040] MENGWI","[008] SADING","1. Perkotaan",0.08,"Lainnya",1,2,"Ada","Ada",1
+"224",5103040014,"[51] BALI","[03] BADUNG","[040] MENGWI","[014] GULINGAN","1. Perkotaan",0.19,"Lainnya",1,11,"Ada","Ada",1
+"225",5103040015,"[51] BALI","[03] BADUNG","[040] MENGWI","[015] PENARUNGAN","1. Perkotaan",0.12,"Lainnya",2,23,"Ada","Ada",1
+"226",5103040016,"[51] BALI","[03] BADUNG","[040] MENGWI","[016] BAHA","2. Perdesaan",0.49,"Pertanian Tanaman Pangan",2,9,"Ada","Ada",2
+"227",5103040003,"[51] BALI","[03] BADUNG","[040] MENGWI","[003] PERERENAN","1. Perkotaan",0.17,"Lainnya",1,4,"Ada","Ada",1
+"228",5103040004,"[51] BALI","[03] BADUNG","[040] MENGWI","[004] TUMBAK BAYUH","1. Perkotaan",0.17,"Pertanian Tanaman Pangan",1,4,"Ada","Ada",2
+"229",5103040001,"[51] BALI","[03] BADUNG","[040] MENGWI","[001] CEMAGI","1. Perkotaan",0.68,"Lainnya",5,5,"Ada","Ada",2
+"230",5103040007,"[51] BALI","[03] BADUNG","[040] MENGWI","[007] SEMPIDI","1. Perkotaan",0.12,"Lainnya",13,10,"Ada","Ada",1
+"231",5103040002,"[51] BALI","[03] BADUNG","[040] MENGWI","[002] MUNGGU","1. Perkotaan",0.07,"Pertanian Tanaman Pangan",5,4,"Ada","Ada",2
+"232",5103040013,"[51] BALI","[03] BADUNG","[040] MENGWI","[013] MENGWI","1. Perkotaan",0.14,"Lainnya",2,11,"Ada","Ada",1
+"233",5103040020,"[51] BALI","[03] BADUNG","[040] MENGWI","[020] KUWUM","2. Perdesaan",0.73,"Pertanian Tanaman Pangan",2,3,"Ada","Ada",2
+"234",5103040006,"[51] BALI","[03] BADUNG","[040] MENGWI","[006] ABIANBASE","1. Perkotaan",0.11,"Lainnya",10,9,"Tidak ada","Ada",1
+"235",5103020001,"[51] BALI","[03] BADUNG","[020] KUTA","[001] KEDONGANAN","1. Perkotaan",0.05,"Lainnya",2,11,"Tidak ada","Ada",1
+"236",5103020004,"[51] BALI","[03] BADUNG","[020] KUTA","[004] LEGIAN","1. Perkotaan",0,"Lainnya",9,9,"Tidak ada","Ada",1
+"237",5103020003,"[51] BALI","[03] BADUNG","[020] KUTA","[003] KUTA","1. Perkotaan",0.02,"Lainnya",46,25,"Tidak ada","Ada",1
+"238",5103020005,"[51] BALI","[03] BADUNG","[020] KUTA","[005] SEMINYAK","1. Perkotaan",0.03,"Lainnya",5,4,"Tidak ada","Ada",1
+"239",5103020002,"[51] BALI","[03] BADUNG","[020] KUTA","[002] TUBAN","1. Perkotaan",0.05,"Lainnya",16,14,"Tidak ada","Ada",1
+"240",5103060005,"[51] BALI","[03] BADUNG","[060] PETANG","[005] SULANGAI","2. Perdesaan",0.89,"Lainnya",3,2,"Ada","Tidak ada",2
+"241",5103060006,"[51] BALI","[03] BADUNG","[060] PETANG","[006] PELAGA","2. Perdesaan",0.84,"Lainnya",9,3,"Ada","Ada",2
+"242",5103060004,"[51] BALI","[03] BADUNG","[060] PETANG","[004] PETANG","2. Perdesaan",0.82,"Pertanian Tanaman Pangan",6,2,"Ada","Ada",2
+"243",5103060002,"[51] BALI","[03] BADUNG","[060] PETANG","[002] GETASAN","2. Perdesaan",0.39,"Pertanian Tanaman Pangan",1,3,"Tidak ada","Ada",2
+"244",5103060007,"[51] BALI","[03] BADUNG","[060] PETANG","[007] BELOK/SIDAN","2. Perdesaan",0.97,"Lainnya",6,1,"Ada","Tidak ada",2
+"245",5103060003,"[51] BALI","[03] BADUNG","[060] PETANG","[003] PANGSAN","2. Perdesaan",0.85,"Lainnya",1,2,"Ada","Ada",2
+"246",5103060001,"[51] BALI","[03] BADUNG","[060] PETANG","[001] CARANGSARI","2. Perdesaan",0.24,"Pertanian Tanaman Pangan",3,10,"Ada","Ada",2
+"247",5104070004,"[51] BALI","[04] GIANYAR","[070] PAYANGAN","[004] BERESELA","2. Perdesaan",0.5,"Lainnya",1,6,"Ada","Ada",2
+"248",5104070006,"[51] BALI","[04] GIANYAR","[070] PAYANGAN","[006] PUHU","2. Perdesaan",0.71,"Pertanian Tanaman Pangan",6,8,"Ada","Ada",2
+"249",5104070009,"[51] BALI","[04] GIANYAR","[070] PAYANGAN","[009] KERTA","2. Perdesaan",0.98,"Lainnya",8,5,"Ada","Ada",2
+"250",5104070007,"[51] BALI","[04] GIANYAR","[070] PAYANGAN","[007] BUAHAN","2. Perdesaan",0.57,"Pertanian Tanaman Pangan",5,3,"Ada","Ada",2
+"251",5104070008,"[51] BALI","[04] GIANYAR","[070] PAYANGAN","[008] BUAHAN KAJA","2. Perdesaan",0.82,"Pertanian Tanaman Pangan",8,2,"Ada","Ada",2
+"252",5104070003,"[51] BALI","[04] GIANYAR","[070] PAYANGAN","[003] KELUSA","2. Perdesaan",0.84,"Pertanian Tanaman Pangan",3,10,"Ada","Ada",2
+"253",5104070002,"[51] BALI","[04] GIANYAR","[070] PAYANGAN","[002] MELINGGIH","1. Perkotaan",0.18,"Lainnya",7,5,"Ada","Ada",1
+"254",5104070005,"[51] BALI","[04] GIANYAR","[070] PAYANGAN","[005] BUKIAN","2. Perdesaan",0.98,"Pertanian Tanaman Pangan",8,15,"Ada","Ada",2
+"255",5104070001,"[51] BALI","[04] GIANYAR","[070] PAYANGAN","[001] MELINGGIH KELOD","1. Perkotaan",0.29,"Lainnya",5,9,"Ada","Ada",1
+"256",5104020001,"[51] BALI","[04] GIANYAR","[020] BLAHBATUH","[001] SABA","1. Perkotaan",0.18,"Lainnya",4,9,"Ada","Ada",1
+"257",5104020005,"[51] BALI","[04] GIANYAR","[020] BLAHBATUH","[005] BONA","1. Perkotaan",0.1,"Lainnya",1,8,"Ada","Ada",1
+"258",5104020007,"[51] BALI","[04] GIANYAR","[020] BLAHBATUH","[007] BLAHBATUH","1. Perkotaan",0.08,"Lainnya",7,18,"Ada","Ada",1
+"259",5104020006,"[51] BALI","[04] GIANYAR","[020] BLAHBATUH","[006] BELEGA","1. Perkotaan",0.18,"Lainnya",2,11,"Ada","Ada",1
+"260",5104020003,"[51] BALI","[04] GIANYAR","[020] BLAHBATUH","[003] KERAMAS","1. Perkotaan",0.14,"Lainnya",2,13,"Ada","Ada",1
+"261",5104020002,"[51] BALI","[04] GIANYAR","[020] BLAHBATUH","[002] PERING","1. Perkotaan",0.29,"Pertanian Tanaman Pangan",6,7,"Ada","Ada",2
+"262",5104020008,"[51] BALI","[04] GIANYAR","[020] BLAHBATUH","[008] BURUAN","1. Perkotaan",0.11,"Lainnya",14,10,"Ada","Ada",1
+"263",5104020009,"[51] BALI","[04] GIANYAR","[020] BLAHBATUH","[009] BEDULU","1. Perkotaan",0.08,"Lainnya",6,14,"Ada","Ada",1
+"264",5104020004,"[51] BALI","[04] GIANYAR","[020] BLAHBATUH","[004] MEDAHAN","1. Perkotaan",0.17,"Lainnya",1,5,"Ada","Ada",1
+"265",5104060003,"[51] BALI","[04] GIANYAR","[060] TEGALLALANG","[003] KENDERAN","2. Perdesaan",0.51,"Pertanian Tanaman Pangan",3,14,"Tidak ada","Ada",2
+"266",5104060004,"[51] BALI","[04] GIANYAR","[060] TEGALLALANG","[004] KEDISAN","2. Perdesaan",0.59,"Lainnya",5,16,"Ada","Ada",1
+"267",5104060007,"[51] BALI","[04] GIANYAR","[060] TEGALLALANG","[007] TARO","1. Perkotaan",0.51,"Pertanian Tanaman Pangan",12,19,"Ada","Ada",1
+"268",5104060005,"[51] BALI","[04] GIANYAR","[060] TEGALLALANG","[005] PUPUAN","2. Perdesaan",0.62,"Pertanian Tanaman Pangan",7,10,"Tidak ada","Ada",2
+"269",5104060002,"[51] BALI","[04] GIANYAR","[060] TEGALLALANG","[002] TEGALLALANG","1. Perkotaan",0.37,"Lainnya",9,18,"Ada","Ada",1
+"270",5104060001,"[51] BALI","[04] GIANYAR","[060] TEGALLALANG","[001] KELIKI","1. Perkotaan",0.98,"Lainnya",2,10,"Ada","Ada",2
+"271",5104060006,"[51] BALI","[04] GIANYAR","[060] TEGALLALANG","[006] SEBATU","2. Perdesaan",0.98,"Lainnya",9,28,"Ada","Ada",1
+"272",5104010005,"[51] BALI","[04] GIANYAR","[010] SUKAWATI","[005] SUKAWATI","1. Perkotaan",0.15,"Lainnya",13,18,"Ada","Ada",1
+"273",5104010004,"[51] BALI","[04] GIANYAR","[010] SUKAWATI","[004] GUWANG","1. Perkotaan",0.22,"Lainnya",1,9,"Ada","Ada",1
+"274",5104010011,"[51] BALI","[04] GIANYAR","[010] SUKAWATI","[011] BATUAN KALER","1. Perkotaan",0.32,"Lainnya",2,11,"Ada","Ada",1
+"275",5104010001,"[51] BALI","[04] GIANYAR","[010] SUKAWATI","[001] BATUBULAN","1. Perkotaan",0.06,"Lainnya",20,26,"Ada","Ada",1
+"276",5104010002,"[51] BALI","[04] GIANYAR","[010] SUKAWATI","[002] BATUBULAN KANGIN","1. Perkotaan",0.13,"Pertanian Tanaman Pangan",2,13,"Ada","Ada",1
+"277",5104010009,"[51] BALI","[04] GIANYAR","[010] SUKAWATI","[009] SINGAPADU KALER","1. Perkotaan",0.24,"Lainnya",4,12,"Ada","Ada",1
+"278",5104010012,"[51] BALI","[04] GIANYAR","[010] SUKAWATI","[012] KEMENUH","1. Perkotaan",0.22,"Lainnya",7,20,"Ada","Ada",1
+"279",5104010007,"[51] BALI","[04] GIANYAR","[010] SUKAWATI","[007] SINGAPADU","1. Perkotaan",0.27,"Pertanian Tanaman Pangan",7,10,"Ada","Ada",1
+"280",5104010010,"[51] BALI","[04] GIANYAR","[010] SUKAWATI","[010] BATUAN","1. Perkotaan",0.07,"Lainnya",5,24,"Ada","Ada",1
+"281",5104010008,"[51] BALI","[04] GIANYAR","[010] SUKAWATI","[008] SINGAPADU TENGAH","1. Perkotaan",0.17,"Lainnya",4,10,"Ada","Ada",1
+"282",5104010006,"[51] BALI","[04] GIANYAR","[010] SUKAWATI","[006] CELUK","1. Perkotaan",0.08,"Lainnya",4,11,"Ada","Ada",1
+"283",5104010003,"[51] BALI","[04] GIANYAR","[010] SUKAWATI","[003] KETEWEL","1. Perkotaan",0.2,"Pertanian Tanaman Pangan",5,20,"Ada","Ada",1
+"284",5104030014,"[51] BALI","[04] GIANYAR","[030] GIANYAR","[014] PETAK","2. Perdesaan",0.54,"Pertanian Tanaman Pangan",5,2,"Ada","Ada",2
+"285",5104030002,"[51] BALI","[04] GIANYAR","[030] GIANYAR","[002] TULIKUP","1. Perkotaan",0.09,"Lainnya",2,8,"Ada","Ada",1
+"286",5104030013,"[51] BALI","[04] GIANYAR","[030] GIANYAR","[013] SUWAT","2. Perdesaan",0.3,"Pertanian Tanaman Pangan",2,5,"Ada","Ada",2
+"287",5104030006,"[51] BALI","[04] GIANYAR","[030] GIANYAR","[006] SERONGGA","1. Perkotaan",0.11,"Lainnya",1,5,"Ada","Ada",1
+"288",5104030005,"[51] BALI","[04] GIANYAR","[030] GIANYAR","[005] SAMPLANGAN","1. Perkotaan",0.12,"Lainnya",4,2,"Ada","Ada",1
+"289",5104030010,"[51] BALI","[04] GIANYAR","[030] GIANYAR","[010] BITERA","1. Perkotaan",0.12,"Pertanian Tanaman Pangan",6,12,"Ada","Ada",1
+"290",5104030011,"[51] BALI","[04] GIANYAR","[030] GIANYAR","[011] BAKBAKAN","1. Perkotaan",0.78,"Pertanian Tanaman Pangan",4,12,"Ada","Ada",2
+"291",5104030009,"[51] BALI","[04] GIANYAR","[030] GIANYAR","[009] BENG","1. Perkotaan",0.11,"Lainnya",1,4,"Tidak ada","Ada",1
+"292",5104030004,"[51] BALI","[04] GIANYAR","[030] GIANYAR","[004] SIDAN","1. Perkotaan",0.11,"Lainnya",1,8,"Tidak ada","Ada",1
+"293",5104030016,"[51] BALI","[04] GIANYAR","[030] GIANYAR","[016] SUMITA","2. Perdesaan",0.24,"Lainnya",1,7,"Tidak ada","Ada",1
+"294",5104030001,"[51] BALI","[04] GIANYAR","[030] GIANYAR","[001] LEBIH","1. Perkotaan",0.13,"Lainnya",3,12,"Ada","Ada",1
+"295",5104030003,"[51] BALI","[04] GIANYAR","[030] GIANYAR","[003] TEMESI","1. Perkotaan",0.2,"Lainnya",1,9,"Ada","Ada",1
+"296",5104030007,"[51] BALI","[04] GIANYAR","[030] GIANYAR","[007] ABIANBASE","1. Perkotaan",0.09,"Lainnya",3,4,"Ada","Ada",1
+"297",5104030017,"[51] BALI","[04] GIANYAR","[030] GIANYAR","[017] TEGAL TUGU","1. Perkotaan",0.07,"Lainnya",1,6,"Ada","Ada",1
+"298",5104030015,"[51] BALI","[04] GIANYAR","[030] GIANYAR","[015] PETAK KAJA","1. Perkotaan",0.51,"Pertanian Tanaman Pangan",3,5,"Ada","Ada",2
+"299",5104030012,"[51] BALI","[04] GIANYAR","[030] GIANYAR","[012] SIANGAN","1. Perkotaan",0.17,"Lainnya",6,12,"Ada","Ada",1
+"300",5104030008,"[51] BALI","[04] GIANYAR","[030] GIANYAR","[008] GIANYAR","1. Perkotaan",0.01,"Lainnya",22,43,"Tidak ada","Ada",1
+"301",5104050005,"[51] BALI","[04] GIANYAR","[050] UBUD","[005] PETULU","1. Perkotaan",0.1,"Lainnya",9,10,"Tidak ada","Ada",1
+"302",5104050006,"[51] BALI","[04] GIANYAR","[050] UBUD","[006] UBUD","1. Perkotaan",0.07,"Lainnya",8,18,"Ada","Ada",1
+"303",5104050002,"[51] BALI","[04] GIANYAR","[050] UBUD","[002] LODTUNDUH","1. Perkotaan",0.17,"Lainnya",4,16,"Ada","Ada",1
+"304",5104050004,"[51] BALI","[04] GIANYAR","[050] UBUD","[004] PELIATAN","1. Perkotaan",0.1,"Lainnya",13,18,"Ada","Ada",1
+"305",5104050003,"[51] BALI","[04] GIANYAR","[050] UBUD","[003] MAS","1. Perkotaan",0.1,"Lainnya",7,18,"Ada","Ada",1
+"306",5104050001,"[51] BALI","[04] GIANYAR","[050] UBUD","[001] SINGAKERTA","1. Perkotaan",0.24,"Lainnya",6,16,"Ada","Ada",1
+"307",5104050007,"[51] BALI","[04] GIANYAR","[050] UBUD","[007] SAYAN","1. Perkotaan",0.15,"Lainnya",3,15,"Ada","Ada",1
+"308",5104050008,"[51] BALI","[04] GIANYAR","[050] UBUD","[008] KEDEWATAN","2. Perdesaan",0.16,"Lainnya",6,14,"Ada","Ada",1
+"309",5104040003,"[51] BALI","[04] GIANYAR","[040] TAMPAKSIRING","[003] PEJENG KELOD","1. Perkotaan",0.3,"Lainnya",5,4,"Tidak ada","Ada",1
+"310",5104040007,"[51] BALI","[04] GIANYAR","[040] TAMPAKSIRING","[007] TAMPAKSIRING","1. Perkotaan",0.75,"Lainnya",11,11,"Ada","Ada",1
+"311",5104040006,"[51] BALI","[04] GIANYAR","[040] TAMPAKSIRING","[006] SANDING","1. Perkotaan",0.8,"Lainnya",1,7,"Ada","Ada",2
+"312",5104040001,"[51] BALI","[04] GIANYAR","[040] TAMPAKSIRING","[001] PEJENG KAWAN","1. Perkotaan",0.21,"Lainnya",1,8,"Ada","Ada",1
+"313",5104040002,"[51] BALI","[04] GIANYAR","[040] TAMPAKSIRING","[002] PEJENG","1. Perkotaan",0.3,"Lainnya",4,13,"Ada","Ada",1
+"314",5104040005,"[51] BALI","[04] GIANYAR","[040] TAMPAKSIRING","[005] PEJENG KAJA","1. Perkotaan",0.65,"Lainnya",4,10,"Ada","Ada",1
+"315",5104040004,"[51] BALI","[04] GIANYAR","[040] TAMPAKSIRING","[004] PEJENG KANGIN","2. Perdesaan",0.7,"Lainnya",5,8,"Tidak ada","Ada",1
+"316",5104040008,"[51] BALI","[04] GIANYAR","[040] TAMPAKSIRING","[008] MANUKAYA","1. Perkotaan",0.41,"Lainnya",10,17,"Ada","Ada",1
+"317",5105030005,"[51] BALI","[05] KLUNGKUNG","[030] KLUNGKUNG","[005] JUMPAI","1. Perkotaan",0.6,"Pertanian Tanaman Pangan",1,0,"Tidak ada","Ada",2
+"318",5105030016,"[51] BALI","[05] KLUNGKUNG","[030] KLUNGKUNG","[016] SELAT","1. Perkotaan",0.38,"Pertanian Tanaman Pangan",8,0,"Tidak ada","Ada",2
+"319",5105030014,"[51] BALI","[05] KLUNGKUNG","[030] KLUNGKUNG","[014] AKAH","1. Perkotaan",0.21,"Lainnya",1,2,"Tidak ada","Ada",1
+"320",5105030002,"[51] BALI","[05] KLUNGKUNG","[030] KLUNGKUNG","[002] TOJAN","1. Perkotaan",0.21,"Lainnya",0,2,"Ada","Ada",1
+"321",5105030008,"[51] BALI","[05] KLUNGKUNG","[030] KLUNGKUNG","[008] SEMARAPURA KELOD","1. Perkotaan",0.02,"Lainnya",9,3,"Tidak ada","Ada",1
+"322",5105030010,"[51] BALI","[05] KLUNGKUNG","[030] KLUNGKUNG","[010] SEMARAPURA KANGIN","1. Perkotaan",0.02,"Lainnya",5,0,"Tidak ada","Ada",1
+"323",5105030018,"[51] BALI","[05] KLUNGKUNG","[030] KLUNGKUNG","[018] SELISIHAN","2. Perdesaan",0.87,"Pertanian Tanaman Pangan",1,1,"Tidak ada","Ada",2
+"324",5105030003,"[51] BALI","[05] KLUNGKUNG","[030] KLUNGKUNG","[003] GELGEL","1. Perkotaan",0.27,"Pertanian Tanaman Pangan",1,0,"Ada","Ada",2
+"325",5105030004,"[51] BALI","[05] KLUNGKUNG","[030] KLUNGKUNG","[004] KAMPUNG GELGEL","1. Perkotaan",0.01,"Lainnya",0,0,"Tidak ada","Ada",1
+"326",5105030013,"[51] BALI","[05] KLUNGKUNG","[030] KLUNGKUNG","[013] SEMARAPURA KAJA","1. Perkotaan",0.06,"Lainnya",2,0,"Tidak ada","Ada",1
+"327",5105030001,"[51] BALI","[05] KLUNGKUNG","[030] KLUNGKUNG","[001] SATRA","1. Perkotaan",0.73,"Pertanian Tanaman Pangan",1,0,"Ada","Ada",2
+"328",5105030012,"[51] BALI","[05] KLUNGKUNG","[030] KLUNGKUNG","[012] SEMARAPURA KAUH","1. Perkotaan",0.19,"Lainnya",2,1,"Tidak ada","Tidak ada",1
+"329",5105030006,"[51] BALI","[05] KLUNGKUNG","[030] KLUNGKUNG","[006] TANGKAS","1. Perkotaan",0.11,"Lainnya",1,0,"Tidak ada","Ada",1
+"330",5105030015,"[51] BALI","[05] KLUNGKUNG","[030] KLUNGKUNG","[015] MANDUANG","1. Perkotaan",0.96,"Pertanian Tanaman Pangan",0,1,"Tidak ada","Ada",2
+"331",5105030007,"[51] BALI","[05] KLUNGKUNG","[030] KLUNGKUNG","[007] KAMASAN","1. Perkotaan",0.38,"Lainnya",1,1,"Tidak ada","Ada",1
+"332",5105030017,"[51] BALI","[05] KLUNGKUNG","[030] KLUNGKUNG","[017] TEGAK","1. Perkotaan",0.1,"Lainnya",3,0,"Ada","Ada",1
+"333",5105030011,"[51] BALI","[05] KLUNGKUNG","[030] KLUNGKUNG","[011] SEMARAPURA TENGAH","1. Perkotaan",0.01,"Lainnya",0,4,"Tidak ada","Ada",1
+"334",5105030009,"[51] BALI","[05] KLUNGKUNG","[030] KLUNGKUNG","[009] SEMARAPURA KELOD KANGIN","1. Perkotaan",0.01,"Lainnya",3,2,"Tidak ada","Ada",1
+"335",5105040005,"[51] BALI","[05] KLUNGKUNG","[040] DAWAN","[005] GUNAKSA","1. Perkotaan",0.36,"Lainnya",1,6,"Tidak ada","Ada",1
+"336",5105040002,"[51] BALI","[05] KLUNGKUNG","[040] DAWAN","[002] KAMPUNG KUSAMBA","1. Perkotaan",0.01,"Lainnya",1,0,"Tidak ada","Ada",1
+"337",5105040001,"[51] BALI","[05] KLUNGKUNG","[040] DAWAN","[001] KUSAMBA","1. Perkotaan",0.12,"Lainnya",7,8,"Tidak ada","Ada",1
+"338",5105040012,"[51] BALI","[05] KLUNGKUNG","[040] DAWAN","[012] BESAN","2. Perdesaan",0.32,"Lainnya",1,1,"Tidak ada","Ada",1
+"339",5105040006,"[51] BALI","[05] KLUNGKUNG","[040] DAWAN","[006] SAMPALAN KLOD","1. Perkotaan",0.04,"Lainnya",1,1,"Ada","Ada",1
+"340",5105040007,"[51] BALI","[05] KLUNGKUNG","[040] DAWAN","[007] SAMPALAN TENGAH","1. Perkotaan",0.05,"Lainnya",3,0,"Tidak ada","Tidak ada",1
+"341",5105040010,"[51] BALI","[05] KLUNGKUNG","[040] DAWAN","[010] DAWAN KALER","2. Perdesaan",0.22,"Lainnya",1,4,"Tidak ada","Ada",1
+"342",5105040003,"[51] BALI","[05] KLUNGKUNG","[040] DAWAN","[003] PESINGGAHAN","2. Perdesaan",0.27,"Lainnya",3,3,"Tidak ada","Ada",1
+"343",5105040004,"[51] BALI","[05] KLUNGKUNG","[040] DAWAN","[004] DAWAN KLOD","1. Perkotaan",0.22,"Lainnya",1,3,"Ada","Ada",1
+"344",5105040011,"[51] BALI","[05] KLUNGKUNG","[040] DAWAN","[011] PIKAT","2. Perdesaan",0.36,"Lainnya",3,1,"Tidak ada","Ada",1
+"345",5105040009,"[51] BALI","[05] KLUNGKUNG","[040] DAWAN","[009] PAKSEBALI","1. Perkotaan",0.06,"Lainnya",1,1,"Tidak ada","Ada",1
+"346",5105040008,"[51] BALI","[05] KLUNGKUNG","[040] DAWAN","[008] SULANG","1. Perkotaan",0.08,"Lainnya",2,0,"Tidak ada","Ada",1
+"347",5105010008,"[51] BALI","[05] KLUNGKUNG","[010] NUSAPENIDA","[008] PEJUKUTAN","2. Perdesaan",0.77,"Pertanian Tanaman Pangan",4,0,"Tidak ada","Ada",2
+"348",5105010006,"[51] BALI","[05] KLUNGKUNG","[010] NUSAPENIDA","[006] SEKARTAJI","2. Perdesaan",0.84,"Pertanian Tanaman Pangan",3,0,"Tidak ada","Ada",2
+"349",5105010016,"[51] BALI","[05] KLUNGKUNG","[010] NUSAPENIDA","[016] JUNGUTBATU","1. Perkotaan",0.31,"Lainnya",3,0,"Tidak ada","Ada",1
+"350",5105010007,"[51] BALI","[05] KLUNGKUNG","[010] NUSAPENIDA","[007] TANGLAD","2. Perdesaan",0.73,"Pertanian Tanaman Pangan",4,0,"Tidak ada","Ada",2
+"351",5105010010,"[51] BALI","[05] KLUNGKUNG","[010] NUSAPENIDA","[010] BATUNUNGGUL","1. Perkotaan",0.36,"Lainnya",8,6,"Ada","Ada",1
+"352",5105010013,"[51] BALI","[05] KLUNGKUNG","[010] NUSAPENIDA","[013] PED","2. Perdesaan",0.5,"Pertanian Tanaman Pangan",3,0,"Tidak ada","Ada",2
+"353",5105010015,"[51] BALI","[05] KLUNGKUNG","[010] NUSAPENIDA","[015] LEMBONGAN","1. Perkotaan",0.53,"Lainnya",1,0,"Ada","Ada",2
+"354",5105010004,"[51] BALI","[05] KLUNGKUNG","[010] NUSAPENIDA","[004] KLUMPU","2. Perdesaan",0.6,"Pertanian Tanaman Pangan",0,5,"Tidak ada","Ada",2
+"355",5105010011,"[51] BALI","[05] KLUNGKUNG","[010] NUSAPENIDA","[011] KUTAMPI","2. Perdesaan",0.55,"Pertanian Tanaman Pangan",3,2,"Ada","Ada",2
+"356",5105010003,"[51] BALI","[05] KLUNGKUNG","[010] NUSAPENIDA","[003] BATUMADEG","2. Perdesaan",0.53,"Pertanian Tanaman Pangan",0,5,"Tidak ada","Ada",2
+"357",5105010009,"[51] BALI","[05] KLUNGKUNG","[010] NUSAPENIDA","[009] SUANA","1. Perkotaan",0.99,"Pertanian Tanaman Pangan",3,0,"Tidak ada","Ada",2
+"358",5105010005,"[51] BALI","[05] KLUNGKUNG","[010] NUSAPENIDA","[005] BATUKANDIK","2. Perdesaan",0.6,"Pertanian Tanaman Pangan",3,0,"Tidak ada","Ada",2
+"359",5105010002,"[51] BALI","[05] KLUNGKUNG","[010] NUSAPENIDA","[002] BUNGA MEKAR","2. Perdesaan",0.92,"Pertanian Tanaman Pangan",5,0,"Tidak ada","Ada",2
+"360",5105010001,"[51] BALI","[05] KLUNGKUNG","[010] NUSAPENIDA","[001] SAKTI","2. Perdesaan",0.8,"Pertanian Tanaman Pangan",2,2,"Tidak ada","Ada",2
+"361",5105010014,"[51] BALI","[05] KLUNGKUNG","[010] NUSAPENIDA","[014] KAMPUNG TOYAPAKEH","1. Perkotaan",0,"Lainnya",0,2,"Ada","Ada",1
+"362",5105010012,"[51] BALI","[05] KLUNGKUNG","[010] NUSAPENIDA","[012] KUTAMPI KALER","2. Perdesaan",0.65,"Pertanian Tanaman Pangan",4,4,"Ada","Ada",2
+"363",5105020012,"[51] BALI","[05] KLUNGKUNG","[020] BANJARANGKAN","[012] NYANGLAN","2. Perdesaan",0.41,"Pertanian Tanaman Pangan",1,0,"Tidak ada","Ada",2
+"364",5105020005,"[51] BALI","[05] KLUNGKUNG","[020] BANJARANGKAN","[005] BAKAS","2. Perdesaan",0.73,"Pertanian Tanaman Pangan",1,1,"Ada","Ada",2
+"365",5105020001,"[51] BALI","[05] KLUNGKUNG","[020] BANJARANGKAN","[001] NEGARI","1. Perkotaan",0.39,"Pertanian Tanaman Pangan",2,0,"Ada","Ada",2
+"366",5105020003,"[51] BALI","[05] KLUNGKUNG","[020] BANJARANGKAN","[003] BANJARANGKAN","1. Perkotaan",0.24,"Pertanian Tanaman Pangan",3,3,"Ada","Ada",2
+"367",5105020008,"[51] BALI","[05] KLUNGKUNG","[020] BANJARANGKAN","[008] AAN","1. Perkotaan",0.6,"Pertanian Tanaman Pangan",2,1,"Ada","Ada",2
+"368",5105020006,"[51] BALI","[05] KLUNGKUNG","[020] BANJARANGKAN","[006] GETAKAN","1. Perkotaan",0.6,"Pertanian Tanaman Pangan",0,0,"Tidak ada","Ada",2
+"369",5105020010,"[51] BALI","[05] KLUNGKUNG","[020] BANJARANGKAN","[010] BUNGBUNGAN","1. Perkotaan",0.75,"Pertanian Tanaman Pangan",3,0,"Tidak ada","Ada",2
+"370",5105020002,"[51] BALI","[05] KLUNGKUNG","[020] BANJARANGKAN","[002] TAKMUNG","1. Perkotaan",0.7,"Pertanian Tanaman Pangan",7,5,"Ada","Ada",2
+"371",5105020013,"[51] BALI","[05] KLUNGKUNG","[020] BANJARANGKAN","[013] TOHPATI","1. Perkotaan",0.39,"Pertanian Tanaman Pangan",1,2,"Tidak ada","Ada",2
+"372",5105020011,"[51] BALI","[05] KLUNGKUNG","[020] BANJARANGKAN","[011] TIMUHUN","2. Perdesaan",0.72,"Pertanian Tanaman Pangan",1,0,"Tidak ada","Ada",2
+"373",5105020007,"[51] BALI","[05] KLUNGKUNG","[020] BANJARANGKAN","[007] TIHINGAN","1. Perkotaan",0.56,"Pertanian Tanaman Pangan",4,0,"Ada","Ada",2
+"374",5105020004,"[51] BALI","[05] KLUNGKUNG","[020] BANJARANGKAN","[004] TUSAN","1. Perkotaan",0.09,"Lainnya",2,2,"Tidak ada","Ada",1
+"375",5105020009,"[51] BALI","[05] KLUNGKUNG","[020] BANJARANGKAN","[009] NYALIAN","1. Perkotaan",0.8,"Pertanian Tanaman Pangan",4,1,"Ada","Ada",2
+"376",5106040009,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[009] BELANCAN","2. Perdesaan",1,"Lainnya",1,6,"Ada","Ada",2
+"377",5106040047,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[047] PINGGAN","2. Perdesaan",0.95,"Lainnya",1,0,"Ada","Ada",2
+"378",5106040032,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[032] BELANTIH","2. Perdesaan",0.89,"Lainnya",0,1,"Ada","Ada",2
+"379",5106040037,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[037] PENGEJARAN","2. Perdesaan",0.86,"Lainnya",1,0,"Tidak ada","Ada",2
+"380",5106040045,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[045] SUBAYA","2. Perdesaan",0.99,"Lainnya",1,1,"Tidak ada","Ada",2
+"381",5106040031,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[031] AWAN","2. Perdesaan",0.9,"Lainnya",1,1,"Ada","Ada",2
+"382",5106040042,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[042] BANTANG","2. Perdesaan",0.97,"Lainnya",2,0,"Tidak ada","Ada",2
+"383",5106040038,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[038] SATRA","2. Perdesaan",0.56,"Lainnya",6,0,"Tidak ada","Ada",1
+"384",5106040041,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[041] DAUP","2. Perdesaan",1,"Lainnya",1,0,"Tidak ada","Ada",2
+"385",5106040011,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[011] BANUA","2. Perdesaan",0.52,"Lainnya",1,0,"Ada","Ada",2
+"386",5106040003,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[003] ULIAN","2. Perdesaan",0.42,"Lainnya",1,1,"Ada","Ada",2
+"387",5106040028,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[028] KINTAMANI","2. Perdesaan",0.85,"Lainnya",7,2,"Ada","Ada",2
+"388",5106040030,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[030] MANIKLIYU","2. Perdesaan",0.99,"Lainnya",1,1,"Ada","Ada",2
+"389",5106040029,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[029] SERAHI","2. Perdesaan",0.89,"Lainnya",1,1,"Ada","Ada",2
+"390",5106040008,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[008] MANGGUH","2. Perdesaan",1,"Lainnya",1,0,"Ada","Ada",2
+"391",5106040022,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[022] TERUNYAN","2. Perdesaan",1,"Lainnya",0,4,"Tidak ada","Ada",2
+"392",5106040027,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[027] BATUR UTARA","1. Perkotaan",0.58,"Lainnya",1,3,"Tidak ada","Ada",2
+"393",5106040034,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[034] BELANGA","2. Perdesaan",0.95,"Lainnya",1,1,"Ada","Ada",2
+"394",5106040018,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[018] BUAHAN","2. Perdesaan",0.8,"Lainnya",1,2,"Ada","Ada",2
+"395",5106040033,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[033] GUNUNGBAU","2. Perdesaan",0.94,"Lainnya",1,0,"Tidak ada","Ada",2
+"396",5106040012,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[012] ABUAN","2. Perdesaan",0.98,"Lainnya",1,1,"Ada","Ada",2
+"397",5106040020,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[020] ABANG BATU DINDING","2. Perdesaan",0.95,"Lainnya",1,3,"Tidak ada","Ada",2
+"398",5106040014,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[014] SEKAAN","2. Perdesaan",0.87,"Lainnya",1,1,"Ada","Ada",2
+"399",5106040048,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[048] BELANDINGAN","2. Perdesaan",0.9,"Lainnya",0,0,"Ada","Ada",2
+"400",5106040002,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[002] BINYAN","2. Perdesaan",1,"Lainnya",1,0,"Tidak ada","Ada",2
+"401",5106040007,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[007] BAYUNGCERIK","2. Perdesaan",1,"Lainnya",1,0,"Ada","Ada",2
+"402",5106040035,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[035] BATUKAANG","2. Perdesaan",0.95,"Lainnya",1,0,"Ada","Ada",2
+"403",5106040040,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[040] DAUSA","2. Perdesaan",0.62,"Lainnya",3,0,"Ada","Ada",2
+"404",5106040001,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[001] MENGANI","2. Perdesaan",1,"Lainnya",1,3,"Ada","Ada",2
+"405",5106040025,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[025] BATUR SELATAN","1. Perkotaan",0.45,"Lainnya",2,3,"Ada","Ada",2
+"406",5106040016,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[016] SEKARDADI","2. Perdesaan",0.95,"Lainnya",1,3,"Ada","Ada",2
+"407",5106040005,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[005] LANGGAHAN","2. Perdesaan",0.97,"Lainnya",1,1,"Ada","Ada",2
+"408",5106040023,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[023] SONGAN B","2. Perdesaan",0.9,"Lainnya",0,0,"Ada","Ada",2
+"409",5106040024,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[024] SONGAN A","2. Perdesaan",1,"Lainnya",0,0,"Ada","Ada",2
+"410",5106040026,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[026] BATUR TENGAH","2. Perdesaan",0.58,"Lainnya",0,0,"Ada","Ada",2
+"411",5106040017,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[017] KEDISAN","1. Perkotaan",0.8,"Lainnya",3,3,"Ada","Ada",2
+"412",5106040036,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[036] CATUR","2. Perdesaan",0.95,"Lainnya",2,1,"Ada","Ada",2
+"413",5106040015,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[015] BAYUNG GEDE","2. Perdesaan",1,"Lainnya",1,2,"Ada","Ada",2
+"414",5106040010,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[010] KATUNG","2. Perdesaan",0.77,"Lainnya",1,4,"Ada","Ada",2
+"415",5106040039,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[039] SELULUNG","2. Perdesaan",0.93,"Lainnya",1,0,"Ada","Ada",2
+"416",5106040013,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[013] BONYOH","2. Perdesaan",0.94,"Lainnya",1,0,"Ada","Ada",2
+"417",5106040046,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[046] SIYAKIN","2. Perdesaan",0.75,"Lainnya",1,0,"Ada","Ada",2
+"418",5106040043,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[043] KUTUH","2. Perdesaan",0.9,"Lainnya",2,0,"Tidak ada","Ada",2
+"419",5106040004,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[004] BUNUTIN","2. Perdesaan",1,"Lainnya",0,2,"Tidak ada","Ada",2
+"420",5106040021,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[021] ABANG SONGAN","2. Perdesaan",0.69,"Lainnya",1,2,"Tidak ada","Ada",2
+"421",5106040019,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[019] SUTER","2. Perdesaan",0.91,"Lainnya",1,0,"Ada","Ada",2
+"422",5106040006,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[006] LEMBEAN","2. Perdesaan",0.93,"Lainnya",1,1,"Ada","Ada",2
+"423",5106040044,"[51] BALI","[06] BANGLI","[040] KINTAMANI","[044] SUKAWANA","2. Perdesaan",0.45,"Lainnya",3,2,"Tidak ada","Ada",1
+"424",5106030007,"[51] BALI","[06] BANGLI","[030] TEMBUKU","[007] PULESARI","1. Perkotaan",0.76,"Lainnya",3,3,"Tidak ada","Ada",2
+"425",5106030006,"[51] BALI","[06] BANGLI","[030] TEMBUKU","[006] PENINJOAN","1. Perkotaan",0.86,"Pertanian Tanaman Pangan",6,4,"Tidak ada","Ada",2
+"426",5106030001,"[51] BALI","[06] BANGLI","[030] TEMBUKU","[001] JEHEM","2. Perdesaan",0.9,"Lainnya",7,4,"Ada","Ada",2
+"427",5106030004,"[51] BALI","[06] BANGLI","[030] TEMBUKU","[004] UNDISAN","1. Perkotaan",0.91,"Pertanian Tanaman Pangan",4,4,"Tidak ada","Ada",2
+"428",5106030003,"[51] BALI","[06] BANGLI","[030] TEMBUKU","[003] YANGAPI","1. Perkotaan",0.95,"Lainnya",4,15,"Ada","Ada",2
+"429",5106030005,"[51] BALI","[06] BANGLI","[030] TEMBUKU","[005] BANGBANG","1. Perkotaan",0.8,"Pertanian Tanaman Pangan",4,4,"Ada","Ada",2
+"430",5106030002,"[51] BALI","[06] BANGLI","[030] TEMBUKU","[002] TEMBUKU","1. Perkotaan",0.85,"Pertanian Tanaman Pangan",8,3,"Ada","Ada",2
+"431",5106010005,"[51] BALI","[06] BANGLI","[010] SUSUT","[005] SULAHAN","1. Perkotaan",0.76,"Lainnya",9,16,"Tidak ada","Ada",1
+"432",5106010001,"[51] BALI","[06] BANGLI","[010] SUSUT","[001] APUAN","2. Perdesaan",0.67,"Pertanian Tanaman Pangan",3,0,"Ada","Ada",2
+"433",5106010006,"[51] BALI","[06] BANGLI","[010] SUSUT","[006] TIGA","2. Perdesaan",0.64,"Lainnya",4,1,"Ada","Ada",2
+"434",5106010002,"[51] BALI","[06] BANGLI","[010] SUSUT","[002] ABUAN","2. Perdesaan",0.98,"Pertanian Tanaman Pangan",3,5,"Ada","Ada",2
+"435",5106010009,"[51] BALI","[06] BANGLI","[010] SUSUT","[009] PENGIANGAN","2. Perdesaan",0.55,"Pertanian Tanaman Pangan",4,1,"Tidak ada","Ada",2
+"436",5106010007,"[51] BALI","[06] BANGLI","[010] SUSUT","[007] PENGLUMBARAN","2. Perdesaan",0.87,"Lainnya",8,2,"Tidak ada","Ada",2
+"437",5106010003,"[51] BALI","[06] BANGLI","[010] SUSUT","[003] DEMULIH","1. Perkotaan",0.41,"Pertanian Tanaman Pangan",3,3,"Ada","Ada",2
+"438",5106010008,"[51] BALI","[06] BANGLI","[010] SUSUT","[008] SELAT","2. Perdesaan",0.87,"Lainnya",0,2,"Ada","Ada",2
+"439",5106010004,"[51] BALI","[06] BANGLI","[010] SUSUT","[004] SUSUT","1. Perkotaan",0.31,"Pertanian Tanaman Pangan",8,3,"Ada","Ada",2
+"440",5106020009,"[51] BALI","[06] BANGLI","[020] BANGLI","[009] LANDIH","2. Perdesaan",0.82,"Lainnya",5,3,"Ada","Ada",2
+"441",5106020004,"[51] BALI","[06] BANGLI","[020] BANGLI","[004] KAWAN","1. Perkotaan",0.3,"Lainnya",10,30,"Ada","Ada",1
+"442",5106020002,"[51] BALI","[06] BANGLI","[020] BANGLI","[002] TAMAN BALI","1. Perkotaan",0.4,"Pertanian Tanaman Pangan",5,1,"Tidak ada","Ada",2
+"443",5106020007,"[51] BALI","[06] BANGLI","[020] BANGLI","[007] KAYUBIHI","2. Perdesaan",0.38,"Lainnya",3,7,"Ada","Ada",1
+"444",5106020006,"[51] BALI","[06] BANGLI","[020] BANGLI","[006] KUBU","1. Perkotaan",0.32,"Lainnya",2,2,"Ada","Ada",1
+"445",5106020001,"[51] BALI","[06] BANGLI","[020] BANGLI","[001] BUNUTIN","1. Perkotaan",0.6,"Pertanian Tanaman Pangan",2,2,"Tidak ada","Ada",2
+"446",5106020005,"[51] BALI","[06] BANGLI","[020] BANGLI","[005] CEMPAGA","1. Perkotaan",0.39,"Lainnya",3,3,"Ada","Ada",1
+"447",5106020008,"[51] BALI","[06] BANGLI","[020] BANGLI","[008] PENGOTAN","2. Perdesaan",0.72,"Lainnya",1,4,"Ada","Ada",2
+"448",5106020003,"[51] BALI","[06] BANGLI","[020] BANGLI","[003] BEBALANG","1. Perkotaan",0.15,"Pertanian Tanaman Pangan",1,0,"Ada","Ada",2
+"449",5107020009,"[51] BALI","[07] KARANGASEM","[020] SIDEMEN","[009] TRI EKA BUANA","2. Perdesaan",0.9,"Lainnya",1,3,"Tidak ada","Ada",2
+"450",5107020003,"[51] BALI","[07] KARANGASEM","[020] SIDEMEN","[003] TELAGATAWANG","1. Perkotaan",0.83,"Pertanian Tanaman Pangan",1,1,"Tidak ada","Ada",2
+"451",5107020004,"[51] BALI","[07] KARANGASEM","[020] SIDEMEN","[004] SIDEMEN","1. Perkotaan",0.53,"Lainnya",1,2,"Ada","Ada",2
+"452",5107020008,"[51] BALI","[07] KARANGASEM","[020] SIDEMEN","[008] KERTHA BUANA","2. Perdesaan",0.6,"Pertanian Tanaman Pangan",1,1,"Tidak ada","Ada",2
+"453",5107020005,"[51] BALI","[07] KARANGASEM","[020] SIDEMEN","[005] SINDU WATI","2. Perdesaan",0.71,"Pertanian Tanaman Pangan",3,2,"Tidak ada","Ada",2
+"454",5107020010,"[51] BALI","[07] KARANGASEM","[020] SIDEMEN","[010] WISMA KERTA","2. Perdesaan",0.9,"Pertanian Tanaman Pangan",2,0,"Tidak ada","Ada",2
+"455",5107020006,"[51] BALI","[07] KARANGASEM","[020] SIDEMEN","[006] SANGKAN GUNUNG","2. Perdesaan",0.8,"Pertanian Tanaman Pangan",4,0,"Ada","Ada",2
+"456",5107020002,"[51] BALI","[07] KARANGASEM","[020] SIDEMEN","[002] TALIBENG","2. Perdesaan",0.29,"Pertanian Tanaman Pangan",2,2,"Ada","Ada",2
+"457",5107020001,"[51] BALI","[07] KARANGASEM","[020] SIDEMEN","[001] TANGKUP","1. Perkotaan",0.3,"Pertanian Tanaman Pangan",2,1,"Ada","Ada",2
+"458",5107020007,"[51] BALI","[07] KARANGASEM","[020] SIDEMEN","[007] LOKA SARI","2. Perdesaan",0.63,"Pertanian Tanaman Pangan",1,0,"Tidak ada","Ada",2
+"459",5107050013,"[51] BALI","[07] KARANGASEM","[050] ABANG","[013] BUNUTAN","2. Perdesaan",0.7,"Lainnya",2,3,"Tidak ada","Ada",2
+"460",5107050006,"[51] BALI","[07] KARANGASEM","[050] ABANG","[006] KESIMPAR","1. Perkotaan",0.64,"Lainnya",0,0,"Tidak ada","Ada",2
+"461",5107050002,"[51] BALI","[07] KARANGASEM","[050] ABANG","[002] TIYINGTALI","2. Perdesaan",0.36,"Pertanian Tanaman Pangan",4,0,"Ada","Ada",2
+"462",5107050011,"[51] BALI","[07] KARANGASEM","[050] ABANG","[011] LABA SARI","2. Perdesaan",0.28,"Lainnya",2,1,"Ada","Ada",1
+"463",5107050007,"[51] BALI","[07] KARANGASEM","[050] ABANG","[007] TISTA","1. Perkotaan",0.59,"Pertanian Tanaman Pangan",3,1,"Tidak ada","Ada",2
+"464",5107050003,"[51] BALI","[07] KARANGASEM","[050] ABANG","[003] ABANG","1. Perkotaan",0.4,"Pertanian Tanaman Pangan",2,4,"Ada","Ada",2
+"465",5107050014,"[51] BALI","[07] KARANGASEM","[050] ABANG","[014] TRI BUANA","2. Perdesaan",0.85,"Lainnya",3,1,"Tidak ada","Ada",2
+"466",5107050010,"[51] BALI","[07] KARANGASEM","[050] ABANG","[010] DATAH","2. Perdesaan",0.39,"Lainnya",1,1,"Tidak ada","Ada",1
+"467",5107050004,"[51] BALI","[07] KARANGASEM","[050] ABANG","[004] PIDPID","1. Perkotaan",0.53,"Lainnya",0,0,"Tidak ada","Ada",2
+"468",5107050001,"[51] BALI","[07] KARANGASEM","[050] ABANG","[001] ABABI","2. Perdesaan",0.38,"Pertanian Tanaman Pangan",1,0,"Ada","Ada",2
+"469",5107050005,"[51] BALI","[07] KARANGASEM","[050] ABANG","[005] NAWAKERTI","2. Perdesaan",0.49,"Lainnya",0,0,"Tidak ada","Ada",2
+"470",5107050009,"[51] BALI","[07] KARANGASEM","[050] ABANG","[009] CULIK","1. Perkotaan",0.2,"Lainnya",4,2,"Tidak ada","Ada",1
+"471",5107050012,"[51] BALI","[07] KARANGASEM","[050] ABANG","[012] PURWAKERTI","2. Perdesaan",0.63,"Lainnya",1,3,"Tidak ada","Ada",2
+"472",5107050008,"[51] BALI","[07] KARANGASEM","[050] ABANG","[008] KERTA MANDALA","1. Perkotaan",0.58,"Pertanian Tanaman Pangan",1,0,"Tidak ada","Ada",2
+"473",5107060003,"[51] BALI","[07] KARANGASEM","[060] BEBANDEM","[003] BUNGAYA","1. Perkotaan",0.6,"Pertanian Tanaman Pangan",0,2,"Tidak ada","Ada",2
+"474",5107060006,"[51] BALI","[07] KARANGASEM","[060] BEBANDEM","[006] BHUANA GIRI","2. Perdesaan",0.85,"Lainnya",5,1,"Tidak ada","Ada",2
+"475",5107060008,"[51] BALI","[07] KARANGASEM","[060] BEBANDEM","[008] MACANG","2. Perdesaan",0.79,"Pertanian Tanaman Pangan",1,0,"Tidak ada","Ada",2
+"476",5107060005,"[51] BALI","[07] KARANGASEM","[060] BEBANDEM","[005] BUDAKELING","1. Perkotaan",0.59,"Lainnya",2,2,"Ada","Ada",2
+"477",5107060007,"[51] BALI","[07] KARANGASEM","[060] BEBANDEM","[007] JUNGUTAN","2. Perdesaan",0.85,"Pertanian Tanaman Pangan",0,4,"Ada","Ada",2
+"478",5107060002,"[51] BALI","[07] KARANGASEM","[060] BEBANDEM","[002] BEBANDEM","1. Perkotaan",0.65,"Pertanian Tanaman Pangan",8,3,"Ada","Ada",2
+"479",5107060001,"[51] BALI","[07] KARANGASEM","[060] BEBANDEM","[001] SIBETAN","1. Perkotaan",0.83,"Pertanian Tanaman Pangan",1,2,"Tidak ada","Ada",2
+"480",5107060004,"[51] BALI","[07] KARANGASEM","[060] BEBANDEM","[004] BUNGAYA KANGIN","1. Perkotaan",0.2,"Lainnya",0,0,"Ada","Ada",1
+"481",5107070005,"[51] BALI","[07] KARANGASEM","[070] SELAT","[005] DUDA TIMUR","1. Perkotaan",0.32,"Lainnya",2,4,"Tidak ada","Ada",1
+"482",5107070002,"[51] BALI","[07] KARANGASEM","[070] SELAT","[002] PERING SARI","1. Perkotaan",0.8,"Pertanian Tanaman Pangan",3,4,"Ada","Ada",2
+"483",5107070004,"[51] BALI","[07] KARANGASEM","[070] SELAT","[004] DUDA","1. Perkotaan",0.49,"Pertanian Tanaman Pangan",3,4,"Ada","Ada",2
+"484",5107070006,"[51] BALI","[07] KARANGASEM","[070] SELAT","[006] DUDA UTARA","2. Perdesaan",0.49,"Lainnya",3,1,"Tidak ada","Ada",1
+"485",5107070003,"[51] BALI","[07] KARANGASEM","[070] SELAT","[003] SELAT","1. Perkotaan",0.35,"Pertanian Tanaman Pangan",3,1,"Ada","Ada",2
+"486",5107070007,"[51] BALI","[07] KARANGASEM","[070] SELAT","[007] SEBUDI","2. Perdesaan",0.64,"Lainnya",7,1,"Tidak ada","Ada",1
+"487",5107070008,"[51] BALI","[07] KARANGASEM","[070] SELAT","[008] AMERTA BHUANA","2. Perdesaan",0.67,"Lainnya",3,1,"Tidak ada","Ada",2
+"488",5107070001,"[51] BALI","[07] KARANGASEM","[070] SELAT","[001] MUNCAN","1. Perkotaan",0.36,"Pertanian Tanaman Pangan",1,4,"Ada","Ada",2
+"489",5107040006,"[51] BALI","[07] KARANGASEM","[040] KARANGASEM","[006] TUMBU","1. Perkotaan",0.75,"Pertanian Tanaman Pangan",1,1,"Ada","Ada",2
+"490",5107040011,"[51] BALI","[07] KARANGASEM","[040] KARANGASEM","[011] SERAYA TIMUR","2. Perdesaan",0.75,"Pertanian Tanaman Pangan",0,2,"Tidak ada","Ada",2
+"491",5107040010,"[51] BALI","[07] KARANGASEM","[040] KARANGASEM","[010] SERAYA","1. Perkotaan",0.52,"Pertanian Tanaman Pangan",2,7,"Tidak ada","Ada",2
+"492",5107040002,"[51] BALI","[07] KARANGASEM","[040] KARANGASEM","[002] PERTIMA","2. Perdesaan",0.29,"Pertanian Tanaman Pangan",3,4,"Ada","Ada",2
+"493",5107040007,"[51] BALI","[07] KARANGASEM","[040] KARANGASEM","[007] TEGALLINGGAH","1. Perkotaan",0.28,"Pertanian Tanaman Pangan",0,0,"Tidak ada","Ada",2
+"494",5107040009,"[51] BALI","[07] KARANGASEM","[040] KARANGASEM","[009] SERAYA BARAT","2. Perdesaan",0.9,"Lainnya",0,0,"Tidak ada","Ada",2
+"495",5107040004,"[51] BALI","[07] KARANGASEM","[040] KARANGASEM","[004] PADANG KERTA","1. Perkotaan",0.44,"Pertanian Tanaman Pangan",3,7,"Ada","Ada",2
+"496",5107040003,"[51] BALI","[07] KARANGASEM","[040] KARANGASEM","[003] SUBAGAN","1. Perkotaan",0.16,"Pertanian Tanaman Pangan",10,6,"Ada","Ada",1
+"497",5107040001,"[51] BALI","[07] KARANGASEM","[040] KARANGASEM","[001] BUGBUG","1. Perkotaan",0.46,"Lainnya",2,11,"Ada","Ada",1
+"498",5107040008,"[51] BALI","[07] KARANGASEM","[040] KARANGASEM","[008] BUKIT","2. Perdesaan",0.85,"Lainnya",3,0,"Tidak ada","Ada",2
+"499",5107040005,"[51] BALI","[07] KARANGASEM","[040] KARANGASEM","[005] KARANGASEM","1. Perkotaan",0.13,"Lainnya",7,5,"Tidak ada","Ada",1
+"500",5107030005,"[51] BALI","[07] KARANGASEM","[030] MANGGIS","[005] MANGGIS","2. Perdesaan",0.67,"Pertanian Tanaman Pangan",5,1,"Ada","Ada",2
+"501",5107030009,"[51] BALI","[07] KARANGASEM","[030] MANGGIS","[009] TENGANAN","2. Perdesaan",0.49,"Lainnya",1,0,"Tidak ada","Ada",2
+"502",5107030010,"[51] BALI","[07] KARANGASEM","[030] MANGGIS","[010] ANTIGA KELOD","1. Perkotaan",0.34,"Lainnya",1,2,"Ada","Ada",2
+"503",5107030008,"[51] BALI","[07] KARANGASEM","[030] MANGGIS","[008] NYUH TEBEL","1. Perkotaan",0.6,"Lainnya",2,3,"Tidak ada","Ada",2
+"504",5107030011,"[51] BALI","[07] KARANGASEM","[030] MANGGIS","[011] SENGKIDU","1. Perkotaan",0.15,"Lainnya",1,0,"Tidak ada","Ada",1
+"505",5107030003,"[51] BALI","[07] KARANGASEM","[030] MANGGIS","[003] PADANGBAI","1. Perkotaan",0.05,"Lainnya",3,1,"Tidak ada","Ada",1
+"506",5107030004,"[51] BALI","[07] KARANGASEM","[030] MANGGIS","[004] ULAKAN","1. Perkotaan",0.79,"Pertanian Tanaman Pangan",3,2,"Tidak ada","Ada",2
+"507",5107030012,"[51] BALI","[07] KARANGASEM","[030] MANGGIS","[012] PESEDAHAN","1. Perkotaan",0.33,"Lainnya",1,1,"Tidak ada","Ada",1
+"508",5107030006,"[51] BALI","[07] KARANGASEM","[030] MANGGIS","[006] SELUMBUNG","2. Perdesaan",0.61,"Lainnya",1,1,"Tidak ada","Ada",2
+"509",5107030007,"[51] BALI","[07] KARANGASEM","[030] MANGGIS","[007] NGIS","2. Perdesaan",0.38,"Lainnya",3,1,"Tidak ada","Ada",1
+"510",5107030001,"[51] BALI","[07] KARANGASEM","[030] MANGGIS","[001] ANTIGA","1. Perkotaan",0.23,"Lainnya",1,1,"Tidak ada","Ada",1
+"511",5107030002,"[51] BALI","[07] KARANGASEM","[030] MANGGIS","[002] GEGELANG","2. Perdesaan",0.6,"Lainnya",1,1,"Tidak ada","Ada",2
+"512",5107010004,"[51] BALI","[07] KARANGASEM","[010] RENDANG","[004] MENANGA","1. Perkotaan",0.53,"Pertanian Tanaman Pangan",10,3,"Ada","Ada",2
+"513",5107010002,"[51] BALI","[07] KARANGASEM","[010] RENDANG","[002] NONGAN","2. Perdesaan",0.54,"Pertanian Tanaman Pangan",2,6,"Ada","Tidak ada",2
+"514",5107010005,"[51] BALI","[07] KARANGASEM","[010] RENDANG","[005] BESAKIH","2. Perdesaan",0.6,"Lainnya",4,7,"Ada","Ada",2
+"515",5107010006,"[51] BALI","[07] KARANGASEM","[010] RENDANG","[006] PEMPATAN","2. Perdesaan",0.9,"Lainnya",9,6,"Ada","Ada",2
+"516",5107010003,"[51] BALI","[07] KARANGASEM","[010] RENDANG","[003] RENDANG","1. Perkotaan",0.51,"Pertanian Tanaman Pangan",1,5,"Ada","Ada",2
+"517",5107010001,"[51] BALI","[07] KARANGASEM","[010] RENDANG","[001] PESABAN","2. Perdesaan",0.4,"Pertanian Tanaman Pangan",1,2,"Tidak ada","Ada",2
+"518",5107080002,"[51] BALI","[07] KARANGASEM","[080] KUBU","[002] DUKUH","2. Perdesaan",0.74,"Lainnya",1,0,"Tidak ada","Ada",2
+"519",5107080004,"[51] BALI","[07] KARANGASEM","[080] KUBU","[004] KUBU","2. Perdesaan",0.49,"Lainnya",2,1,"Tidak ada","Ada",2
+"520",5107080003,"[51] BALI","[07] KARANGASEM","[080] KUBU","[003] TULAMBEN","2. Perdesaan",0.87,"Lainnya",4,0,"Tidak ada","Ada",2
+"521",5107080009,"[51] BALI","[07] KARANGASEM","[080] KUBU","[009] TIANYAR BARAT","1. Perkotaan",0.43,"Pertanian Tanaman Pangan",2,1,"Ada","Ada",2
+"522",5107080005,"[51] BALI","[07] KARANGASEM","[080] KUBU","[005] BATURINGGIT","2. Perdesaan",0.77,"Pertanian Tanaman Pangan",1,1,"Tidak ada","Ada",2
+"523",5107080001,"[51] BALI","[07] KARANGASEM","[080] KUBU","[001] BAN","2. Perdesaan",0.87,"Lainnya",3,1,"Tidak ada","Ada",2
+"524",5107080008,"[51] BALI","[07] KARANGASEM","[080] KUBU","[008] TIANYAR TENGAH","1. Perkotaan",0.36,"Pertanian Tanaman Pangan",3,2,"Ada","Ada",2
+"525",5107080006,"[51] BALI","[07] KARANGASEM","[080] KUBU","[006] SUKADANA","2. Perdesaan",0.88,"Lainnya",4,1,"Tidak ada","Ada",2
+"526",5107080007,"[51] BALI","[07] KARANGASEM","[080] KUBU","[007] TIANYAR","1. Perkotaan",0.71,"Pertanian Tanaman Pangan",2,2,"Ada","Ada",2
+"527",5108070003,"[51] BALI","[08] BULELENG","[070] SAWAN","[003] SEKUMPUL","2. Perdesaan",0.58,"Lainnya",2,0,"Tidak ada","Ada",2
+"528",5108070001,"[51] BALI","[08] BULELENG","[070] SAWAN","[001] LEMUKIH","2. Perdesaan",0.71,"Lainnya",1,0,"Tidak ada","Ada",2
+"529",5108070010,"[51] BALI","[08] BULELENG","[070] SAWAN","[010] SINABUN","1. Perkotaan",0.14,"Lainnya",1,2,"Tidak ada","Ada",1
+"530",5108070012,"[51] BALI","[08] BULELENG","[070] SAWAN","[012] SANGSIT","1. Perkotaan",0.02,"Lainnya",4,2,"Tidak ada","Ada",1
+"531",5108070008,"[51] BALI","[08] BULELENG","[070] SAWAN","[008] SUWUG","1. Perkotaan",0.28,"Pertanian Tanaman Pangan",1,1,"Tidak ada","Ada",2
+"532",5108070004,"[51] BALI","[08] BULELENG","[070] SAWAN","[004] BEBETIN","1. Perkotaan",0.29,"Lainnya",2,3,"Ada","Ada",1
+"533",5108070009,"[51] BALI","[08] BULELENG","[070] SAWAN","[009] JAGARAGA","1. Perkotaan",0.25,"Pertanian Tanaman Pangan",1,3,"Tidak ada","Ada",2
+"534",5108070013,"[51] BALI","[08] BULELENG","[070] SAWAN","[013] BUNGKULAN","1. Perkotaan",0.12,"Pertanian Tanaman Pangan",2,3,"Tidak ada","Tidak ada",1
+"535",5108070006,"[51] BALI","[08] BULELENG","[070] SAWAN","[006] SAWAN","1. Perkotaan",0.38,"Pertanian Tanaman Pangan",1,7,"Tidak ada","Ada",2
+"536",5108070005,"[51] BALI","[08] BULELENG","[070] SAWAN","[005] SUDAJI","1. Perkotaan",0.19,"Lainnya",1,2,"Ada","Ada",1
+"537",5108070007,"[51] BALI","[08] BULELENG","[070] SAWAN","[007] MENYALI","1. Perkotaan",0.25,"Lainnya",1,3,"Tidak ada","Ada",1
+"538",5108070002,"[51] BALI","[08] BULELENG","[070] SAWAN","[002] GALUNGAN","2. Perdesaan",0.65,"Lainnya",1,0,"Ada","Ada",2
+"539",5108070011,"[51] BALI","[08] BULELENG","[070] SAWAN","[011] KEROBOKAN","1. Perkotaan",0.06,"Lainnya",4,1,"Tidak ada","Ada",1
+"540",5108070014,"[51] BALI","[08] BULELENG","[070] SAWAN","[014] GIRI EMAS","1. Perkotaan",0.09,"Pertanian Tanaman Pangan",1,3,"Tidak ada","Ada",2
+"541",5108030013,"[51] BALI","[08] BULELENG","[030] BUSUNGBIU","[013] KEDIS","2. Perdesaan",0.46,"Lainnya",1,0,"Ada","Ada",2
+"542",5108030015,"[51] BALI","[08] BULELENG","[030] BUSUNGBIU","[015] UMEJERO","2. Perdesaan",0.71,"Lainnya",1,0,"Ada","Ada",2
+"543",5108030014,"[51] BALI","[08] BULELENG","[030] BUSUNGBIU","[014] BENGKEL","2. Perdesaan",0.96,"Lainnya",1,2,"Ada","Ada",2
+"544",5108030003,"[51] BALI","[08] BULELENG","[030] BUSUNGBIU","[003] BONGANCINA","2. Perdesaan",0.76,"Lainnya",1,1,"Ada","Ada",2
+"545",5108030009,"[51] BALI","[08] BULELENG","[030] BUSUNGBIU","[009] BUSUNGBIU","1. Perkotaan",0.23,"Lainnya",3,3,"Ada","Ada",1
+"546",5108030001,"[51] BALI","[08] BULELENG","[030] BUSUNGBIU","[001] SEPANG KELOD","2. Perdesaan",0.83,"Lainnya",0,1,"Ada","Ada",2
+"547",5108030005,"[51] BALI","[08] BULELENG","[030] BUSUNGBIU","[005] SEPANG","2. Perdesaan",0.65,"Lainnya",1,0,"Ada","Ada",2
+"548",5108030004,"[51] BALI","[08] BULELENG","[030] BUSUNGBIU","[004] PUCAKSARI","2. Perdesaan",0.84,"Lainnya",1,0,"Ada","Ada",2
+"549",5108030002,"[51] BALI","[08] BULELENG","[030] BUSUNGBIU","[002] DAPDAP PUTIH","2. Perdesaan",0.53,"Lainnya",1,2,"Ada","Ada",2
+"550",5108030006,"[51] BALI","[08] BULELENG","[030] BUSUNGBIU","[006] TELAGA","2. Perdesaan",0.67,"Lainnya",1,0,"Ada","Ada",2
+"551",5108030011,"[51] BALI","[08] BULELENG","[030] BUSUNGBIU","[011] SUBUK","2. Perdesaan",0.3,"Lainnya",1,0,"Ada","Ada",2
+"552",5108030007,"[51] BALI","[08] BULELENG","[030] BUSUNGBIU","[007] TITAB","2. Perdesaan",0.59,"Lainnya",1,0,"Tidak ada","Ada",2
+"553",5108030008,"[51] BALI","[08] BULELENG","[030] BUSUNGBIU","[008] KEKERAN","2. Perdesaan",0.65,"Lainnya",1,0,"Ada","Ada",2
+"554",5108030012,"[51] BALI","[08] BULELENG","[030] BUSUNGBIU","[012] TINGGARSARI","2. Perdesaan",0.89,"Lainnya",1,0,"Tidak ada","Ada",2
+"555",5108030010,"[51] BALI","[08] BULELENG","[030] BUSUNGBIU","[010] PELAPUAN","1. Perkotaan",0.43,"Lainnya",0,0,"Ada","Ada",2
+"556",5108080007,"[51] BALI","[08] BULELENG","[080] KUBUTAMBAHAN","[007] BULIAN","2. Perdesaan",0.58,"Lainnya",1,0,"Ada","Ada",2
+"557",5108080009,"[51] BALI","[08] BULELENG","[080] KUBUTAMBAHAN","[009] BILA","2. Perdesaan",0.25,"Pertanian Tanaman Pangan",1,0,"Tidak ada","Ada",2
+"558",5108080011,"[51] BALI","[08] BULELENG","[080] KUBUTAMBAHAN","[011] KUBUTAMBAHAN","1. Perkotaan",0.11,"Lainnya",8,4,"Ada","Ada",1
+"559",5108080012,"[51] BALI","[08] BULELENG","[080] KUBUTAMBAHAN","[012] BUKTI","2. Perdesaan",0.51,"Lainnya",2,0,"Tidak ada","Ada",2
+"560",5108080001,"[51] BALI","[08] BULELENG","[080] KUBUTAMBAHAN","[001] TAMBAKAN","2. Perdesaan",0.96,"Lainnya",1,0,"Ada","Ada",2
+"561",5108080003,"[51] BALI","[08] BULELENG","[080] KUBUTAMBAHAN","[003] BONTIHING","1. Perkotaan",0.16,"Lainnya",0,1,"Ada","Ada",1
+"562",5108080006,"[51] BALI","[08] BULELENG","[080] KUBUTAMBAHAN","[006] DEPEHA","2. Perdesaan",0.99,"Lainnya",1,0,"Ada","Ada",2
+"563",5108080010,"[51] BALI","[08] BULELENG","[080] KUBUTAMBAHAN","[010] BENGKALA","2. Perdesaan",0.4,"Lainnya",0,0,"Tidak ada","Ada",2
+"564",5108080005,"[51] BALI","[08] BULELENG","[080] KUBUTAMBAHAN","[005] TUNJUNG","2. Perdesaan",0.99,"Lainnya",0,0,"Ada","Ada",2
+"565",5108080008,"[51] BALI","[08] BULELENG","[080] KUBUTAMBAHAN","[008] TAMBLANG","1. Perkotaan",0.3,"Lainnya",2,2,"Ada","Ada",1
+"566",5108080002,"[51] BALI","[08] BULELENG","[080] KUBUTAMBAHAN","[002] PAKISAN","2. Perdesaan",0.79,"Lainnya",2,2,"Ada","Ada",2
+"567",5108080004,"[51] BALI","[08] BULELENG","[080] KUBUTAMBAHAN","[004] TAJUN","2. Perdesaan",0.73,"Lainnya",2,1,"Ada","Ada",2
+"568",5108080013,"[51] BALI","[08] BULELENG","[080] KUBUTAMBAHAN","[013] MENGENING","2. Perdesaan",0.96,"Lainnya",1,0,"Ada","Ada",2
+"569",5108040009,"[51] BALI","[08] BULELENG","[040] BANJAR","[009] TIGAWASA","1. Perkotaan",0.64,"Lainnya",1,0,"Tidak ada","Ada",2
+"570",5108040007,"[51] BALI","[08] BULELENG","[040] BANJAR","[007] BANYUSRI","2. Perdesaan",0.79,"Lainnya",0,1,"Ada","Ada",2
+"571",5108040012,"[51] BALI","[08] BULELENG","[040] BANJAR","[012] TAMPEKAN","1. Perkotaan",0.28,"Lainnya",1,0,"Tidak ada","Ada",1
+"572",5108040014,"[51] BALI","[08] BULELENG","[040] BANJAR","[014] BANJAR","1. Perkotaan",0.21,"Lainnya",0,2,"Ada","Ada",1
+"573",5108040011,"[51] BALI","[08] BULELENG","[040] BANJAR","[011] SIDETAPA","1. Perkotaan",0.91,"Lainnya",1,0,"Ada","Ada",2
+"574",5108040008,"[51] BALI","[08] BULELENG","[040] BANJAR","[008] PEDAWA","1. Perkotaan",0.77,"Lainnya",1,0,"Tidak ada","Ada",2
+"575",5108040005,"[51] BALI","[08] BULELENG","[040] BANJAR","[005] KAYUPUTIH","1. Perkotaan",0.6,"Lainnya",1,4,"Ada","Ada",2
+"576",5108040017,"[51] BALI","[08] BULELENG","[040] BANJAR","[017] KALIASEM","1. Perkotaan",0.05,"Lainnya",2,2,"Ada","Ada",1
+"577",5108040013,"[51] BALI","[08] BULELENG","[040] BANJAR","[013] BANJAR TEGEHA","1. Perkotaan",0.16,"Lainnya",1,2,"Tidak ada","Ada",1
+"578",5108040004,"[51] BALI","[08] BULELENG","[040] BANJAR","[004] GOBLEG","2. Perdesaan",0.61,"Lainnya",0,1,"Ada","Ada",2
+"579",5108040003,"[51] BALI","[08] BULELENG","[040] BANJAR","[003] MUNDUK","2. Perdesaan",0.42,"Lainnya",1,0,"Ada","Ada",2
+"580",5108040016,"[51] BALI","[08] BULELENG","[040] BANJAR","[016] TEMUKUS","1. Perkotaan",0.17,"Pertanian Tanaman Pangan",0,2,"Ada","Ada",2
+"581",5108040002,"[51] BALI","[08] BULELENG","[040] BANJAR","[002] GESING","2. Perdesaan",0.66,"Lainnya",1,0,"Ada","Ada",2
+"582",5108040010,"[51] BALI","[08] BULELENG","[040] BANJAR","[010] CEMPAGA","2. Perdesaan",0.74,"Lainnya",1,1,"Ada","Ada",2
+"583",5108040001,"[51] BALI","[08] BULELENG","[040] BANJAR","[001] BANYUATIS","1. Perkotaan",0.62,"Pertanian Tanaman Pangan",3,1,"Ada","Ada",2
+"584",5108040006,"[51] BALI","[08] BULELENG","[040] BANJAR","[006] TIRTASARI","2. Perdesaan",0.66,"Lainnya",0,0,"Tidak ada","Ada",2
+"585",5108040015,"[51] BALI","[08] BULELENG","[040] BANJAR","[015] DENCARIK","1. Perkotaan",0.09,"Lainnya",1,1,"Ada","Ada",1
+"586",5108050002,"[51] BALI","[08] BULELENG","[050] SUKASADA","[002] WANAGIRI","2. Perdesaan",0.73,"Lainnya",1,3,"Ada","Ada",2
+"587",5108050004,"[51] BALI","[08] BULELENG","[050] SUKASADA","[004] GITGIT","2. Perdesaan",0.63,"Lainnya",2,0,"Tidak ada","Ada",2
+"588",5108050005,"[51] BALI","[08] BULELENG","[050] SUKASADA","[005] PEGAYAMAN","2. Perdesaan",0.5,"Lainnya",0,0,"Ada","Ada",2
+"589",5108050008,"[51] BALI","[08] BULELENG","[050] SUKASADA","[008] PADANGBULIA","2. Perdesaan",0.78,"Lainnya",1,1,"Ada","Ada",2
+"590",5108050013,"[51] BALI","[08] BULELENG","[050] SUKASADA","[013] TEGAL LINGGAH","1. Perkotaan",0.33,"Lainnya",1,0,"Tidak ada","Ada",1
+"591",5108050009,"[51] BALI","[08] BULELENG","[050] SUKASADA","[009] SUKASADA","1. Perkotaan",0.25,"Lainnya",3,3,"Tidak ada","Ada",1
+"592",5108050007,"[51] BALI","[08] BULELENG","[050] SUKASADA","[007] PEGADUNGAN","2. Perdesaan",0.72,"Pertanian Tanaman Pangan",3,2,"Tidak ada","Ada",2
+"593",5108050001,"[51] BALI","[08] BULELENG","[050] SUKASADA","[001] PANCASARI","1. Perkotaan",0.73,"Lainnya",4,3,"Tidak ada","Ada",2
+"594",5108050015,"[51] BALI","[08] BULELENG","[050] SUKASADA","[015] KAYUPUTIH","2. Perdesaan",0.41,"Lainnya",1,0,"Ada","Ada",2
+"595",5108050014,"[51] BALI","[08] BULELENG","[050] SUKASADA","[014] SELAT","1. Perkotaan",0.56,"Lainnya",1,0,"Ada","Ada",2
+"596",5108050003,"[51] BALI","[08] BULELENG","[050] SUKASADA","[003] AMBENGAN","2. Perdesaan",0.52,"Lainnya",1,5,"Tidak ada","Ada",1
+"597",5108050006,"[51] BALI","[08] BULELENG","[050] SUKASADA","[006] SILANGJANA","2. Perdesaan",0.7,"Pertanian Tanaman Pangan",1,0,"Ada","Ada",2
+"598",5108050011,"[51] BALI","[08] BULELENG","[050] SUKASADA","[011] PANJI","1. Perkotaan",0.29,"Lainnya",1,4,"Tidak ada","Ada",1
+"599",5108050010,"[51] BALI","[08] BULELENG","[050] SUKASADA","[010] SAMBANGAN","1. Perkotaan",0.13,"Lainnya",1,0,"Ada","Ada",1
+"600",5108050012,"[51] BALI","[08] BULELENG","[050] SUKASADA","[012] PANJI ANOM","1. Perkotaan",0.27,"Lainnya",1,1,"Tidak ada","Ada",1
+"601",5108020021,"[51] BALI","[08] BULELENG","[020] SERIRIT","[021] PANGKUNGPARUK","2. Perdesaan",0.78,"Pertanian Tanaman Pangan",1,1,"Tidak ada","Ada",2
+"602",5108020011,"[51] BALI","[08] BULELENG","[020] SERIRIT","[011] TANGGUWISIA","1. Perkotaan",0.16,"Pertanian Tanaman Pangan",1,0,"Ada","Ada",2
+"603",5108020005,"[51] BALI","[08] BULELENG","[020] SERIRIT","[005] MAYONG","2. Perdesaan",0.47,"Pertanian Tanaman Pangan",1,2,"Ada","Ada",2
+"604",5108020008,"[51] BALI","[08] BULELENG","[020] SERIRIT","[008] RINGDIKIT","1. Perkotaan",0.32,"Pertanian Tanaman Pangan",1,0,"Ada","Ada",2
+"605",5108020016,"[51] BALI","[08] BULELENG","[020] SERIRIT","[016] PATEMON","1. Perkotaan",0.31,"Pertanian Tanaman Pangan",1,1,"Tidak ada","Ada",2
+"606",5108020019,"[51] BALI","[08] BULELENG","[020] SERIRIT","[019] BANJAR ASEM","1. Perkotaan",0.36,"Pertanian Tanaman Pangan",3,0,"Ada","Ada",2
+"607",5108020009,"[51] BALI","[08] BULELENG","[020] SERIRIT","[009] JOANYAR","1. Perkotaan",0.44,"Pertanian Tanaman Pangan",1,1,"Ada","Ada",2
+"608",5108020001,"[51] BALI","[08] BULELENG","[020] SERIRIT","[001] UNGGAHAN","2. Perdesaan",0.89,"Lainnya",1,2,"Tidak ada","Ada",2
+"609",5108020006,"[51] BALI","[08] BULELENG","[020] SERIRIT","[006] RANGDU","1. Perkotaan",0.23,"Pertanian Tanaman Pangan",1,0,"Tidak ada","Ada",2
+"610",5108020013,"[51] BALI","[08] BULELENG","[020] SERIRIT","[013] BUBUNAN","1. Perkotaan",0.06,"Lainnya",1,1,"Tidak ada","Ada",1
+"611",5108020007,"[51] BALI","[08] BULELENG","[020] SERIRIT","[007] ULARAN","2. Perdesaan",0.57,"Lainnya",1,0,"Tidak ada","Ada",2
+"612",5108020012,"[51] BALI","[08] BULELENG","[020] SERIRIT","[012] SULANYAH","1. Perkotaan",0.08,"Lainnya",3,1,"Tidak ada","Ada",1
+"613",5108020018,"[51] BALI","[08] BULELENG","[020] SERIRIT","[018] UMEANYAR","1. Perkotaan",0.13,"Lainnya",1,3,"Tidak ada","Ada",1
+"614",5108020004,"[51] BALI","[08] BULELENG","[020] SERIRIT","[004] BESTALA","1. Perkotaan",0.98,"Lainnya",1,0,"Tidak ada","Ada",2
+"615",5108020020,"[51] BALI","[08] BULELENG","[020] SERIRIT","[020] KALISADA","1. Perkotaan",0.4,"Pertanian Tanaman Pangan",2,0,"Tidak ada","Ada",2
+"616",5108020015,"[51] BALI","[08] BULELENG","[020] SERIRIT","[015] PENGASTULAN","1. Perkotaan",0.27,"Lainnya",0,0,"Tidak ada","Ada",1
+"617",5108020003,"[51] BALI","[08] BULELENG","[020] SERIRIT","[003] MUNDUK BESTALA","2. Perdesaan",0.92,"Lainnya",1,0,"Tidak ada","Ada",2
+"618",5108020017,"[51] BALI","[08] BULELENG","[020] SERIRIT","[017] LOKAPAKSA","1. Perkotaan",0.36,"Pertanian Tanaman Pangan",1,0,"Ada","Ada",2
+"619",5108020014,"[51] BALI","[08] BULELENG","[020] SERIRIT","[014] SERIRIT","1. Perkotaan",0.03,"Lainnya",10,1,"Ada","Ada",1
+"620",5108020002,"[51] BALI","[08] BULELENG","[020] SERIRIT","[002] GUNUNGSARI","2. Perdesaan",0.67,"Lainnya",1,0,"Tidak ada","Ada",2
+"621",5108020010,"[51] BALI","[08] BULELENG","[020] SERIRIT","[010] KALIANGET","1. Perkotaan",0.18,"Lainnya",2,1,"Ada","Ada",1
+"622",5108090004,"[51] BALI","[08] BULELENG","[090] TEJAKULA","[004] BONDALEM","1. Perkotaan",0.35,"Lainnya",1,4,"Ada","Ada",1
+"623",5108090001,"[51] BALI","[08] BULELENG","[090] TEJAKULA","[001] SEMBIRAN","1. Perkotaan",0.53,"Lainnya",1,1,"Ada","Ada",2
+"624",5108090005,"[51] BALI","[08] BULELENG","[090] TEJAKULA","[005] MADENAN","2. Perdesaan",0.74,"Lainnya",4,1,"Ada","Ada",2
+"625",5108090006,"[51] BALI","[08] BULELENG","[090] TEJAKULA","[006] TEJAKULA","1. Perkotaan",0.49,"Lainnya",5,3,"Ada","Ada",2
+"626",5108090009,"[51] BALI","[08] BULELENG","[090] TEJAKULA","[009] SAMBIRENTENG","2. Perdesaan",0.95,"Pertanian Tanaman Pangan",1,1,"Ada","Ada",2
+"627",5108090008,"[51] BALI","[08] BULELENG","[090] TEJAKULA","[008] PENUKTUKAN","1. Perkotaan",0.94,"Pertanian Tanaman Pangan",3,2,"Ada","Ada",2
+"628",5108090010,"[51] BALI","[08] BULELENG","[090] TEJAKULA","[010] TEMBOK","2. Perdesaan",0.28,"Pertanian Tanaman Pangan",1,3,"Ada","Ada",2
+"629",5108090007,"[51] BALI","[08] BULELENG","[090] TEJAKULA","[007] LES","1. Perkotaan",0.45,"Pertanian Tanaman Pangan",1,3,"Ada","Ada",2
+"630",5108090002,"[51] BALI","[08] BULELENG","[090] TEJAKULA","[002] PACUNG","1. Perkotaan",0.33,"Lainnya",1,2,"Ada","Ada",2
+"631",5108090003,"[51] BALI","[08] BULELENG","[090] TEJAKULA","[003] JULAH","1. Perkotaan",0.95,"Lainnya",1,0,"Tidak ada","Ada",2
+"632",5108010014,"[51] BALI","[08] BULELENG","[010] GEROKGAK","[014] TUKAD SUMAGA","1. Perkotaan",0.6,"Lainnya",1,0,"Tidak ada","Ada",2
+"633",5108010013,"[51] BALI","[08] BULELENG","[010] GEROKGAK","[013] CELUKAN BAWANG","1. Perkotaan",0.19,"Lainnya",1,3,"Tidak ada","Ada",1
+"634",5108010004,"[51] BALI","[08] BULELENG","[010] GEROKGAK","[004] PEMUTERAN","1. Perkotaan",0.97,"Lainnya",1,4,"Ada","Ada",2
+"635",5108010010,"[51] BALI","[08] BULELENG","[010] GEROKGAK","[010] PATAS","1. Perkotaan",0.84,"Lainnya",1,2,"Tidak ada","Ada",2
+"636",5108010012,"[51] BALI","[08] BULELENG","[010] GEROKGAK","[012] TINGA TINGA","2. Perdesaan",0.18,"Lainnya",1,2,"Ada","Ada",1
+"637",5108010009,"[51] BALI","[08] BULELENG","[010] GEROKGAK","[009] GEROKGAK","1. Perkotaan",0.37,"Pertanian Tanaman Pangan",2,3,"Ada","Ada",2
+"638",5108010008,"[51] BALI","[08] BULELENG","[010] GEROKGAK","[008] SANGGALANGIT","1. Perkotaan",0.31,"Lainnya",1,3,"Tidak ada","Ada",1
+"639",5108010002,"[51] BALI","[08] BULELENG","[010] GEROKGAK","[002] PEJARAKAN","2. Perdesaan",1,"Lainnya",2,10,"Ada","Ada",2
+"640",5108010006,"[51] BALI","[08] BULELENG","[010] GEROKGAK","[006] PENYABANGAN","2. Perdesaan",0.99,"Lainnya",1,4,"Ada","Ada",2
+"641",5108010005,"[51] BALI","[08] BULELENG","[010] GEROKGAK","[005] BANYUPOH","2. Perdesaan",0.99,"Lainnya",1,6,"Ada","Ada",2
+"642",5108010011,"[51] BALI","[08] BULELENG","[010] GEROKGAK","[011] PENGULON","2. Perdesaan",0.49,"Lainnya",1,0,"Tidak ada","Ada",2
+"643",5108010003,"[51] BALI","[08] BULELENG","[010] GEROKGAK","[003] SUMBERKIMA","2. Perdesaan",0.98,"Lainnya",2,4,"Ada","Ada",2
+"644",5108010001,"[51] BALI","[08] BULELENG","[010] GEROKGAK","[001] SUMBER KLAMPOK","2. Perdesaan",1,"Lainnya",1,1,"Ada","Ada",2
+"645",5108010007,"[51] BALI","[08] BULELENG","[010] GEROKGAK","[007] MUSI","2. Perdesaan",0.97,"Lainnya",1,1,"Ada","Ada",2
+"646",5108060022,"[51] BALI","[08] BULELENG","[060] BULELENG","[022] PENARUKAN","1. Perkotaan",0.04,"Lainnya",3,6,"Ada","Ada",1
+"647",5108060023,"[51] BALI","[08] BULELENG","[060] BULELENG","[023] JINENGDALEM","1. Perkotaan",0.18,"Lainnya",1,1,"Ada","Ada",1
+"648",5108060008,"[51] BALI","[08] BULELENG","[060] BULELENG","[008] PAKET AGUNG","1. Perkotaan",0.04,"Lainnya",0,1,"Tidak ada","Ada",1
+"649",5108060010,"[51] BALI","[08] BULELENG","[060] BULELENG","[010] LILIGUNDI","1. Perkotaan",0.01,"Lainnya",1,0,"Tidak ada","Ada",1
+"650",5108060002,"[51] BALI","[08] BULELENG","[060] BULELENG","[002] ANTURAN","1. Perkotaan",0.15,"Lainnya",1,1,"Tidak ada","Ada",1
+"651",5108060014,"[51] BALI","[08] BULELENG","[060] BULELENG","[014] BANJAR JAWA","1. Perkotaan",0,"Lainnya",2,2,"Tidak ada","Ada",1
+"652",5108060003,"[51] BALI","[08] BULELENG","[060] BULELENG","[003] TUKADMUNGGA","1. Perkotaan",0.2,"Pertanian Tanaman Pangan",2,5,"Tidak ada","Ada",2
+"653",5108060012,"[51] BALI","[08] BULELENG","[060] BULELENG","[012] KENDRAN","1. Perkotaan",0,"Lainnya",3,1,"Tidak ada","Ada",1
+"654",5108060013,"[51] BALI","[08] BULELENG","[060] BULELENG","[013] ASTINA","1. Perkotaan",0,"Lainnya",0,3,"Ada","Ada",1
+"655",5108060029,"[51] BALI","[08] BULELENG","[060] BULELENG","[029] POH BERGONG","2. Perdesaan",0.12,"Lainnya",1,1,"Tidak ada","Ada",1
+"656",5108060028,"[51] BALI","[08] BULELENG","[060] BULELENG","[028] ALASANGKER","1. Perkotaan",0.19,"Lainnya",1,3,"Tidak ada","Ada",1
+"657",5108060005,"[51] BALI","[08] BULELENG","[060] BULELENG","[005] BAKTISERAGA","1. Perkotaan",0.03,"Lainnya",4,5,"Tidak ada","Ada",1
+"658",5108060018,"[51] BALI","[08] BULELENG","[060] BULELENG","[018] KAMPUNG ANYAR","1. Perkotaan",0.01,"Lainnya",0,0,"Tidak ada","Ada",1
+"659",5108060004,"[51] BALI","[08] BULELENG","[060] BULELENG","[004] PEMARON","1. Perkotaan",0.03,"Lainnya",2,1,"Tidak ada","Ada",1
+"660",5108060007,"[51] BALI","[08] BULELENG","[060] BULELENG","[007] BANJAR TEGAL","1. Perkotaan",0.02,"Lainnya",0,3,"Tidak ada","Ada",1
+"661",5108060024,"[51] BALI","[08] BULELENG","[060] BULELENG","[024] PENGLATAN","1. Perkotaan",0.1,"Lainnya",1,0,"Ada","Ada",1
+"662",5108060006,"[51] BALI","[08] BULELENG","[060] BULELENG","[006] BANYUASRI","1. Perkotaan",0.01,"Lainnya",5,1,"Tidak ada","Ada",1
+"663",5108060009,"[51] BALI","[08] BULELENG","[060] BULELENG","[009] BERATAN","1. Perkotaan",0.01,"Lainnya",0,0,"Tidak ada","Ada",1
+"664",5108060021,"[51] BALI","[08] BULELENG","[060] BULELENG","[021] BANYUNING","1. Perkotaan",0.03,"Lainnya",4,8,"Ada","Ada",1
+"665",5108060026,"[51] BALI","[08] BULELENG","[060] BULELENG","[026] SARI MEKAR","1. Perkotaan",0.19,"Lainnya",1,0,"Ada","Ada",1
+"666",5108060015,"[51] BALI","[08] BULELENG","[060] BULELENG","[015] BANJAR BALI","1. Perkotaan",0,"Lainnya",7,2,"Tidak ada","Ada",1
+"667",5108060011,"[51] BALI","[08] BULELENG","[060] BULELENG","[011] KAMPUNG SINGARAJA","1. Perkotaan",0,"Lainnya",0,0,"Tidak ada","Ada",1
+"668",5108060016,"[51] BALI","[08] BULELENG","[060] BULELENG","[016] KAMPUNG KAJANAN","1. Perkotaan",0,"Lainnya",3,2,"Tidak ada","Ada",1
+"669",5108060019,"[51] BALI","[08] BULELENG","[060] BULELENG","[019] KAMPUNG BUGIS","1. Perkotaan",0.01,"Lainnya",1,0,"Tidak ada","Ada",1
+"670",5108060025,"[51] BALI","[08] BULELENG","[060] BULELENG","[025] PETANDAKAN","1. Perkotaan",0.14,"Lainnya",1,1,"Tidak ada","Ada",1
+"671",5108060027,"[51] BALI","[08] BULELENG","[060] BULELENG","[027] NAGASEPAHA","1. Perkotaan",0.1,"Lainnya",1,1,"Ada","Ada",1
+"672",5108060001,"[51] BALI","[08] BULELENG","[060] BULELENG","[001] KALIBUKBUK","1. Perkotaan",0.03,"Lainnya",3,1,"Ada","Ada",1
+"673",5108060020,"[51] BALI","[08] BULELENG","[060] BULELENG","[020] KAMPUNG BARU","1. Perkotaan",0.02,"Lainnya",1,0,"Tidak ada","Ada",1
+"674",5108060017,"[51] BALI","[08] BULELENG","[060] BULELENG","[017] KALIUNTU","1. Perkotaan",0.01,"Lainnya",8,0,"Tidak ada","Ada",1
+"675",5171010010,"[51] BALI","[71] DENPASAR","[010] DENPASAR SELATAN","[010] SANUR KAJA","1. Perkotaan",0.01,"Lainnya",7,9,"Tidak ada","Ada",1
+"676",5171010003,"[51] BALI","[71] DENPASAR","[010] DENPASAR SELATAN","[003] SESETAN","1. Perkotaan",0,"Lainnya",8,11,"Tidak ada","Ada",1
+"677",5171010002,"[51] BALI","[71] DENPASAR","[010] DENPASAR SELATAN","[002] PEDUNGAN","1. Perkotaan",0.02,"Lainnya",8,35,"Tidak ada","Ada",1
+"678",5171010009,"[51] BALI","[71] DENPASAR","[010] DENPASAR SELATAN","[009] SANUR","1. Perkotaan",0.01,"Lainnya",10,9,"Tidak ada","Ada",1
+"679",5171010008,"[51] BALI","[71] DENPASAR","[010] DENPASAR SELATAN","[008] SANUR KAUH","1. Perkotaan",0.01,"Lainnya",4,15,"Tidak ada","Ada",1
+"680",5171010007,"[51] BALI","[71] DENPASAR","[010] DENPASAR SELATAN","[007] RENON","1. Perkotaan",0.01,"Lainnya",4,11,"Ada","Ada",1
+"681",5171010006,"[51] BALI","[71] DENPASAR","[010] DENPASAR SELATAN","[006] PANJER","1. Perkotaan",0.01,"Lainnya",7,13,"Tidak ada","Ada",1
+"682",5171010001,"[51] BALI","[71] DENPASAR","[010] DENPASAR SELATAN","[001] PEMOGAN","1. Perkotaan",0.01,"Lainnya",10,24,"Ada","Ada",1
+"683",5171010005,"[51] BALI","[71] DENPASAR","[010] DENPASAR SELATAN","[005] SIDAKARYA","1. Perkotaan",0.02,"Lainnya",2,12,"Tidak ada","Ada",1
+"684",5171010004,"[51] BALI","[71] DENPASAR","[010] DENPASAR SELATAN","[004] SERANGAN","1. Perkotaan",0.23,"Lainnya",0,8,"Ada","Ada",1
+"685",5171031003,"[51] BALI","[71] DENPASAR","[031] DENPASAR UTARA","[003] DANGIN PURI KAUH","1. Perkotaan",0,"Lainnya",1,1,"Tidak ada","Ada",1
+"686",5171031005,"[51] BALI","[71] DENPASAR","[031] DENPASAR UTARA","[005] DANGIN PURI KANGIN","1. Perkotaan",0,"Lainnya",6,20,"Tidak ada","Ada",1
+"687",5171031010,"[51] BALI","[71] DENPASAR","[031] DENPASAR UTARA","[010] PEGUYANGAN KAJA","1. Perkotaan",0.08,"Lainnya",2,7,"Ada","Tidak ada",1
+"688",5171031008,"[51] BALI","[71] DENPASAR","[031] DENPASAR UTARA","[008] UBUNG","1. Perkotaan",0,"Lainnya",6,12,"Tidak ada","Ada",1
+"689",5171031002,"[51] BALI","[71] DENPASAR","[031] DENPASAR UTARA","[002] DAUH PURI KAJA","1. Perkotaan",0,"Lainnya",5,10,"Tidak ada","Ada",1
+"690",5171031011,"[51] BALI","[71] DENPASAR","[031] DENPASAR UTARA","[011] PEGUYANGAN KANGIN","1. Perkotaan",0.02,"Lainnya",2,11,"Tidak ada","Ada",1
+"691",5171031006,"[51] BALI","[71] DENPASAR","[031] DENPASAR UTARA","[006] TONJA","1. Perkotaan",0,"Lainnya",16,11,"Tidak ada","Ada",1
+"692",5171031007,"[51] BALI","[71] DENPASAR","[031] DENPASAR UTARA","[007] PEGUYANGAN","1. Perkotaan",0.05,"Lainnya",2,11,"Ada","Ada",1
+"693",5171031004,"[51] BALI","[71] DENPASAR","[031] DENPASAR UTARA","[004] DANGIN PURI KAJA","1. Perkotaan",0.01,"Lainnya",8,5,"Tidak ada","Ada",1
+"694",5171031001,"[51] BALI","[71] DENPASAR","[031] DENPASAR UTARA","[001] PEMECUTAN KAJA","1. Perkotaan",0,"Lainnya",9,5,"Tidak ada","Ada",1
+"695",5171031009,"[51] BALI","[71] DENPASAR","[031] DENPASAR UTARA","[009] UBUNG  KAJA","1. Perkotaan",0.02,"Lainnya",2,8,"Ada","Ada",1
+"696",5171030006,"[51] BALI","[71] DENPASAR","[030] DENPASAR BARAT","[006] DAUH PURI KANGIN","1. Perkotaan",0,"Lainnya",5,3,"Tidak ada","Ada",1
+"697",5171030008,"[51] BALI","[71] DENPASAR","[030] DENPASAR BARAT","[008] TEGAL HARUM","1. Perkotaan",0,"Lainnya",4,3,"Tidak ada","Ada",1
+"698",5171030004,"[51] BALI","[71] DENPASAR","[030] DENPASAR BARAT","[004] DAUH PURI KLOD","1. Perkotaan",0,"Lainnya",29,7,"Tidak ada","Ada",1
+"699",5171030011,"[51] BALI","[71] DENPASAR","[030] DENPASAR BARAT","[011] PADANGSAMBIAN KAJA","1. Perkotaan",0.01,"Lainnya",5,7,"Tidak ada","Ada",1
+"700",5171030010,"[51] BALI","[71] DENPASAR","[030] DENPASAR BARAT","[010] PADANGSAMBIAN","1. Perkotaan",0,"Lainnya",4,7,"Tidak ada","Ada",1
+"701",5171030007,"[51] BALI","[71] DENPASAR","[030] DENPASAR BARAT","[007] PEMECUTAN","1. Perkotaan",0,"Lainnya",15,3,"Tidak ada","Ada",1
+"702",5171030002,"[51] BALI","[71] DENPASAR","[030] DENPASAR BARAT","[002] PEMECUTAN KLOD","1. Perkotaan",0,"Lainnya",11,11,"Tidak ada","Ada",1
+"703",5171030001,"[51] BALI","[71] DENPASAR","[030] DENPASAR BARAT","[001] PADANGSAMBIAN KLOD","1. Perkotaan",0.01,"Lainnya",10,4,"Tidak ada","Tidak ada",1
+"704",5171030003,"[51] BALI","[71] DENPASAR","[030] DENPASAR BARAT","[003] DAUH PURI KAUH","1. Perkotaan",0,"Lainnya",13,6,"Tidak ada","Ada",1
+"705",5171030005,"[51] BALI","[71] DENPASAR","[030] DENPASAR BARAT","[005] DAUH PURI","1. Perkotaan",0,"Lainnya",6,10,"Tidak ada","Ada",1
+"706",5171030009,"[51] BALI","[71] DENPASAR","[030] DENPASAR BARAT","[009] TEGAL KERTHA","1. Perkotaan",0,"Lainnya",4,1,"Tidak ada","Ada",1
+"707",5171020015,"[51] BALI","[71] DENPASAR","[020] DENPASAR TIMUR","[015] PENATIH DANGIN PURI","1. Perkotaan",0.07,"Pertanian Tanaman Pangan",0,3,"Ada","Ada",2
+"708",5171020003,"[51] BALI","[71] DENPASAR","[020] DENPASAR TIMUR","[003] KESIMAN","1. Perkotaan",0.02,"Lainnya",4,4,"Tidak ada","Ada",1
+"709",5171020014,"[51] BALI","[71] DENPASAR","[020] DENPASAR TIMUR","[014] PENATIH","1. Perkotaan",0.03,"Lainnya",6,7,"Ada","Ada",1
+"710",5171020002,"[51] BALI","[71] DENPASAR","[020] DENPASAR TIMUR","[002] SUMERTA KELOD","1. Perkotaan",0.01,"Lainnya",9,2,"Tidak ada","Ada",1
+"711",5171020006,"[51] BALI","[71] DENPASAR","[020] DENPASAR TIMUR","[006] SUMERTA","1. Perkotaan",0,"Lainnya",4,4,"Tidak ada","Ada",1
+"712",5171020001,"[51] BALI","[71] DENPASAR","[020] DENPASAR TIMUR","[001] DANGIN PURI KLOD","1. Perkotaan",0,"Lainnya",8,2,"Tidak ada","Ada",1
+"713",5171020008,"[51] BALI","[71] DENPASAR","[020] DENPASAR TIMUR","[008] SUMERTA KAUH","1. Perkotaan",0,"Lainnya",3,1,"Tidak ada","Ada",1
+"714",5171020007,"[51] BALI","[71] DENPASAR","[020] DENPASAR TIMUR","[007] SUMERTA KAJA","1. Perkotaan",0,"Lainnya",1,3,"Tidak ada","Ada",1
+"715",5171020005,"[51] BALI","[71] DENPASAR","[020] DENPASAR TIMUR","[005] KESIMAN KERTALANGU","1. Perkotaan",0.02,"Lainnya",8,8,"Ada","Ada",1
+"716",5171020010,"[51] BALI","[71] DENPASAR","[020] DENPASAR TIMUR","[010] DANGIN PURI","1. Perkotaan",0,"Lainnya",2,1,"Tidak ada","Ada",1
+"717",5171020004,"[51] BALI","[71] DENPASAR","[020] DENPASAR TIMUR","[004] KESIMAN PETILAN","1. Perkotaan",0.01,"Lainnya",2,7,"Ada","Ada",1
