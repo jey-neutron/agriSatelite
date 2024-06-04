@@ -81,7 +81,7 @@ try:
 
         # PILIH date file source
         from os import walk
-        csv_path = str(this_path) + r"/data"
+        csv_path = str(this_path) + r"/data/hasil_ML_satelit"
         csv_list = [[],[]]
         for (dirpath, dirnames, filenames) in walk(csv_path, topdown=False):
             for filename in filenames:
