@@ -20,7 +20,7 @@ try:
         st.title("Dashboard Agrimap Bali")
     with col[1]:
         st.write("Dashboard ini bertujuan untuk memetakan luas tanam atau panen padi berdasarkan hasil machine learning dan citra satelit.")
-        st.write("Hasil pemetaan ini diharapkan dapat membantu untuk memetakan potensi pasar, misalnya membantu untuk memaksimalkan kuota KUR di wilayah yang sektor pertaniannya unggul.")
+        st.write("Peta heatmap di bawah akan menampilkan jenis fase tanaman padi yang terpilih. Terdapat juga data pendukung atau rekomendasi di bawah untuk melihat lebih detail potensi wilayah tersebut.")
 
     # load file path
     this_path = Path().resolve()
@@ -147,10 +147,12 @@ try:
                         geojson=kec_gdf.geometry,
                         locations=kec_gdf.index,
                         color="luas" if selectbox_kec=='-' else des_df.columns[opt_displaymap.index(choose_displaymap)+8],
+                        color_continuous_scale=px.colors.sequential.Sunsetdark_r,
                         hover_name=kec_gdf.nmkab,
                         hover_data= [
                             kec_gdf.nmkec,
-                            kec_gdf.nmdesa
+                            kec_gdf.nmdesa,
+                            #kec_gdf.generatif
                         ]
                         #color_continuous_scale="Viridis",
                     )
@@ -201,7 +203,7 @@ try:
                     font-size: 2em;
                     font-weight: bold;
                     border-radius: 50%;
-                    background-color: grey;
+                    background-color: #0094de;
                     color: white;
                     text-align: center;
                     cursor: pointer;
@@ -230,7 +232,8 @@ try:
                 dfstack,
                 y="Nama desa",
                 x='Persentase',
-                color='Kategori'
+                color='Kategori',
+                color_discrete_sequence=px.colors.qualitative.Plotly_r
             )
             st.plotly_chart(figbar)
         
