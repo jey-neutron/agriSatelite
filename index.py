@@ -119,15 +119,18 @@ try:
 
     # DATA FOR MAPPING
     titiktengah = False
-    if Path(des_path).exists() and selectbox_kec != '-':
+    if Path(des_path).exists() :
         # koordinat centroid zoom map kec
-        titiktengah = kec_gdf[kec_gdf['nmkec'] == selectbox_kec ].geometry.centroid.iloc[0]
+        if selectbox_kec != '-':
+            titiktengah = kec_gdf[kec_gdf['nmkec'] == selectbox_kec ].geometry.centroid.iloc[0]
         
         # read desa di kec terpilih
         #des_gdf = gpd.read_file(des_path, driver='GeoJSON')
         des_gdf = read_gpd(des_path)
-        des_gdf = des_gdf.loc[des_gdf['nmkec'] == selectbox_kec ]
+        if selectbox_kec != '-':
+            des_gdf = des_gdf.loc[des_gdf['nmkec'] == selectbox_kec ]
         des_gdf['nmkab'] = get_nmkab(selectbox_kab)
+        #st.write(des_gdf.iddesa)
         
         # filter display map and date
         des_df = pd.read_csv(csv_path+f"/{selectbox_bln}_{selectbox_thn}.csv", dtype={'iddesa': object})
@@ -142,18 +145,15 @@ try:
         kec_gdf = des_df
 
     # MAIN VIEW MAPPING ============================
+    hover_data = [kec_gdf.nmkec, kec_gdf.nmdesa, kec_gdf.generatif, kec_gdf.vegetatif1, kec_gdf.vegetatif2, kec_gdf.persiapan] if selectbox_kab != '-' else [kec_gdf.nmkec, kec_gdf.nmdesa]
     figmap = px.choropleth_mapbox(
                         kec_gdf,
                         geojson=kec_gdf.geometry,
                         locations=kec_gdf.index,
-                        color="luas" if selectbox_kec=='-' else des_df.columns[opt_displaymap.index(choose_displaymap)+8],
-                        color_continuous_scale=px.colors.sequential.Sunsetdark_r,
+                        color="luas" if selectbox_kab=='-' else des_df.columns[opt_displaymap.index(choose_displaymap)+8],
+                        color_continuous_scale=px.colors.sequential.Sunsetdark,
                         hover_name=kec_gdf.nmkab,
-                        hover_data= [
-                            kec_gdf.nmkec,
-                            kec_gdf.nmdesa,
-                            #kec_gdf.generatif
-                        ]
+                        hover_data= hover_data
                         #color_continuous_scale="Viridis",
                     )
     # set layout map
@@ -186,7 +186,7 @@ try:
     #st.dataframe(kec_gdf.head())
     #st.write(kec_gdf.head())
     #st.write("df kec col:", kec_gdf.columns)
-    if selectbox_kec != '-':
+    if selectbox_kab !="-":
         st.markdown(
             """
             <style>
@@ -239,7 +239,10 @@ try:
         
         with col4:
             st.subheader("Rekomendasi / Data pendukung")
-            st.caption("KEC. "+str(selectbox_kec))
+            if selectbox_kec == '-':
+                st.caption("KAB. "+str(selectbox_kab))
+            else:
+                st.caption("KEC. "+str(selectbox_kec))
             st.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis arcu, mollis sit amet orci nec, tincidunt eleifend tortor. In vehicula est eget enim eleifend, ac aliquam sem gravida. Suspendisse arcu lectus, ornare viverra mi eu, egestas placerat lectus.")
 
     #getrowindex = st.number_input('Enter an index of row to show')
