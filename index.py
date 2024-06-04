@@ -161,8 +161,8 @@ try:
         mapbox_zoom=8,
         mapbox_center= {"lat": -8.409518, "lon": 115.188919}, 
         margin={"r":0,"t":0,"l":0,"b":0},
-        mapbox_style='carto-positron',
-        #mapbox_style='open-street-map',
+        #mapbox_style='carto-positron',
+        mapbox_style='open-street-map',
     )
     # layout map jika filter kab
     if selectbox_kab != "-":
