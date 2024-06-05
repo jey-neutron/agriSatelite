@@ -320,6 +320,7 @@ try:
         st.plotly_chart(figbar)
 
         # VIEW DATA PENDUKUNG
+        st.markdown("<hr>", unsafe_allow_html=True,)
         st.subheader("Rekomendasi / Data pendukung")
         st.caption(captionsect2)
         
