@@ -346,16 +346,16 @@ try:
             dfpendukung = dfpendukung[['kec','rasio_kur','rasio_jasa_keuangan','rasio_rekening',]]
             dfpendukung = dfpendukung.rename(columns={
                 'kec':'Kecamatan',
-                'rasio_kur':'Persentase pengguna KUR',
-                'rasio_jasa_keuangan':'Persentase Pengguna jasa keuangan',
-                'rasio_rekening': 'Persentase pemilik nomor rekening'
+                'rasio_kur':'Rasio pengguna KUR',
+                'rasio_jasa_keuangan':'Rasio Pengguna jasa keuangan',
+                'rasio_rekening': 'Rasio pemilik nomor rekening'
             })
 
             # BAR
             multiselect_bar = st.multiselect(
                 "Pilih variabel yang ingin dimunculkan:",
-                ['Persentase pemilik nomor rekening', 'Persentase Pengguna jasa keuangan', 'Persentase pengguna KUR'],
-                ['Persentase pemilik nomor rekening', 'Persentase Pengguna jasa keuangan', 'Persentase pengguna KUR']
+                ['Rasio pemilik nomor rekening', 'Rasio Pengguna jasa keuangan', 'Rasio pengguna KUR'],
+                ['Rasio pemilik nomor rekening', 'Rasio Pengguna jasa keuangan', 'Rasio pengguna KUR']
             )
             figbar = px.bar(dfpendukung, x=multiselect_bar, y='Kecamatan', orientation='h', color_discrete_sequence=coolor_discret)
             figbar.update_layout(
@@ -367,6 +367,7 @@ try:
             with cols[0]:
                 st.plotly_chart(figbar)
             with cols[1]:
+                st.markdown("<br> ", unsafe_allow_html=True)
                 st.dataframe(dfpendukung[['Kecamatan']+multiselect_bar])
                 #st.write(px.colors.qualitative.Plotly_r)
 
@@ -435,8 +436,8 @@ try:
             def highlight_color(row):
                 if row['cluster'] == 2:
                     return [f'background-color: {coolor_discret[3]}'] * len(row)
-                #else:
-                #    return [f'background-color: {coolor[2]}'] * len(row)
+                else:
+                    return [''] * len(row)
             try:
                 st.dataframe(dfpendukung.drop('iddesa', axis=1).style.apply(highlight_color, axis=1))
             except Exception as e:
@@ -446,7 +447,7 @@ try:
                 #print(exc_type, exc_tb.tb_lineno)
                 st.error(
                     f"""
-                    **Terjadi kesalahan ketika styling dataframe**
+                    **Terjadi kesalahan.**
                     Error: {e}. Type error: {exc_type}, on line no {exc_tb.tb_lineno}
                 """
                 )
