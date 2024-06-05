@@ -424,11 +424,11 @@ try:
 
             
             # apply style coloring row df n SHOW
-            def highlight_color(s):
+            def highlight_color(row):
                 if row['cluster'] == 2:
-                    return ['background-color: green; color: white'] * len(s)
+                    return [f'background-color: {coolor[5]}'] * len(row)
                 else:
-                    return [''] * len(s)
+                    return [f'background-color: {coolor[2]}'] * len(row)
             st.dataframe(dfpendukung.drop('iddesa', axis=1).style.apply(highlight_color, axis=1))
             
             # paragraf 
