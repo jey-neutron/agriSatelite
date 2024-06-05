@@ -5,6 +5,7 @@ import plotly.express as px
 import sys
 from pathlib import Path
 import datetime
+import numpy as np
 
 try:
     # MAIN VIEW ============================
@@ -49,16 +50,18 @@ try:
                 text-align: center;
                 cursor: pointer;
             }
+            .small-font {
+                font-size:12px;
+                font-style: italic;
+                color: #b1a7a6;
+            }
         </style>
         """, 
         unsafe_allow_html=True
     )
 
-    # title
-    st.title("Dashboard Agrimap Bali 🗺️")
-    st.write("Dashboard ini bertujuan untuk memetakan luas tanam atau panen padi berdasarkan hasil machine learning dan citra satelit.")
-    st.markdown("""Peta heatmap di bawah akan menampilkan persentase luas jenis fase tanaman padi yang terpilih. Terdapat juga data pendukung atau rekomendasi <a class="tautan" href="#grafik-perbandingan-wilayah">di bawah</a> untuk melihat lebih detail potensi wilayah tersebut.""", unsafe_allow_html=True)
-
+    #st.write(px.colors.sequential.swatches()) #colorpalette
+    coolor = px.colors.sequential.Sunsetdark
     # load file path
     this_path = Path().resolve()
     kec_path = str(this_path) + r"/map_source/geo_kec.geojson"
@@ -119,9 +122,9 @@ try:
 
         # PILIH date file source
         from os import walk
-        csv_path = str(this_path) + r"/data/hasil_ML_satelit"
+        csv_luas_path = str(this_path) + r"/data/hasil_ML_satelit"
         csv_list = [[],[]]
-        for (dirpath, dirnames, filenames) in walk(csv_path, topdown=False):
+        for (dirpath, dirnames, filenames) in walk(csv_luas_path, topdown=False):
             for filename in filenames:
                 csv_list[0].append(filename.split('_')[0])
                 csv_list[1].append(filename.split('_')[1].split('.')[0])
@@ -158,10 +161,16 @@ try:
     #if pressed_filter:
     #    kec_gdf = kec_gdf[kec_gdf["nmkab"] == selectbox_kab]
 
-    # DATA FOR MAPPING
+    # TITLE ============================
+    st.title("Dashboard Agrimap Bali 🗺️")
+    st.write("Dashboard ini bertujuan untuk memetakan luas tanam atau panen padi berdasarkan hasil machine learning dan citra satelit.")
+    classtautan = 'a' if selectbox_kab!='-' else 'span'
+    st.markdown(f"""Peta heatmap di bawah akan menampilkan persentase luas jenis fase tanaman padi yang terpilih. Terdapat juga data pendukung atau rekomendasi <{classtautan} class="tautan" href="#grafik-perbandingan-wilayah">di bawah</{classtautan}> untuk melihat lebih detail potensi wilayah tersebut.""", unsafe_allow_html=True)
+
+    # DATA FOR MAPPING ============================
     titiktengah = False
     # filter from date. read data luas padi satelit for mapping 
-    des_df = pd.read_csv(csv_path+f"/{selectbox_bln}_{selectbox_thn}.csv", dtype={'iddesa': object})
+    des_df = pd.read_csv(csv_luas_path+f"/{selectbox_bln}_{selectbox_thn}.csv", dtype={'iddesa': object})
     
     # jika ga dipilih kab, maka tampilin aggregate
     des_df['idkec'] = des_df['iddesa'].str[:7]
@@ -210,10 +219,9 @@ try:
                         geojson=kec_gdf.geometry,
                         locations=kec_gdf.index,
                         color=kec_gdf.columns[opt_displaymap.index(choose_displaymap)+5] if selectbox_kab=='-' else kec_gdf.columns[opt_displaymap.index(choose_displaymap)+8],
-                        color_continuous_scale=px.colors.sequential.Sunsetdark,
+                        color_continuous_scale=coolor,
                         hover_name=kec_gdf.nmkab,
                         hover_data= hover_data
-                        #color_continuous_scale="Viridis",
                     )
     # set layout map
     figmap.update_layout(
@@ -222,6 +230,15 @@ try:
         margin={"r":0,"t":0,"l":0,"b":0},
         #mapbox_style='carto-positron',
         mapbox_style='open-street-map',
+        #legend=dict(yanchor="top", xanchor='left',orientation="h",)
+        coloraxis_colorbar = dict(
+            orientation='h',
+            yanchor='bottom',
+            y=-0.175,
+            tickfont_weight='bold',
+            title_font_weight = 'bold',
+            #tickformat = ".2%"
+        )
     )
     # layout map jika filter kab
     if selectbox_kab != "-":
@@ -241,7 +258,7 @@ try:
     st.write(" ")
     st.plotly_chart(figmap)
 
-    # SEE DF DETAILS IF FILTER KAB GA KOSONG
+    # SEE DF DETAILS IF FILTER KAB GA KOSONG ============================
     if selectbox_kab !="-":
         # gtw gapenting
         st.markdown(
@@ -267,13 +284,14 @@ try:
             """, unsafe_allow_html=True
         )        
 
-        # VIEW GRAFIK
+        # VIEW GRAFIK STACK BAR ============================
         #st.write("df des col:", kec_gdf.columns)
         st.subheader("Grafik Perbandingan Wilayah")
-        captionsect2 = f"KAB. {str(get_nmkab(selectbox_kab))}" if selectbox_kec == '-' else f"KEC. {selectbox_kec}, KAB. {get_nmkab(selectbox_kab)}"
+        captionsect2 = f"Kecamatan di KAB. {str(get_nmkab(selectbox_kab))}" if selectbox_kec == '-' else f"Desa di KEC. {selectbox_kec}, KAB. {get_nmkab(selectbox_kab)}"
+        caption2sect2 = "agregat rata-rata " if selectbox_kec == '-' else ""
         subjudulsect2 = f"Kecamatan di Kabupaten {str(get_nmkab(selectbox_kab).title())}" if selectbox_kec == '-' else f"Desa di Kecamatan {selectbox_kec.title()}, Kabupaten {get_nmkab(selectbox_kab).title()}"
         st.caption(captionsect2)
-        st.write("Grafik di bawah menampilkan persentase luas wilayah berdasarkan jenis fase tanaman padi per ", subjudulsect2)
+        st.write(f"Grafik di bawah menampilkan {caption2sect2}persentase luas wilayah berdasarkan jenis fase tanaman padi per ", subjudulsect2)
 
         if selectbox_kec == '-':
             dfstack = kec_gdf.iloc[:,[2,8,9,10,11,12]].groupby("Kecamatan").agg('mean').stack().to_frame().reset_index()
@@ -286,7 +304,14 @@ try:
             y="Nama Kecamatan" if selectbox_kec=='-' else "Nama desa",
             x='Persentase',
             color='Kategori',
-            color_discrete_sequence=px.colors.qualitative.Plotly_r,
+            color_discrete_sequence=[
+                coolor[0],
+                coolor[1],
+                coolor[2],
+                coolor[4],
+                coolor[6],
+            ]
+            #px.colors.qualitative.Plotly_r,
         )
         figbar.update_layout(legend=dict(
                 orientation="h",
@@ -297,7 +322,62 @@ try:
         # VIEW DATA PENDUKUNG
         st.subheader("Rekomendasi / Data pendukung")
         st.caption(captionsect2)
-        st.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis arcu, mollis sit amet orci nec, tincidunt eleifend tortor. In vehicula est eget enim eleifend, ac aliquam sem gravida. Suspendisse arcu lectus, ornare viverra mi eu, egestas placerat lectus.")
+        
+        # VIEW IF FILTER KAB ============================
+        if selectbox_kec == "-":
+            #dfpendukung = pd.read_csv(csv_path+f"/{selectbox_bln}_{selectbox_thn}.csv", dtype={'kd_wilayah': object})
+            # read data ssn
+            dfpendukung = pd.read_csv(str(this_path) + r"/data/pendukung"+f"/kecamatan_susenas.csv", dtype={'idkec': object})
+            # drop col pertama
+            dfpendukung = dfpendukung.drop(dfpendukung.columns[0], axis=1)
+            # buat kolom pembantu buat filter
+            dfpendukung['kdkab'] = dfpendukung.idkec.str[2:4]
+            # filter pake kolom baru
+            dfpendukung = dfpendukung[dfpendukung.kdkab == selectbox_kab].reset_index().drop(dfpendukung.columns[-1], axis=1)
+            # select subset column
+            #dfpendukung = dfpendukung[['r103','rekening','jasa_keuangan']]
+
+            st.dataframe(dfpendukung)
+            #st.write(px.colors.qualitative.Plotly_r)
+
+            # paragraf 
+            st.markdown(
+                f'<p class="small-font">Sumber Data: Susenas {selectbox_thn}</p>',
+                unsafe_allow_html=True,
+            )
+            st.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis arcu, mollis sit amet orci nec, tincidunt eleifend tortor. In vehicula est eget enim eleifend, ac aliquam sem gravida. Suspendisse arcu lectus, ornare viverra mi eu, egestas placerat lectus.")
+
+
+        # VIEW IF FILTER KEC ============================
+        else:
+            st.write("Tampilan data hasil clustering")
+            # read data ssn
+            dfpendukung = pd.read_csv(str(this_path) + r"/data/pendukung"+f"/cluster_podes.csv", dtype={'kd_wilayah': object})
+            # drop col pertama
+            dfpendukung = dfpendukung.drop(dfpendukung.columns[0:1], axis=1)
+            # buat kolom pembantu buat filter
+            dfpendukung['nmkec'] = dfpendukung.r103.str[5:]
+            dfpendukung['kdkab'] = dfpendukung.kd_wilayah.str[2:4]
+            # filter pake kolom baru
+            dfpendukung = dfpendukung[(dfpendukung.kdkab == selectbox_kab) & 
+                (dfpendukung.nmkec.str.strip() == str(selectbox_kec))]#.drop(dfpendukung.columns[-2:], axis=1)
+            # select subset columns
+            dfpendukung = dfpendukung[['r104','r105','rasio_tani','sektor_utama','jumlah_bank','jumlah_koperasi','keberadaan_toko_sarana_pertanian','keberadaan_fasilitas_kredit','cluster']].rename(columns={
+                'r104':'Nama Desa',
+                'r105':'Status Desa',
+            }).sort_values('Nama Desa').reset_index()
+            # apply style coloring row df
+            def highlight_color(s):
+                return [f'background-color: {coolor[5]}']*len(s) if s.cluster == 2 else [f'background-color: {coolor[3]}']*len(s)
+            st.dataframe(dfpendukung.style.apply(highlight_color, axis=1))
+            
+            # paragraf 
+            st.markdown(
+                f'<p class="small-font">Sumber Data: Podes {selectbox_thn}</p>',
+                unsafe_allow_html=True,
+            )
+            st.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis arcu, mollis sit amet orci nec, tincidunt eleifend tortor. In vehicula est eget enim eleifend, ac aliquam sem gravida. Suspendisse arcu lectus, ornare viverra mi eu, egestas placerat lectus.")
+        
 
     #getrowindex = st.number_input('Enter an index of row to show')
     #st.write(kec_gdf.iloc[int(getrowindex)])
