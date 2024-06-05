@@ -364,7 +364,7 @@ try:
             )
             st.plotly_chart(figbar)
 
-            st.dataframe(dfpendukung)
+            st.dataframe(dfpendukung[multiselect_bar])
             #st.write(px.colors.qualitative.Plotly_r)
 
             # paragraf 
@@ -434,7 +434,14 @@ try:
                     return [f'background-color: {coolor_discret[3]}'] * len(row)
                 #else:
                 #    return [f'background-color: {coolor[2]}'] * len(row)
-            st.dataframe(dfpendukung.drop('iddesa', axis=1).style.apply(highlight_color, axis=1))
+            try:
+                st.dataframe(dfpendukung.drop('iddesa', axis=1).style.apply(highlight_color, axis=1))
+            except Exception as e:
+                st.dataframe(dfpendukung.drop('iddesa', axis=1).style.apply(highlight_color, axis=1))
+                st.markdown(
+                    f'<p class="small-font">Terjadi kesalahan ketika styling baris dataframe</p>',
+                    unsafe_allow_html=True,
+                )    
             
             # paragraf 
             st.markdown(
