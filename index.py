@@ -331,14 +331,13 @@ try:
             # drop col pertama
             # dfpendukung = dfpendukung.drop(dfpendukung.columns[0], axis=1)  # tidak terpakai, dataframe sudah diupdate
             # buat kolom pembantu buat filter
-            dfpendukung['nmkec'] = dfpendukung.r103.str[5:]
             dfpendukung['kdkab'] = dfpendukung.idkec.str[2:4]
             # filter pake kolom baru
             dfpendukung = dfpendukung[dfpendukung.kdkab == selectbox_kab].reset_index().drop(dfpendukung.columns[-1], axis=1)
             # select subset column
             #dfpendukung = dfpendukung[['r103','rekening','jasa_keuangan']]
             dfpendukung = dfpendukung.rename(columns={
-                'nmkec':'Kecamatan',
+                'kec':'Kecamatan',
                 'kur':'Persentase pengguna KUR',
                 'jasa_keuangan':'Persentase Pengguna jasa keuangan',
                 'rekening': 'Persentase pemilik nomor rekening'
