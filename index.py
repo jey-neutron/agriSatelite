@@ -343,7 +343,7 @@ try:
             # filter pake kolom baru
             dfpendukung = dfpendukung[dfpendukung.kdkab == selectbox_kab].reset_index().drop(dfpendukung.columns[-1], axis=1)
             # select subset column
-            #dfpendukung = dfpendukung[['r103','rekening','jasa_keuangan']]
+            dfpendukung = dfpendukung[['kec','rasio_kur','rasio_jasa_keuangan','rasio_rekening',]]
             dfpendukung = dfpendukung.rename(columns={
                 'kec':'Kecamatan',
                 'rasio_kur':'Persentase pengguna KUR',
