@@ -368,7 +368,7 @@ try:
                 st.plotly_chart(figbar)
             with cols[1]:
                 st.markdown("<br> ", unsafe_allow_html=True)
-                st.dataframe(dfpendukung[['Kecamatan']+multiselect_bar])
+                st.dataframe(dfpendukung[['Kecamatan']+multiselect_bar].set_index('Kecamatan'))
                 #st.write(px.colors.qualitative.Plotly_r)
 
             # paragraf 
