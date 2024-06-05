@@ -329,7 +329,7 @@ try:
             # read data ssn
             dfpendukung = pd.read_csv(str(this_path) + r"/data/pendukung"+f"/kecamatan_susenas.csv", dtype={'idkec': object})
             # drop col pertama
-            dfpendukung = dfpendukung.drop(dfpendukung.columns[0], axis=1)
+            # dfpendukung = dfpendukung.drop(dfpendukung.columns[0], axis=1)  # tidak terpakai, dataframe sudah diupdate
             # buat kolom pembantu buat filter
             dfpendukung['kdkab'] = dfpendukung.idkec.str[2:4]
             # filter pake kolom baru
@@ -354,7 +354,7 @@ try:
             # read data ssn
             dfpendukung = pd.read_csv(str(this_path) + r"/data/pendukung"+f"/cluster_podes.csv", dtype={'kd_wilayah': object})
             # drop col pertama
-            # dfpendukung = dfpendukung.drop(dfpendukung.columns[0:1], axis=1) # tidak terpakai, dataframe sudah diupdate
+            dfpendukung = dfpendukung.drop(dfpendukung.columns[0:1], axis=1)
             # buat kolom pembantu buat filter
             dfpendukung['nmkec'] = dfpendukung.r103.str[5:]
             dfpendukung['kdkab'] = dfpendukung.kd_wilayah.str[2:4]
