@@ -363,13 +363,11 @@ try:
                 legend=dict(orientation="h",)    
             )
 
-            cols = st.columns([2,1])
-            with cols[0]:
-                st.plotly_chart(figbar)
-            with cols[1]:
-                st.markdown("<br> ", unsafe_allow_html=True)
-                st.dataframe(dfpendukung[['Kecamatan']+multiselect_bar].set_index('Kecamatan'))
-                #st.write(px.colors.qualitative.Plotly_r)
+            st.plotly_chart(figbar)
+            st.write(' ')
+            #st.markdown("<br> ", unsafe_allow_html=True)
+            st.dataframe(dfpendukung[['Kecamatan']+multiselect_bar].set_index('Kecamatan'))
+            #st.write(px.colors.qualitative.Plotly_r)
 
             # paragraf 
             st.markdown(
