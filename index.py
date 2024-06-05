@@ -342,11 +342,11 @@ try:
 
             # paragraf 
             st.markdown(
-                f'<p class="small-font">Sumber Data: Susenas {selectbox_thn}</p>',
+                f'<p class="small-font">Sumber Data: Susenas Maret {selectbox_thn}</p>',
                 unsafe_allow_html=True,
             )
-            st.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis arcu, mollis sit amet orci nec, tincidunt eleifend tortor. In vehicula est eget enim eleifend, ac aliquam sem gravida. Suspendisse arcu lectus, ornare viverra mi eu, egestas placerat lectus.")
-
+            # st.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis arcu, mollis sit amet orci nec, tincidunt eleifend tortor. In vehicula est eget enim eleifend, ac aliquam sem gravida. Suspendisse arcu lectus, ornare viverra mi eu, egestas placerat lectus.")
+            st.write("Tabel di atas menampilkan informasi tentang Wilayah, Rasio Anggota Rumah Tangga (ART) yang berusia 5 tahun ke-atas yang memiliki rekening, Rasio ART yang berusia 5 tahun ke atas yang menggunakan produk/layanan jasa keuangan, dan Rasio ART yang menerima Kredit Usaha Rakyat (KUR).")
 
         # VIEW IF FILTER KEC ============================
         else:
