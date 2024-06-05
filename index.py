@@ -18,7 +18,7 @@ try:
                 scroll-behavior: smooth;
             }
             a:link.tautan, a:visited.tautan {
-                background-color: purple;
+                background-color: rgb(76,155,130);
                 color: white;
                 padding: 0px 4px;
                 text-align: center;
@@ -30,7 +30,7 @@ try:
                 color: orange;
             }
             a:hover.tautan, a:active.tautan, .roundedFixedBtn:hover {
-                background-color: orange;
+                background-color: rgb(236,112,20);
             }
             .fixedButton{
                 position: fixed;
@@ -45,7 +45,7 @@ try:
                 font-size: 2em;
                 font-weight: bold;
                 border-radius: 50%;
-                background-color: purple;
+                background-color: rgb(76,155,130);
                 color: white;
                 text-align: center;
                 cursor: pointer;
@@ -61,7 +61,11 @@ try:
     )
 
     #st.write(px.colors.sequential.swatches()) #colorpalette
-    coolor = px.colors.sequential.Sunsetdark
+    coolor = px.colors.sequential.Emrld
+    coolor_nonsawah = px.colors.sequential.Greys #abu grey
+    coolor_vegetatif = px.colors.sequential.Emrld #ijo emrld
+    coolor_generatif = px.colors.sequential.YlOrBr #kuning ylorbr
+    coolor_discret = ['rgb(115,115,115)','rgb(151,225,150)','rgb(76,155,130)','rgb(16,89,101)','rgb(236,112,20)'] 
     # load file path
     this_path = Path().resolve()
     kec_path = str(this_path) + r"/map_source/geo_kec.geojson"
@@ -214,12 +218,21 @@ try:
 
     # MAIN VIEW MAPPING ============================
     hover_data = [kec_gdf.Kecamatan, kec_gdf.Desa, kec_gdf.Luas_Nonsawah, kec_gdf.Fase_Persiapan_lahan, kec_gdf.Fase_Generatif, kec_gdf.Fase_Vegetatif1, kec_gdf.Fase_Vegetatif2] if selectbox_kab != '-' else [kec_gdf.Kecamatan, kec_gdf.Luas_Nonsawah, kec_gdf.Fase_Persiapan_lahan, kec_gdf.Fase_Generatif, kec_gdf.Fase_Vegetatif1, kec_gdf.Fase_Vegetatif2]
+    #pilihan coolor
+    displaymapchoosen = kec_gdf.columns[opt_displaymap.index(choose_displaymap)+5] if selectbox_kab=='-' else kec_gdf.columns[opt_displaymap.index(choose_displaymap)+8]
+    if displaymapchoosen=='Fase_Generatif':
+        coolor_choosen = coolor_generatif
+    elif displaymapchoosen=='Luas_Nonsawah':
+        coolor_choosen = coolor_nonsawah
+    else:
+        coolor_choosen = coolor_vegetatif
+    #st.write(opt_displaymap.index(choose_displaymap))
     figmap = px.choropleth_mapbox(
                         kec_gdf,
                         geojson=kec_gdf.geometry,
                         locations=kec_gdf.index,
-                        color=kec_gdf.columns[opt_displaymap.index(choose_displaymap)+5] if selectbox_kab=='-' else kec_gdf.columns[opt_displaymap.index(choose_displaymap)+8],
-                        color_continuous_scale=coolor,
+                        color=displaymapchoosen,
+                        color_continuous_scale=coolor_choosen,
                         hover_name=kec_gdf.nmkab,
                         hover_data= hover_data
                     )
@@ -304,13 +317,7 @@ try:
             y="Nama Kecamatan" if selectbox_kec=='-' else "Nama desa",
             x='Persentase',
             color='Kategori',
-            color_discrete_sequence=[
-                coolor[0],
-                coolor[1],
-                coolor[2],
-                coolor[4],
-                coolor[6],
-            ]
+            color_discrete_sequence=coolor_discret
             #px.colors.qualitative.Plotly_r,
         )
         figbar.update_layout(legend=dict(
@@ -350,10 +357,7 @@ try:
                 ['Persentase pemilik nomor rekening', 'Persentase Pengguna jasa keuangan', 'Persentase pengguna KUR'],
                 ['Persentase pemilik nomor rekening', 'Persentase Pengguna jasa keuangan', 'Persentase pengguna KUR']
             )
-            figbar = px.bar(dfpendukung, x=multiselect_bar, y='Kecamatan', orientation='h', color_discrete_sequence=[
-                coolor[0],
-                coolor[3],
-                coolor[6],])
+            figbar = px.bar(dfpendukung, x=multiselect_bar, y='Kecamatan', orientation='h', color_discrete_sequence=coolor_discret)
             figbar.update_layout(
                 barmode='group', 
                 legend=dict(orientation="h",)    
@@ -400,36 +404,36 @@ try:
             
             # PLOT CLUSTERING
             # merge
-            dfpend = dfpend.merge(kec_gdf[['iddesa','Desa','Luas_Nonsawah', 'Fase_Persiapan_lahan', 'Fase_Vegetatif1', 'Fase_Vegetatif2', 'Fase_Generatif']], how='inner', on='iddesa')
-            dfpend['cluster'] = dfpend['cluster'].astype("string")
+            #dfpend = dfpend.merge(kec_gdf[['iddesa','Desa','Luas_Nonsawah', 'Fase_Persiapan_lahan', 'Fase_Vegetatif1', 'Fase_Vegetatif2', 'Fase_Generatif']], how='inner', on='iddesa')
+            #dfpend['cluster'] = dfpend['cluster'].astype("string")
             # list selectbox
-            numerics = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
-            listnum = dfpend.select_dtypes(include=numerics)
+            #numerics = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
+            #listnum = dfpend.select_dtypes(include=numerics)
             # selectbox
-            cols = st.columns(3)
-            with cols[0]:
-                selectbox_dotx = st.selectbox("Pilih Variable X", listnum.columns, index=7)
-                #st.write(kec_gdf.columns)   
-            with cols[1]:
-                selectbox_doty = st.selectbox("Pilih Variable Y", listnum.columns, index=0)
-                #st.write(dfpend.columns)
-            with cols[2]:
-                selectbox_dotz = st.selectbox("Pilih Variable Size", listnum.columns, index=2)
+            #cols = st.columns(3)
+            #with cols[0]:
+            #    selectbox_dotx = st.selectbox("Pilih Variable X", listnum.columns, index=7)
+            #    #st.write(kec_gdf.columns)   
+            #with cols[1]:
+            #    selectbox_doty = st.selectbox("Pilih Variable Y", listnum.columns, index=0)
+            #    #st.write(dfpend.columns)
+            #with cols[2]:
+            #    selectbox_dotz = st.selectbox("Pilih Variable Size", listnum.columns, index=2)
             # plot            
-            figplot = px.scatter(
-                dfpend, x=selectbox_dotx, y=selectbox_doty, size=selectbox_dotz, hover_data=[dfpend.Desa],
-                color='cluster', color_discrete_sequence=[coolor[1], coolor[6]]
-            )
+            #figplot = px.scatter(
+            #    dfpend, x=selectbox_dotx, y=selectbox_doty, size=selectbox_dotz, hover_data=[dfpend.Desa],
+            #    color='cluster', color_discrete_sequence=coolor_discret
+            #)
             #figplot.add_scatter
-            st.plotly_chart(figplot)
+            #st.plotly_chart(figplot)
 
             
             # apply style coloring row df n SHOW
             def highlight_color(row):
                 if row['cluster'] == 2:
-                    return [f'background-color: {coolor[5]}'] * len(row)
-                else:
-                    return [f'background-color: {coolor[2]}'] * len(row)
+                    return [f'background-color: {coolor_discret[3]}'] * len(row)
+                #else:
+                #    return [f'background-color: {coolor[2]}'] * len(row)
             st.dataframe(dfpendukung.drop('iddesa', axis=1).style.apply(highlight_color, axis=1))
             
             # paragraf 
