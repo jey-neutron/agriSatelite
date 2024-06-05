@@ -333,11 +333,11 @@ try:
             # buat kolom pembantu buat filter
             dfpendukung['kdkab'] = dfpendukung.idkec.str[2:4]
             # filter pake kolom baru
-            dfpendukung = dfpendukung[dfpendukung.kdkab == selectbox_kab].reset_index().drop(dfpendukung.columns[-1], axis=1)
+            dfpendukung = dfpendukung[dfpendukung.kdkab == selectbox_kab].reset_index(drop = True)
             # select subset column
             #dfpendukung = dfpendukung[['r103','rekening','jasa_keuangan']]
 
-            st.dataframe(dfpendukung)
+            st.dataframe(dfpendukung.to_html(index=False), unsafe_allow_html=True)
             #st.write(px.colors.qualitative.Plotly_r)
 
             # paragraf 
