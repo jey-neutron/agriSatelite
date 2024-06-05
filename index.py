@@ -366,7 +366,7 @@ try:
             st.plotly_chart(figbar)
             st.write(' ')
             #st.markdown("<br> ", unsafe_allow_html=True)
-            st.dataframe(dfpendukung[['Kecamatan']+multiselect_bar].set_index('Kecamatan'))
+            st.dataframe(dfpendukung[['Kecamatan']+multiselect_bar].set_index('Kecamatan'), use_container_width=True)
             #st.write(px.colors.qualitative.Plotly_r)
 
             # paragraf 
@@ -456,8 +456,17 @@ try:
                 f'<p class="small-font">Sumber Data: Podes {selectbox_thn}</p>',
                 unsafe_allow_html=True,
             )
-            st.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis arcu, mollis sit amet orci nec, tincidunt eleifend tortor. In vehicula est eget enim eleifend, ac aliquam sem gravida. Suspendisse arcu lectus, ornare viverra mi eu, egestas placerat lectus.")
-        
+            #st.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis arcu, mollis sit amet orci nec, tincidunt eleifend tortor. In vehicula est eget enim eleifend, ac aliquam sem gravida. Suspendisse arcu lectus, ornare viverra mi eu, egestas placerat lectus.")
+            st.write("""
+            Data tabel di atas dihasilkan dari analisis clustering, menggunakan Elbow Method dengan variable rasio keluarga tani, sektor utama pekerjaan di desa, jumlah bank, jumlah koperasi, dan ada tidaknya fasilitas kredit dihasilkan 2 klaster.
+
+            Klaster 1 : memiliki ciri-ciri rasio keluarga tani yang kecil, sector utama pekerjaan di desa bukan petani tanaman pangan, serta jumlah bank dan jumlah koperasi yang banyak
+            Klaster 2 : memiliki ciri-ciri rasio keluarga tani yang tinggi, sector utama pekerjaan di desa adalah petani tanaman pangan, serta jumlah bank dan jumlah koperasi yang sedikit
+            
+            ...
+            
+            rekomendasi ...
+            """)
 
     #getrowindex = st.number_input('Enter an index of row to show')
     #st.write(kec_gdf.iloc[int(getrowindex)])
