@@ -331,11 +331,34 @@ try:
             # drop col pertama
             # dfpendukung = dfpendukung.drop(dfpendukung.columns[0], axis=1)  # tidak terpakai, dataframe sudah diupdate
             # buat kolom pembantu buat filter
+            dfpendukung['nmkec'] = dfpendukung.r103.str[5:]
             dfpendukung['kdkab'] = dfpendukung.idkec.str[2:4]
             # filter pake kolom baru
-            dfpendukung = dfpendukung[dfpendukung.kdkab == selectbox_kab].reset_index(drop = True)
+            dfpendukung = dfpendukung[dfpendukung.kdkab == selectbox_kab].reset_index().drop(dfpendukung.columns[-1], axis=1)
             # select subset column
             #dfpendukung = dfpendukung[['r103','rekening','jasa_keuangan']]
+            dfpendukung = dfpendukung.rename(columns={
+                'nmkec':'Kecamatan',
+                'kur':'Persentase pengguna KUR',
+                'jasa_keuangan':'Persentase Pengguna jasa keuangan',
+                'rekening': 'Persentase pemilik nomor rekening'
+            })
+
+            # BAR
+            multiselect_bar = st.multiselect(
+                "Pilih variabel yang ingin dimunculkan:",
+                ['Persentase pemilik nomor rekening', 'Persentase Pengguna jasa keuangan', 'Persentase pengguna KUR'],
+                ['Persentase pemilik nomor rekening', 'Persentase Pengguna jasa keuangan', 'Persentase pengguna KUR']
+            )
+            figbar = px.bar(dfpendukung, x=multiselect_bar, y='Kecamatan', orientation='h', color_discrete_sequence=[
+                coolor[0],
+                coolor[3],
+                coolor[6],])
+            figbar.update_layout(
+                barmode='group', 
+                legend=dict(orientation="h",)    
+            )
+            st.plotly_chart(figbar)
 
             st.dataframe(dfpendukung)
             #st.write(px.colors.qualitative.Plotly_r)
