@@ -362,10 +362,13 @@ try:
                 barmode='group', 
                 legend=dict(orientation="h",)    
             )
-            st.plotly_chart(figbar)
 
-            st.dataframe(dfpendukung[['Kecamatan']+multiselect_bar])
-            #st.write(px.colors.qualitative.Plotly_r)
+            cols = st.columns([2,1])
+            with cols[0]:
+                st.plotly_chart(figbar)
+            with cols[1]:
+                st.dataframe(dfpendukung[['Kecamatan']+multiselect_bar])
+                #st.write(px.colors.qualitative.Plotly_r)
 
             # paragraf 
             st.markdown(
@@ -438,10 +441,16 @@ try:
                 st.dataframe(dfpendukung.drop('iddesa', axis=1).style.apply(highlight_color, axis=1))
             except Exception as e:
                 st.dataframe(dfpendukung.drop('iddesa', axis=1))
-                st.markdown(
-                    f'<p class="small-font">Terjadi kesalahan ketika styling baris dataframe</p>',
-                    unsafe_allow_html=True,
-                )    
+                #st.write("Terjadi error: ", str(e))
+                exc_type, exc_obj, exc_tb = sys.exc_info()
+                #print(exc_type, exc_tb.tb_lineno)
+                st.error(
+                    f"""
+                    **Terjadi kesalahan ketika styling dataframe**
+                    Error: {e}. Type error: {exc_type}, on line no {exc_tb.tb_lineno}
+                """
+                )
+
             
             # paragraf 
             st.markdown(
