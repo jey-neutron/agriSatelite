@@ -433,7 +433,7 @@ try:
             # apply style coloring row df n SHOW
             def highlight_color(row):
                 if row['cluster'] == 2:
-                    return [f'background-color: {coolor_discret[3]}'] * len(row)
+                    return [f'background-color: {coolor_discret[3]}; color:white;'] * len(row)
                 else:
                     return [''] * len(row)
             try:
