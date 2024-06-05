@@ -337,7 +337,7 @@ try:
             # select subset column
             #dfpendukung = dfpendukung[['r103','rekening','jasa_keuangan']]
 
-            st.dataframe(dfpendukung.to_html(index=False), unsafe_allow_html=True)
+            st.dataframe(dfpendukung)
             #st.write(px.colors.qualitative.Plotly_r)
 
             # paragraf 
