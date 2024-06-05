@@ -425,7 +425,7 @@ try:
             
             # apply style coloring row df n SHOW
             def highlight_color(s):
-                return [f'background-color: {coolor[5]}']*len(s) if s.cluster == 2 else [f'background-color: {coolor[2]}']*len(s)
+                return ['background-color: green; color: white']*len(s) if s.cluster == 2 
             st.dataframe(dfpendukung.drop('iddesa', axis=1).style.apply(highlight_color, axis=1))
             
             # paragraf 
