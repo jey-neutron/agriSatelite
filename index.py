@@ -338,9 +338,9 @@ try:
             #dfpendukung = dfpendukung[['r103','rekening','jasa_keuangan']]
             dfpendukung = dfpendukung.rename(columns={
                 'kec':'Kecamatan',
-                'kur':'Persentase pengguna KUR',
-                'jasa_keuangan':'Persentase Pengguna jasa keuangan',
-                'rekening': 'Persentase pemilik nomor rekening'
+                'rasio_kur':'Persentase pengguna KUR',
+                'rasio_jasa_keuangan':'Persentase Pengguna jasa keuangan',
+                'rasio_rekening': 'Persentase pemilik nomor rekening'
             })
 
             # BAR
