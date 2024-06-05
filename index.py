@@ -362,14 +362,49 @@ try:
             dfpendukung = dfpendukung[(dfpendukung.kdkab == selectbox_kab) & 
                 (dfpendukung.nmkec.str.strip() == str(selectbox_kec))]#.drop(dfpendukung.columns[-2:], axis=1)
             # select subset columns
-            dfpendukung = dfpendukung[['r104','r105','rasio_tani','sektor_utama','jumlah_bank','jumlah_koperasi','keberadaan_toko_sarana_pertanian','keberadaan_fasilitas_kredit','cluster']].rename(columns={
+            dfpendukung = dfpendukung[['kd_wilayah','r104','r105','rasio_tani','sektor_utama','jumlah_bank','jumlah_koperasi','keberadaan_toko_sarana_pertanian','keberadaan_fasilitas_kredit','cluster']].rename(columns={
+                'kd_wilayah':'iddesa',
                 'r104':'Nama Desa',
                 'r105':'Status Desa',
-            }).sort_values('Nama Desa').reset_index()
-            # apply style coloring row df
+                'rasio_tani':'Rasio petani',
+                'sektor_utama':'Sektor utama',
+                'jumlah_bank':'Jumlah bank',
+                'jumlah_koperasi':'Jumlah koperasi',
+                'keberadaan_toko_sarana_pertanian':'Keberadaan toko sarana pertanian',
+                'keberadaan_fasilitas_kredit':'Keberadaan fasilitas kredit'
+            }).sort_values('Nama Desa').reset_index().drop('index', axis=1)
+            dfpend = dfpendukung.copy()
+            
+            # PLOT CLUSTERING
+            # merge
+            dfpend = dfpend.merge(kec_gdf[['iddesa','Desa','Luas_Nonsawah', 'Fase_Persiapan_lahan', 'Fase_Vegetatif1', 'Fase_Vegetatif2', 'Fase_Generatif']], how='inner', on='iddesa')
+            dfpend['cluster'] = dfpend['cluster'].astype("string")
+            # list selectbox
+            numerics = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
+            listnum = dfpend.select_dtypes(include=numerics)
+            # selectbox
+            cols = st.columns(3)
+            with cols[0]:
+                selectbox_dotx = st.selectbox("Pilih Variable X", listnum.columns, index=7)
+                #st.write(kec_gdf.columns)   
+            with cols[1]:
+                selectbox_doty = st.selectbox("Pilih Variable Y", listnum.columns, index=0)
+                #st.write(dfpend.columns)
+            with cols[2]:
+                selectbox_dotz = st.selectbox("Pilih Variable Size", listnum.columns, index=2)
+            # plot            
+            figplot = px.scatter(
+                dfpend, x=selectbox_dotx, y=selectbox_doty, size=selectbox_dotz, hover_data=[dfpend.Desa],
+                color='cluster', color_discrete_sequence=[coolor[1], coolor[6]]
+            )
+            #figplot.add_scatter
+            st.plotly_chart(figplot)
+
+            
+            # apply style coloring row df n SHOW
             def highlight_color(s):
-                return [f'background-color: {coolor[5]}']*len(s) if s.cluster == 2 else [f'background-color: {coolor[3]}']*len(s)
-            st.dataframe(dfpendukung.style.apply(highlight_color, axis=1))
+                return [f'background-color: {coolor[5]}']*len(s) if s.cluster == 2 else [f'background-color: {coolor[2]}']*len(s)
+            st.dataframe(dfpendukung.drop('iddesa', axis=1).style.apply(highlight_color, axis=1))
             
             # paragraf 
             st.markdown(
