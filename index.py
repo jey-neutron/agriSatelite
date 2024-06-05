@@ -12,14 +12,52 @@ try:
     st.set_page_config(page_title="Agrimap Bali", layout="wide", page_icon="🗺️")
     st.markdown("""
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+            a:link.tautan, a:visited.tautan {
+                background-color: purple;
+                color: white;
+                padding: 0px 4px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                border-radius: 5px;
+            }
+            h1:hover, h3:hover{
+                color: orange;
+            }
+            a:hover.tautan, a:active.tautan, .roundedFixedBtn:hover {
+                background-color: orange;
+            }
+            .fixedButton{
+                position: fixed;
+                bottom: 0px;
+                right: 0px; 
+                padding: 20px;
+            }
+            .roundedFixedBtn{
+                height: 60px;
+                line-height: 60px;  
+                width: 60px;  
+                font-size: 2em;
+                font-weight: bold;
+                border-radius: 50%;
+                background-color: purple;
+                color: white;
+                text-align: center;
+                cursor: pointer;
+            }
+        </style>
         """, 
         unsafe_allow_html=True
     )
 
     # title
-    st.title("Dashboard Agrimap Bali")
+    st.title("Dashboard Agrimap Bali 🗺️")
     st.write("Dashboard ini bertujuan untuk memetakan luas tanam atau panen padi berdasarkan hasil machine learning dan citra satelit.")
-    st.write("Peta heatmap di bawah akan menampilkan jenis fase tanaman padi yang terpilih. Terdapat juga data pendukung atau rekomendasi di bawah untuk melihat lebih detail potensi wilayah tersebut.")
+    st.markdown("""Peta heatmap di bawah akan menampilkan persentase luas jenis fase tanaman padi yang terpilih. Terdapat juga data pendukung atau rekomendasi <a class="tautan" href="#grafik-perbandingan-wilayah">di bawah</a> untuk melihat lebih detail potensi wilayah tersebut.""", unsafe_allow_html=True)
 
     # load file path
     this_path = Path().resolve()
@@ -203,72 +241,63 @@ try:
     st.write(" ")
     st.plotly_chart(figmap)
 
-    # SEE DF DETAILS
+    # SEE DF DETAILS IF FILTER KAB GA KOSONG
     if selectbox_kab !="-":
         # gtw gapenting
         st.markdown(
             """
-            <style>
-                .fixedButton{
-                    position: fixed;
-                    bottom: 0px;
-                    right: 0px; 
-                    padding: 20px;
-                }
-                .roundedFixedBtn{
-                    height: 60px;
-                    line-height: 60px;  
-                    width: 60px;  
-                    font-size: 2em;
-                    font-weight: bold;
-                    border-radius: 50%;
-                    background-color: #0094de;
-                    color: white;
-                    text-align: center;
-                    cursor: pointer;
-                }
-            </style>
             <hr>
-            <div class="fixedButton" onclick="bottomFunction()" title="Scroll down">
+            <a class="fixedButton" href="#grafik-perbandingan-wilayah" title="Scroll down">
                 <div class="roundedFixedBtn"><i class="fa fa-arrow-circle-down"></i></div>
-            </div>
+            </a>
             <script>
                 function bottomFunction() {
                     document.getElementById('bottom').scrollIntoView({behavior: "smooth"});
                 }
+                document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                    anchor.addEventListener('click', function (e) {
+                        e.preventDefault();
+
+                        document.querySelector(this.getAttribute('href')).scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    });
+                });
             </script>
             """, unsafe_allow_html=True
         )        
 
-        col3, col4 = st.columns([3,1])
-        with col3: 
-            #st.write("df des col:", kec_gdf.columns)
-            if selectbox_kec == '-':
-                dfstack = kec_gdf.iloc[:,[2,8,9,10,11,12]].groupby("Kecamatan").agg('mean').stack().to_frame().reset_index()
-                dfstack.columns = ['Nama Kecamatan','Kategori','Persentase']
-            else:
-                dfstack = kec_gdf.iloc[:,[3,8,9,10,11,12]].set_index("Desa").stack().to_frame().reset_index()
-                dfstack.columns = ['Nama desa','Kategori','Persentase']
-            figbar = px.bar(
-                dfstack,
-                y="Nama Kecamatan" if selectbox_kec=='-' else "Nama desa",
-                x='Persentase',
-                color='Kategori',
-                color_discrete_sequence=px.colors.qualitative.Plotly_r,
-            )
-            figbar.update_layout(legend=dict(
-                    orientation="h",
-                )                
-            )
-            st.plotly_chart(figbar)
-        
-        with col4:
-            st.subheader("Rekomendasi / Data pendukung")
-            if selectbox_kec == '-':
-                st.caption("KAB. "+str(get_nmkab(selectbox_kab)))
-            else:
-                st.caption("KEC. "+str(selectbox_kec))
-            st.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis arcu, mollis sit amet orci nec, tincidunt eleifend tortor. In vehicula est eget enim eleifend, ac aliquam sem gravida. Suspendisse arcu lectus, ornare viverra mi eu, egestas placerat lectus.")
+        # VIEW GRAFIK
+        #st.write("df des col:", kec_gdf.columns)
+        st.subheader("Grafik Perbandingan Wilayah")
+        captionsect2 = f"KAB. {str(get_nmkab(selectbox_kab))}" if selectbox_kec == '-' else f"KEC. {selectbox_kec}, KAB. {get_nmkab(selectbox_kab)}"
+        subjudulsect2 = f"Kecamatan di Kabupaten {str(get_nmkab(selectbox_kab).title())}" if selectbox_kec == '-' else f"Desa di Kecamatan {selectbox_kec.title()}, Kabupaten {get_nmkab(selectbox_kab).title()}"
+        st.caption(captionsect2)
+        st.write("Grafik di bawah menampilkan persentase luas wilayah berdasarkan jenis fase tanaman padi per ", subjudulsect2)
+
+        if selectbox_kec == '-':
+            dfstack = kec_gdf.iloc[:,[2,8,9,10,11,12]].groupby("Kecamatan").agg('mean').stack().to_frame().reset_index()
+            dfstack.columns = ['Nama Kecamatan','Kategori','Persentase']
+        else:
+            dfstack = kec_gdf.iloc[:,[3,8,9,10,11,12]].set_index("Desa").stack().to_frame().reset_index()
+            dfstack.columns = ['Nama desa','Kategori','Persentase']
+        figbar = px.bar(
+            dfstack,
+            y="Nama Kecamatan" if selectbox_kec=='-' else "Nama desa",
+            x='Persentase',
+            color='Kategori',
+            color_discrete_sequence=px.colors.qualitative.Plotly_r,
+        )
+        figbar.update_layout(legend=dict(
+                orientation="h",
+            )                
+        )
+        st.plotly_chart(figbar)
+
+        # VIEW DATA PENDUKUNG
+        st.subheader("Rekomendasi / Data pendukung")
+        st.caption(captionsect2)
+        st.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis arcu, mollis sit amet orci nec, tincidunt eleifend tortor. In vehicula est eget enim eleifend, ac aliquam sem gravida. Suspendisse arcu lectus, ornare viverra mi eu, egestas placerat lectus.")
 
     #getrowindex = st.number_input('Enter an index of row to show')
     #st.write(kec_gdf.iloc[int(getrowindex)])
