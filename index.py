@@ -130,23 +130,23 @@ try:
         csv_list = [[],[]]
         for (dirpath, dirnames, filenames) in walk(csv_luas_path, topdown=False):
             for filename in filenames:
-                csv_list[0].append(filename.split('_')[0])
-                csv_list[1].append(filename.split('_')[1].split('.')[0])
+                csv_list[0].append(filename.split('_')[1])
+                csv_list[1].append(filename.split('_')[2].split('.')[0])
             break
         
         kdbln = {
-            #'01':'Januari',
-            #'02':'Februari',
-            #'03':'Maret',
-            #'04':'April',
-            #'05':'Mei',
-            #'06':'Juni',
-            #'07':'Juli',
-            #'08':'Agustus',
+            '01':'Januari',
+            '02':'Februari',
+            '03':'Maret',
+            '04':'April',
+            '05':'Mei',
+            '06':'Juni',
+            '07':'Juli',
+            '08':'Agustus',
             '09':'September',
-            #'10':'Oktober',
-            #'11':'November',
-            #'12':'Desember'
+            '10':'Oktober',
+            '11':'November',
+            '12':'Desember'
         }
         def get_namabln(kode):
             return kdbln[kode]
@@ -158,7 +158,7 @@ try:
                                          #index=datenow.date().month-1) #dummy only
                                          index=0)
         with col2:
-            selectbox_thn = st.selectbox("Tahun:", set(csv_list[1]), index=len(set(csv_list[1]))-1 )
+            selectbox_thn = st.selectbox("Tahun:", set(csv_list[1]), index=len(set(csv_list[1]))-1 )            
 
     #    pressed_filter = st.form_submit_button("Filter Map")
     # if submit form filter
@@ -174,7 +174,7 @@ try:
     # DATA FOR MAPPING ============================
     titiktengah = False
     # filter from date. read data luas padi satelit for mapping 
-    des_df = pd.read_csv(csv_luas_path+f"/{selectbox_bln}_{selectbox_thn}.csv", dtype={'iddesa': object})
+    des_df = pd.read_csv(csv_luas_path+f"/hasil_{selectbox_bln}_{selectbox_thn}.csv", dtype={'iddesa': object})
     
     # jika ga dipilih kab, maka tampilin aggregate
     des_df['idkec'] = des_df['iddesa'].str[:7]
@@ -238,6 +238,7 @@ try:
                     )
     # set layout map
     figmap.update_layout(
+        height=550,
         mapbox_zoom=8,
         mapbox_center= {"lat": -8.409518, "lon": 115.188919}, 
         margin={"r":0,"t":0,"l":0,"b":0},
