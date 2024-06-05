@@ -426,9 +426,9 @@ try:
             # apply style coloring row df n SHOW
             def highlight_color(s):
                 if row['cluster'] == 2:
-                    return ['background-color: green; color: white'] * len(row)
+                    return ['background-color: green; color: white'] * len(s)
                 else:
-                    return [''] * len(row)
+                    return [''] * len(s)
             st.dataframe(dfpendukung.drop('iddesa', axis=1).style.apply(highlight_color, axis=1))
             
             # paragraf 
