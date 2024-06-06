@@ -1,6 +1,6 @@
 # agriSatelite 🗺️
 
-#### Project Geomapping by Sobat Sleepcall.
+#### Project Geomapping by [Sobat Sleepcall](#sobat-sleepcall-team).
 
 🚀 See the website on [agrisatelite.streamlit.app](https://agrisatelite.streamlit.app/)
 
