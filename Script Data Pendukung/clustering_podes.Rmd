@@ -1,0 +1,77 @@
+---
+title: "Fekdi Big Data"
+author: "Zenda"
+date: "2024-06-02"
+output: html_document
+---
+
+```{r}
+library(readxl)
+library(tidyverse)
+```
+
+```{r}
+df = read.csv("D:\\Coding - Zenda\\FEKDI BI\\PODES\\SQLPad Query Results 2024-06-04.csv")
+df
+```
+
+```{r}
+colnames(df)
+```
+
+```{r}
+df_podes = df %>% select(kd_wilayah, r101:r105, contains("r401"), r403a, r403b1, r501a1, r501a2, r501b, r1205a1, r1205a2, r1205a3, r1206a1:r1206a4, r1206b1, r1206b3, r1207a:r1207d)
+head(df_podes)
+```
+
+```{r}
+df_olaahhh = df_podes %>% mutate(angka_tani = round(r401d/r401c,2), sektor_utama = ifelse(is.na(r403b1) | r403b1 !=1, 0, 1), jumlah_bank = r1205a1 + r1205a2 + r1205a3, jumlah_koperasi = r1206a1 + r1206a2 + r1206a3 + r1206a4, toko_menjual_sarana_pertanian = ifelse(r1206b1 + r1206b3 < 4, 1, 0), fasilitas_kredit = ifelse(r1207a + r1207b + r1207c + r1207d < 8 , 1, 0)) %>% select(kd_wilayah, r101:r105, angka_tani, sektor_utama, jumlah_bank, jumlah_koperasi, toko_menjual_sarana_pertanian, fasilitas_kredit)
+
+df_olaahhh
+```
+
+
+```{r}
+library(factoextra)
+```
+Klaster Optimum
+```{r}
+# Silhouette method
+fviz_nbclust(df_olaahhh %>% select(-(r101:r105)), kmeans, method = "silhouette") +
+  labs(subtitle = "Silhouette method")
+```
+dari sini diketahui bahwa jumlah klaster yang optimal yaitu ada 2
+
+```{r}
+kmeans.mall <- eclust(df_olaahhh %>% select(-kd_wilayah, -(r101:r105)), stand = TRUE,FUNcluster = "kmeans",k=2,graph = T)
+```
+
+```{r}
+table(kmeans.mall$cluster)
+```
+Jumlah klaster 1 ada 292 dan klaster 2 ada 425
+```{r}
+aggregate(df_olaahhh %>% select(-(r101:r105)),by=list(cluster=kmeans.mall$cluster),FUN = mean)
+```
+
+```{r}
+kmeans.mall$cluster
+```
+
+```{r}
+df_olaahhh$cluster = kmeans.mall$cluster
+```
+
+```{r}
+write.csv(df_olaahhh, file = "D:\\Coding - Zenda\\FEKDI BI\\cluster_podes.csv")
+```
+
+```{r}
+colnames(df_olaahhh)[7:13] = c("rasio_tani", "sektor_utama", "jumlah_bank", "jumlah_koperasi", "keberadaan_toko_sarana_pertanian", "keberadaan_fasilitas_kredit", "cluster")
+```
+
+```{r}
+#df_olaahhh$sektor_utama = ifelse(df_olaahhh$sektor_utama == 1, "Pertanian Tanaman Pangan", "Lainnya")
+df_olaahhh$keberadaan_toko_sarana_pertanian = ifelse(df_olaahhh$keberadaan_toko_sarana_pertanian == 1, "Ada", "Tidak ada")
+df_olaahhh$keberadaan_fasilitas_kredit = ifelse(df_olaahhh$keberadaan_fasilitas_kredit == 1, "Ada", "Tidak ada")
+```
