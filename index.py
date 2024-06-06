@@ -277,7 +277,7 @@ try:
         # layout map jika filter kec
         if titiktengah:
             figmap.update_layout(
-                mapbox_zoom=10,
+                mapbox_zoom=10.5,
                 mapbox_center={"lat": titiktengah.y, "lon": titiktengah.x}
             )
 
