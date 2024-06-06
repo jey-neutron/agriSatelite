@@ -170,8 +170,13 @@ try:
     # TITLE ============================
     st.title("Dashboard AgriSatelite 🗺️")
     classtautan = 'a' if selectbox_kab!='-' else 'span'
-    st.markdown(f"""Dashboard ini bertujuan untuk memetakan luas tanam atau panen padi berdasarkan hasil _machine learning_ dan citra satelit. Peta heatmap di bawah akan menampilkan persentase luas jenis fase tanaman padi yang terpilih. Terdapat juga data pendukung atau rekomendasi <{classtautan} class="tautan" href="#grafik-perbandingan-wilayah">di bawah</{classtautan}> untuk melihat lebih detail potensi wilayah tersebut.""", unsafe_allow_html=True)
-
+    if selectbox_kab == '-':
+        captiontitle = 'agregat rata-rata persentase luas jenis fase tanaman padi pada kecamatan se-Bali'
+    elif selectbox_kec == '-' and selectbox_kab != '-':
+        captiontitle = 'persentase luas jenis fase tanaman padi pada desa se-Kabupaten'
+    else:
+        captiontitle = 'persentase luas jenis fase tanaman padi pada wilayah yang terpilih'
+    st.markdown(f"""Dashboard ini bertujuan untuk memetakan luas tanam atau panen padi berdasarkan hasil _machine learning_ dan citra satelit. Peta heatmap di bawah menampilkan **{captiontitle}**. Terdapat juga data pendukung atau rekomendasi <{classtautan} class="tautan" href="#grafik-perbandingan-wilayah">di bawah</{classtautan}> untuk melihat lebih detail potensi wilayah tersebut.""", unsafe_allow_html=True)
     # DATA FOR MAPPING ============================
     titiktengah = False
     # filter from date. read data luas padi satelit for mapping 
