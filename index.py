@@ -154,7 +154,7 @@ try:
         col1, col2 = st.columns(2)
         with col1:
             datenow = datetime.datetime.now()
-            selectbox_bln = st.selectbox("Bulan:", options=csv_list[0], format_func=get_namabln, 
+            selectbox_bln = st.selectbox("Bulan:", options=sorted(csv_list[0]), format_func=get_namabln, 
                                          #index=datenow.date().month-1) #dummy only
                                          index= len(csv_list[0])-1 )
         with col2:
