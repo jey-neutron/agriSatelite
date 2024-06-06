@@ -480,8 +480,8 @@ try:
                 st.markdown("""
                 Data tabel di atas dihasilkan dari analisis clustering, menggunakan Elbow Method dengan variable rasio keluarga tani, sektor utama pekerjaan di desa, jumlah bank, jumlah koperasi, dan ada tidaknya fasilitas kredit dihasilkan 2 klaster.
 
-                - **Klaster 1** : memiliki ciri-ciri rasio keluarga tani yang kecil, sector utama pekerjaan di desa bukan petani tanaman pangan, serta jumlah bank dan jumlah koperasi yang banyak
-                - **Klaster 2** : memiliki ciri-ciri rasio keluarga tani yang tinggi, sector utama pekerjaan di desa adalah petani tanaman pangan, serta jumlah bank dan jumlah koperasi yang sedikit
+                - **Klaster 1** : memiliki ciri-ciri persentase keluarga tani yang kecil, sektor utama pekerjaan di desa bukan petani tanaman pangan, serta jumlah bank dan jumlah koperasi yang banyak
+                - **Klaster 2** : memiliki ciri-ciri persentase keluarga tani yang tinggi, sektor utama pekerjaan di desa adalah petani tanaman pangan, serta jumlah bank dan jumlah koperasi yang sedikit
 
                 Rekomendasi Lanjutan
                 """)
